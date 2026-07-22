@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1 id="current-title">Photo Gallery</h1>
+      <select id="folder-filter">
+        <option value="">All folders</option>
+      </select>
+    </header>
+    <main>
+      <div class="stage" id="stage">
+        <button class="nav-btn prev" id="prev-btn" aria-label="Previous">&#8249;</button>
+        <img id="stage-img" alt="">
+        <button class="nav-btn next" id="next-btn" aria-label="Next">&#8250;</button>
+        <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
+      </div>
+      <aside class="panel" id="panel">
+        <h2 id="panel-title">—</h2>
+        <div class="photographer" id="panel-photographer"></div>
+        <div class="description" id="panel-description"></div>
+
+        <div class="tags" id="panel-tags"></div>
+
+        <div class="meta-block" id="location-block" style="display:none;">
+          <h3>Location</h3>
+          <div id="panel-location"></div>
+        </div>
+
+        <div class="meta-block">
+          <h3>Camera</h3>
+          <div id="panel-camera"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      let images = [];
+      let filtered = [];
+      let index = 0;
+
+      const stageImg = document.getElementById("stage-img");
+      const emptyState = document.getElementById("empty-state");
+      const folderFilter = document.getElementById("folder-filter");
+      const prevBtn = document.getElementById("prev-btn");
+      const nextBtn = document.getElementById("next-btn");
+
+      function metaRow(label, value) {
+        if (value === null || value === undefined || value === "") return "";
+        return `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`;
+      }
+
+      function render() {
+        const total = filtered.length;
+        prevBtn.style.display = nextBtn.style.display = total > 1 ? "" : "none";
+
+        if (!total) {
+          stageImg.style.display = "none";
+          emptyState.style.display = "";
+          document.getElementById("panel-title").textContent = "—";
+          document.getElementById("panel-photographer").textContent = "";
+          document.getElementById("panel-description").textContent = "";
+          document.getElementById("panel-tags").innerHTML = "";
+          document.getElementById("panel-camera").innerHTML = "";
+          document.getElementById("location-block").style.display = "none";
+          return;
+        }
+
+        emptyState.style.display = "none";
+        stageImg.style.display = "";
+
+        const img = filtered[index];
+        stageImg.src = img.filename;
+        stageImg.alt = img.title || "";
+        document.getElementById("current-title").textContent = img.title || "Photo Gallery";
+        document.getElementById("panel-title").textContent = img.title || "(untitled)";
+        document.getElementById("panel-photographer").textContent = img.photographer ? `by ${img.photographer}` : "";
+        document.getElementById("panel-description").textContent = img.description || "";
+
+        document.getElementById("panel-tags").innerHTML = (img.tags || [])
+          .map((t) => `<span class="tag">${t}</span>`).join("");
+
+        const locationBlock = document.getElementById("location-block");
+        if (img.location && img.location.name) {
+          let html = img.location.name;
+          if (img.location.lat != null && img.location.lng != null) {
+            const url = `https://www.openstreetmap.org/?mlat=${img.location.lat}&mlon=${img.location.lng}#map=12/${img.location.lat}/${img.location.lng}`;
+            html += ` &middot; <a class="map-link" href="${url}" target="_blank" rel="noopener">view map</a>`;
+          }
+          document.getElementById("panel-location").innerHTML = html;
+          locationBlock.style.display = "";
+        } else {
+          locationBlock.style.display = "none";
+        }
+
+        const cam = img.camera || {};
+        const cameraLabel = cam.model && cam.make && !cam.model.toLowerCase().startsWith(cam.make.toLowerCase())
+          ? `${cam.make} ${cam.model}`
+          : (cam.model || cam.make || "");
+        document.getElementById("panel-camera").innerHTML = [
+          metaRow("Camera", cameraLabel),
+          metaRow("Lens", cam.lens_model),
+          metaRow("Focal length", cam.focal_length),
+          metaRow("Aperture", cam.aperture),
+          metaRow("Shutter", cam.shutter_speed),
+          metaRow("ISO", cam.iso),
+          metaRow("Taken", cam.date_taken),
+          metaRow("Dimensions", img.width && img.height ? `${img.width}×${img.height}` : ""),
+        ].join("");
+      }
+
+      function applyFilter() {
+        const folder = folderFilter.value;
+        filtered = folder ? images.filter((i) => i.folder === folder) : images.slice();
+        index = 0;
+        render();
+      }
+
+      function show(delta) {
+        if (!filtered.length) return;
+        index = (index + delta + filtered.length) % filtered.length;
+        render();
+      }
+
+      prevBtn.addEventListener("click", () => show(-1));
+      nextBtn.addEventListener("click", () => show(1));
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") show(-1);
+        if (e.key === "ArrowRight") show(1);
+      });
+      folderFilter.addEventListener("change", applyFilter);
+
+      fetch("image_info.json")
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .then((data) => {
+          images = (data.images || []).slice().sort((a, b) => (a.added_at || "").localeCompare(b.added_at || ""));
+          const folders = Array.from(new Set(images.map((i) => i.folder).filter(Boolean))).sort();
+          folderFilter.innerHTML = '<option value="">All folders</option>' +
+            folders.map((f) => `<option value="${f}">${f}</option>`).join("");
+          applyFilter();
+        })
+        .catch((err) => {
+          emptyState.textContent = "Could not load image_info.json: " + err.message;
+          emptyState.style.display = "";
+          stageImg.style.display = "none";
+        });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "images": [
+    {
+      "id": "65c53d6f-139d-4121-810b-1f992fcbb33b",
+      "filename": "images/hardangervidda-26/65c53d6f-139d-4121-810b-1f992fcbb33b.webp",
+      "title": "Ravn på Hardangervidda",
+      "description": "Klarte såvidt å få tatt et bilde av en ravn i fart, mens vi var ute på vandring!",
+      "folder": "Hardangervidda '26",
+      "tags": [
+        "Dyr",
+        "Hardangervidda",
+        "Fugl"
+      ],
+      "location": {
+        "name": "Hardangervidda, Norge",
+        "lat": 60.39147296148609,
+        "lng": 7.46074676513672
+      },
+      "photographer": "Morten",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 200,
+        "focal_length": "273mm",
+        "date_taken": "2026-07-15T15:08:15.75+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-07-17T21:12:57.662673+00:00"
+    }
+  ]
+}

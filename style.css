@@ -1,0 +1,108 @@
+:root {
+  color-scheme: dark;
+  --bg: #101114;
+  --panel: #1b1c21;
+  --border: #2c2d33;
+  --text: #e8e8ec;
+  --muted: #9a9aa4;
+  --accent: #5b7fff;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+header h1 { font-size: 1.1rem; margin: 0; font-weight: 600; }
+
+select {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #000;
+  min-width: 0;
+}
+.stage img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(20,20,24,0.55);
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nav-btn:hover { background: rgba(20,20,24,0.85); }
+.nav-btn.prev { left: 14px; }
+.nav-btn.next { right: 14px; }
+
+.panel {
+  width: 340px;
+  flex-shrink: 0;
+  border-left: 1px solid var(--border);
+  background: var(--panel);
+  padding: 20px;
+  overflow-y: auto;
+}
+.panel h2 { margin: 0 0 6px; font-size: 1.2rem; }
+.panel .photographer { color: var(--muted); font-size: 0.9rem; margin-bottom: 16px; }
+.panel .description { line-height: 1.5; margin-bottom: 18px; white-space: pre-wrap; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.tag { background: #26293a; color: #a9b8ff; border-radius: 12px; padding: 3px 10px; font-size: 0.8rem; }
+
+.meta-block { margin-bottom: 18px; }
+.meta-block h3 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 8px; }
+.meta-row { display: flex; justify-content: space-between; font-size: 0.85rem; padding: 3px 0; border-bottom: 1px dotted var(--border); }
+.meta-row span:first-child { color: var(--muted); }
+
+.empty-state {
+  margin: auto;
+  text-align: center;
+  color: var(--muted);
+  padding: 40px;
+}
+
+a.map-link { color: var(--accent); }
