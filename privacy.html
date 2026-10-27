@@ -39,6 +39,9 @@
 
       <h3>Hosting</h3>
       <p>The site is hosted on GitHub Pages. Like any web server, GitHub and the services above see your IP address when your browser fetches something from them, in order to send it back. We never receive or store it.</p>
+
+      <h3>Questions?</h3>
+      <p>Write to us at <a data-email="catsdelight.net|delight"></a>.</p>
     </article>
 
     <article class="about-card" data-lang="no" hidden>
@@ -63,6 +66,9 @@
 
       <h3>Hosting</h3>
       <p>Siden ligger på GitHub Pages. Som enhver webserver ser GitHub og tjenestene over IP-adressen din når nettleseren henter noe fra dem, for å kunne sende det tilbake. Vi mottar eller lagrer den aldri.</p>
+
+      <h3>Spørsmål?</h3>
+      <p>Skriv til oss på <a data-email="catsdelight.net|delight"></a>.</p>
     </article>
 
     <article class="about-card" data-lang="de" hidden>
@@ -87,8 +93,24 @@
 
       <h3>Hosting</h3>
       <p>Die Seite wird auf GitHub Pages gehostet. Wie jeder Webserver sehen GitHub und die oben genannten Dienste deine IP-Adresse, wenn dein Browser etwas von ihnen abruft, um es zurückschicken zu können. Wir erhalten oder speichern sie nie.</p>
+
+      <h3>Fragen?</h3>
+      <p>Schreib uns an <a data-email="catsdelight.net|delight"></a>.</p>
     </article>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <span><span id="contact-label">Contact</span>: <a data-email="catsdelight.net|delight"></a></span>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener" id="stock-footer-link">Our photos on Adobe Stock</a>
+    </div>
+    <div class="footer-credit">
+      <span id="credit-label">Website by</span> <a href="https://tirco.tv" target="_blank" rel="noopener">Tirco</a>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a data-email="tirco.tv|tirco"></a>
+    </div>
+  </footer>
 
   <script>
     (function () {
@@ -97,7 +119,20 @@
       const LANG_KEY = "delightfulcat-lang";
       const SUPPORTED = ["no", "en", "de"];
       const TITLES = { en: "Privacy & cookies", no: "Personvern og informasjonskapsler", de: "Datenschutz & Cookies" };
+      const FOOTER = {
+        en: { contact: "Contact", stock: "Our photos on Adobe Stock", credit: "Website by" },
+        no: { contact: "Kontakt", stock: "Bildene våre på Adobe Stock", credit: "Nettside laget av" },
+        de: { contact: "Kontakt", stock: "Unsere Fotos bei Adobe Stock", credit: "Website von" },
+      };
       const switchEl = document.getElementById("lang-switch");
+
+      // Email addresses are assembled here instead of written in the HTML,
+      // to keep simple spam scrapers off them. data-email="domain|user".
+      document.querySelectorAll("a[data-email]").forEach((a) => {
+        const address = a.dataset.email.split("|").reverse().join("@");
+        a.href = `mailto:${address}`;
+        a.textContent = address;
+      });
 
       function detectLang() {
         let saved = null;
@@ -115,6 +150,9 @@
         document.querySelectorAll("article[data-lang]").forEach((el) => {
           el.hidden = el.dataset.lang !== lang;
         });
+        document.getElementById("contact-label").textContent = FOOTER[lang].contact;
+        document.getElementById("stock-footer-link").textContent = FOOTER[lang].stock;
+        document.getElementById("credit-label").textContent = FOOTER[lang].credit;
         switchEl.querySelectorAll("button").forEach((btn) => {
           btn.setAttribute("aria-current", btn.dataset.lang === lang ? "true" : "false");
         });

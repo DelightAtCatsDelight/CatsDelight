@@ -217,8 +217,16 @@ html, body {
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
 }
+.site-footer { color: var(--muted); }
 .site-footer a { color: var(--muted); text-decoration: none; }
 .site-footer a:hover { color: var(--accent); }
+.footer-links, .footer-credit { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 0; }
+.footer-sep { margin: 0 9px; }
+.footer-credit { margin-top: 8px; font-size: 0.72rem; opacity: 0.75; }
+#credit-label { margin-right: 0.3em; } /* flex items drop the whitespace before "Tirco" */
+
+.about-card .contact-line { margin: 30px 0 0; font-size: 0.95rem; color: var(--muted); }
+.contact-line a { color: var(--accent); }
 
 /* ---- Privacy page ---- */
 .privacy { padding-top: 90px; }

@@ -28,9 +28,18 @@
       <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
     </main>
     <footer class="site-footer">
-      <a href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener" id="stock-footer-link">Our photos on Adobe Stock</a>
-      <span aria-hidden="true">&middot;</span>
-      <a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a>
+      <div class="footer-links">
+        <span><span id="contact-label">Contact</span>: <a data-email="catsdelight.net|delight"></a></span>
+        <span class="footer-sep" aria-hidden="true">&middot;</span>
+        <a href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener" id="stock-footer-link">Our photos on Adobe Stock</a>
+        <span class="footer-sep" aria-hidden="true">&middot;</span>
+        <a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a>
+      </div>
+      <div class="footer-credit">
+        <span id="credit-label">Website by</span> <a href="https://tirco.tv" target="_blank" rel="noopener">Tirco</a>
+        <span class="footer-sep" aria-hidden="true">&middot;</span>
+        <a data-email="tirco.tv|tirco"></a>
+      </div>
     </footer>
   </div>
 
@@ -119,6 +128,8 @@
           privacy: "Privacy & cookies",
           stockNote: "Want to use this photo? Find our photos on Adobe Stock",
           stockFooter: "Our photos on Adobe Stock",
+          contact: "Contact",
+          credit: "Website by",
           labels: { camera: "Camera", lens: "Lens", focal: "Focal length", aperture: "Aperture", shutter: "Shutter", iso: "ISO", taken: "Taken", dimensions: "Dimensions" }
         },
         no: {
@@ -151,6 +162,8 @@
           privacy: "Personvern og informasjonskapsler",
           stockNote: "Vil du bruke bildet? Finn bildene våre på Adobe Stock",
           stockFooter: "Bildene våre på Adobe Stock",
+          contact: "Kontakt",
+          credit: "Nettside laget av",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennvidde", aperture: "Blender", shutter: "Lukkertid", iso: "ISO", taken: "Tatt", dimensions: "Dimensjoner" }
         },
         de: {
@@ -183,6 +196,8 @@
           privacy: "Datenschutz & Cookies",
           stockNote: "Möchtest du dieses Foto verwenden? Unsere Fotos gibt es bei Adobe Stock",
           stockFooter: "Unsere Fotos bei Adobe Stock",
+          contact: "Kontakt",
+          credit: "Website von",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennweite", aperture: "Blende", shutter: "Verschlusszeit", iso: "ISO", taken: "Aufgenommen", dimensions: "Abmessungen" }
         }
       };
@@ -216,6 +231,14 @@
         return STRINGS[lang] || STRINGS.en;
       }
 
+      // Email addresses are assembled here instead of written in the HTML,
+      // to keep simple spam scrapers off them. data-email="domain|user".
+      document.querySelectorAll("a[data-email]").forEach((a) => {
+        const address = a.dataset.email.split("|").reverse().join("@");
+        a.href = `mailto:${address}`;
+        a.textContent = address;
+      });
+
       function detectLang() {
         const saved = localStorage.getItem(LANG_KEY);
         if (saved && SUPPORTED.includes(saved)) return saved;
@@ -245,6 +268,8 @@
         document.getElementById("privacy-link").textContent = s.privacy;
         document.getElementById("stock-note-text").textContent = s.stockNote;
         document.getElementById("stock-footer-link").textContent = s.stockFooter;
+        document.getElementById("contact-label").textContent = s.contact;
+        document.getElementById("credit-label").textContent = s.credit;
         if (filtered[lightboxIndex]) renderPaw(filtered[lightboxIndex]);
         document.getElementById("location-heading").textContent = s.location;
         document.getElementById("camera-heading").textContent = s.camera;

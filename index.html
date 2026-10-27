@@ -57,9 +57,24 @@
           <span id="cta-stock-label">Buy on Adobe Stock</span>
         </a>
       </div>
+
+      <p class="contact-line"><span id="contact-intro">Questions, or want to use one of our photos? Write to us:</span> <a data-email="catsdelight.net|delight"></a></p>
     </div>
   </main>
-  <footer class="site-footer"><a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a></footer>
+  <footer class="site-footer">
+    <div class="footer-links">
+      <span><span id="contact-label">Contact</span>: <a data-email="catsdelight.net|delight"></a></span>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener" id="stock-footer-link">Our photos on Adobe Stock</a>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a>
+    </div>
+    <div class="footer-credit">
+      <span id="credit-label">Website by</span> <a href="https://tirco.tv" target="_blank" rel="noopener">Tirco</a>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a data-email="tirco.tv|tirco"></a>
+    </div>
+  </footer>
 
   <script>
     (function () {
@@ -81,7 +96,11 @@
           ctaSecondary: "Browse the gallery",
           ctaYoutube: "Watch on YouTube",
           ctaStock: "Buy on Adobe Stock",
-          privacy: "Privacy & cookies"
+          privacy: "Privacy & cookies",
+          contactIntro: "Questions, or want to use one of our photos? Write to us:",
+          contact: "Contact",
+          stockFooter: "Our photos on Adobe Stock",
+          credit: "Website by"
         },
         no: {
           pageTitle: "Velkommen",
@@ -95,7 +114,11 @@
           ctaSecondary: "Utforsk galleriet",
           ctaYoutube: "Se på YouTube",
           ctaStock: "Kjøp på Adobe Stock",
-          privacy: "Personvern og informasjonskapsler"
+          privacy: "Personvern og informasjonskapsler",
+          contactIntro: "Spørsmål, eller vil du bruke et av bildene våre? Skriv til oss:",
+          contact: "Kontakt",
+          stockFooter: "Bildene våre på Adobe Stock",
+          credit: "Nettside laget av"
         },
         de: {
           pageTitle: "Willkommen",
@@ -109,11 +132,23 @@
           ctaSecondary: "Galerie durchsuchen",
           ctaYoutube: "Auf YouTube ansehen",
           ctaStock: "Bei Adobe Stock kaufen",
-          privacy: "Datenschutz & Cookies"
+          privacy: "Datenschutz & Cookies",
+          contactIntro: "Fragen, oder möchtest du eines unserer Fotos verwenden? Schreib uns:",
+          contact: "Kontakt",
+          stockFooter: "Unsere Fotos bei Adobe Stock",
+          credit: "Website von"
         }
       };
 
       const switchEl = document.getElementById("lang-switch");
+
+      // Email addresses are assembled here instead of written in the HTML,
+      // to keep simple spam scrapers off them. data-email="domain|user".
+      document.querySelectorAll("a[data-email]").forEach((a) => {
+        const address = a.dataset.email.split("|").reverse().join("@");
+        a.href = `mailto:${address}`;
+        a.textContent = address;
+      });
 
       function detectLang() {
         const saved = localStorage.getItem(LANG_KEY);
@@ -138,6 +173,10 @@
         document.getElementById("cta-youtube-label").textContent = t.ctaYoutube;
         document.getElementById("privacy-link").textContent = t.privacy;
         document.getElementById("cta-stock-label").textContent = t.ctaStock;
+        document.getElementById("contact-intro").textContent = t.contactIntro;
+        document.getElementById("contact-label").textContent = t.contact;
+        document.getElementById("stock-footer-link").textContent = t.stockFooter;
+        document.getElementById("credit-label").textContent = t.credit;
 
         const cite = document.getElementById("quote-translation");
         cite.textContent = t.quoteTranslation;
