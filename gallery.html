@@ -183,6 +183,7 @@
         lang = next;
         localStorage.setItem(LANG_KEY, lang);
         applyStaticStrings();
+        if (images.length) renderGrid();
         if (lightbox.classList.contains("open")) renderStage();
       }
 
@@ -201,6 +202,19 @@
         return img.thumbnail || img.filename;
       }
 
+      // Title/description/tags are written in English; the prepper adds
+      // auto-translations under img.i18n[lang]. Fall back to the original.
+      function localized(img, field) {
+        const tr = img.i18n && img.i18n[lang];
+        const value = tr && tr[field];
+        if (Array.isArray(value) ? value.length : value) return value;
+        return img[field];
+      }
+
+      function escapeHtml(s) {
+        return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+      }
+
       function renderGrid() {
         grid.innerHTML = "";
         emptyState.style.display = filtered.length ? "none" : "";
@@ -209,9 +223,10 @@
           const cell = document.createElement("button");
           cell.type = "button";
           cell.className = "thumb";
+          const title = localized(img, "title");
           cell.innerHTML = `
-            <img src="${thumbSrc(img)}" alt="${img.title || ""}" loading="lazy">
-            ${img.title ? `<span class="thumb-title">${img.title}</span>` : ""}
+            <img src="${thumbSrc(img)}" alt="${escapeHtml(title || "")}" loading="lazy">
+            ${title ? `<span class="thumb-title">${escapeHtml(title)}</span>` : ""}
           `;
           cell.addEventListener("click", () => openLightbox(i));
           grid.appendChild(cell);
@@ -223,16 +238,17 @@
         if (!img) return;
         const s = t();
 
+        const title = localized(img, "title");
         stageImg.src = img.filename;
-        stageImg.alt = img.title || "";
-        document.title = img.title ? `${img.title} · ${s.pageTitle}` : s.pageTitle;
+        stageImg.alt = title || "";
+        document.title = title ? `${title} · ${s.pageTitle}` : s.pageTitle;
 
-        document.getElementById("panel-title").textContent = img.title || s.untitled;
+        document.getElementById("panel-title").textContent = title || s.untitled;
         document.getElementById("panel-photographer").textContent = img.photographer ? `${s.by} ${img.photographer}` : "";
-        document.getElementById("panel-description").textContent = img.description || "";
+        document.getElementById("panel-description").textContent = localized(img, "description") || "";
 
-        document.getElementById("panel-tags").innerHTML = (img.tags || [])
-          .map((tag) => `<span class="tag">${tag}</span>`).join("");
+        document.getElementById("panel-tags").innerHTML = (localized(img, "tags") || [])
+          .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
 
         const locationBlock = document.getElementById("location-block");
         if (img.location && img.location.name) {

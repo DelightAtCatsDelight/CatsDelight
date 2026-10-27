@@ -33,6 +33,2172 @@
       "width": 6000,
       "height": 4000,
       "added_at": "2026-07-17T21:12:57.662673+00:00"
+    },
+    {
+      "id": "d75c0995-0049-4da1-ae22-705993982d40",
+      "filename": "images/hardangervidda-26/d75c0995-0049-4da1-ae22-705993982d40.webp",
+      "thumbnail": "images/hardangervidda-26/d75c0995-0049-4da1-ae22-705993982d40_thumb.webp",
+      "title": "Raven  from afar",
+      "description": "My first real challenge with my new lens. We suddenly had a flock of ravens above us, so I did my best to snap a picture of it.",
+      "folder": "Hardangervidda '26",
+      "tags": [
+        "flying",
+        "Bird",
+        "raven"
+      ],
+      "location": {
+        "name": "Hardangervidda",
+        "lat": 60.1330539,
+        "lng": 7.5311028
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 200,
+        "focal_length": "273mm",
+        "date_taken": "2026-07-15T15:08:15.75+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-07-23T20:26:45.442678+00:00",
+      "i18n": {
+        "no": {
+          "title": "Ravn langveisfra",
+          "description": "Min første virkelige utfordring med mitt nye objektiv. Vi hadde plutselig en ravneflokk over oss, så jeg gjorde mitt beste for å ta et bilde av den.",
+          "tags": [
+            "flyr",
+            "fugl",
+            "Ravn"
+          ]
+        },
+        "de": {
+          "title": "Rabe aus der Ferne",
+          "description": "Meine erste echte Herausforderung mit meinem neuen Objektiv. Plötzlich hatten wir einen Schwarm Raben über uns, also tat ich mein Bestes, um ein Foto davon zu machen.",
+          "tags": [
+            "fliegen",
+            "Vogel",
+            "Rabe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "afc20d07-edb7-43be-9f00-0c76d9da0648",
+      "filename": "images/misc/afc20d07-edb7-43be-9f00-0c76d9da0648.webp",
+      "thumbnail": "images/misc/afc20d07-edb7-43be-9f00-0c76d9da0648_thumb.webp",
+      "title": "Song thrush",
+      "description": "Song thrush in the forest.",
+      "folder": "Misc.",
+      "tags": [
+        "Bird",
+        "Hike",
+        "mountain",
+        "closeup",
+        "Song thrush"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T16:36:45.61+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T08:53:56.093974+00:00",
+      "i18n": {
+        "no": {
+          "title": "M[ltrost",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "fugl",
+            "Tur",
+            "fjell",
+            "nærbilde",
+            "M[ltrost"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "Vogel",
+            "Wanderung",
+            "Berg",
+            "Nahaufnahme",
+            "Singdrossel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ebcb6ecf-22bf-4e96-a03f-cdaab4302d0a",
+      "filename": "images/misc/ebcb6ecf-22bf-4e96-a03f-cdaab4302d0a.webp",
+      "thumbnail": "images/misc/ebcb6ecf-22bf-4e96-a03f-cdaab4302d0a_thumb.webp",
+      "title": "Ropes and Knots for sailing",
+      "description": "Various knots and ropes used for sailing.",
+      "folder": "Misc.",
+      "tags": [
+        "Ropes",
+        "Knots",
+        "sailing",
+        "Ocean",
+        "boat"
+      ],
+      "location": {
+        "name": "Haraldvigen leirskole",
+        "lat": 58.0987925,
+        "lng": 8.1025569
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/33s",
+        "iso": 640,
+        "focal_length": "5.4mm",
+        "date_taken": "2025-06-06T07:50:01.711+02:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:09:43.162742+00:00",
+      "i18n": {
+        "no": {
+          "title": "Tau og knuter for seiling",
+          "description": "Ulike knuter og tau som brukes til seiling.",
+          "tags": [
+            "Tau",
+            "knuter",
+            "seiling",
+            "hav",
+            "båt"
+          ]
+        },
+        "de": {
+          "title": "Seile und Knoten zum Segeln",
+          "description": "Verschiedene Knoten und Seile, die beim Segeln verwendet werden.",
+          "tags": [
+            "Seile",
+            "Knoten",
+            "Segeln",
+            "Ozean",
+            "Boot"
+          ]
+        }
+      }
+    },
+    {
+      "id": "b077849f-7b3c-4da8-aff4-31d8bd1cfa52",
+      "filename": "images/misc/b077849f-7b3c-4da8-aff4-31d8bd1cfa52.webp",
+      "thumbnail": "images/misc/b077849f-7b3c-4da8-aff4-31d8bd1cfa52_thumb.webp",
+      "title": "Dam",
+      "description": "Stonebased dam.",
+      "folder": "Misc.",
+      "tags": [
+        "Dam",
+        "Stone",
+        "Nature",
+        "Norway"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/1456s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2025-07-10T18:53:00.854+02:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:13:01.695837+00:00",
+      "i18n": {
+        "no": {
+          "title": "Demning",
+          "description": "Steinbasert demning.",
+          "tags": [
+            "Demning",
+            "Stein",
+            "Natur",
+            "Norge"
+          ]
+        },
+        "de": {
+          "title": "Damm",
+          "description": "Steinbasierter Staudamm.",
+          "tags": [
+            "Damm",
+            "Stein",
+            "Natur",
+            "Norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ffd4f088-0c35-4362-947c-f7b0aee408fc",
+      "filename": "images/misc/ffd4f088-0c35-4362-947c-f7b0aee408fc.webp",
+      "thumbnail": "images/misc/ffd4f088-0c35-4362-947c-f7b0aee408fc_thumb.webp",
+      "title": "Mountain in Bleik",
+      "description": "A snowy mountain in Bleik",
+      "folder": "Misc.",
+      "tags": [
+        "mountain",
+        "Bleik",
+        "Snow",
+        "Winter",
+        "Cold"
+      ],
+      "location": {
+        "name": "Bleik",
+        "lat": 69.2718776,
+        "lng": 15.958459
+      },
+      "photographer": "Morten",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/354s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2026-02-14T14:06:16.904+01:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:14:08.172519+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fjell i Bleik",
+          "description": "Et snødekt fjell i Bleik",
+          "tags": [
+            "fjell",
+            "Bleik",
+            "Snø",
+            "Vinter",
+            "Kald"
+          ]
+        },
+        "de": {
+          "title": "Berg in Bleik",
+          "description": "Ein schneebedeckter Berg in Bleik",
+          "tags": [
+            "Berg",
+            "Bleik",
+            "Schnee",
+            "Winter",
+            "Kalt"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cc1b9b9c-2a41-4a43-bbb5-ce527a06f27a",
+      "filename": "images/misc/cc1b9b9c-2a41-4a43-bbb5-ce527a06f27a.webp",
+      "thumbnail": "images/misc/cc1b9b9c-2a41-4a43-bbb5-ce527a06f27a_thumb.webp",
+      "title": "Clouds from above",
+      "description": "An image of clouds seen from an airplane window",
+      "folder": "Misc.",
+      "tags": [
+        "Clouds",
+        "above",
+        "heaven",
+        "Norway",
+        "view",
+        "mountains"
+      ],
+      "location": null,
+      "photographer": "Morten",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/1808s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2026-02-18T13:14:27.442+01:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:14:53.290708+00:00",
+      "i18n": {
+        "no": {
+          "title": "Skyer ovenfra",
+          "description": "Et bilde av skyer sett fra et flyvindu",
+          "tags": [
+            "Skyer",
+            "over",
+            "himmel",
+            "Norge",
+            "utsikt",
+            "fjell"
+          ]
+        },
+        "de": {
+          "title": "Wolken von oben",
+          "description": "Ein Bild von Wolken, gesehen aus einem Flugzeugfenster",
+          "tags": [
+            "Wolken",
+            "über",
+            "Himmel",
+            "Norwegen",
+            "Sicht",
+            "Gebirge"
+          ]
+        }
+      }
+    },
+    {
+      "id": "5905c9f0-303f-4155-b86b-bd1a7be62a7b",
+      "filename": "images/misc/5905c9f0-303f-4155-b86b-bd1a7be62a7b.webp",
+      "thumbnail": "images/misc/5905c9f0-303f-4155-b86b-bd1a7be62a7b_thumb.webp",
+      "title": "Tree in Hyde Park",
+      "description": "I was on a short vacation with my sister, and I found my new favorite tree!",
+      "folder": "Misc.",
+      "tags": [
+        "London",
+        "Hyde Park",
+        "Tree",
+        "Nature",
+        "big"
+      ],
+      "location": {
+        "name": "Hyde Park",
+        "lat": 51.5074889,
+        "lng": -0.1622074
+      },
+      "photographer": "Morten",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/180s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2026-04-17T19:36:34.724+01:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:15:52.975223+00:00",
+      "i18n": {
+        "no": {
+          "title": "Tre i Hyde Park",
+          "description": "Jeg var på en kort ferie med søsteren min, og jeg fant mitt nye favoritttre!",
+          "tags": [
+            "London",
+            "Hyde Park",
+            "Tre",
+            "Natur",
+            "stor"
+          ]
+        },
+        "de": {
+          "title": "Baum im Hyde Park",
+          "description": "Ich war mit meiner Schwester im Kurzurlaub und habe meinen neuen Lieblingsbaum gefunden!",
+          "tags": [
+            "London",
+            "Hyde Park",
+            "Baum",
+            "Natur",
+            "groß"
+          ]
+        }
+      }
+    },
+    {
+      "id": "8fb7e9bc-3ccd-458c-b51d-82cb30ecbbb4",
+      "filename": "images/misc/8fb7e9bc-3ccd-458c-b51d-82cb30ecbbb4.webp",
+      "thumbnail": "images/misc/8fb7e9bc-3ccd-458c-b51d-82cb30ecbbb4_thumb.webp",
+      "title": "Tree in Hyde Park",
+      "description": "A picture of a tree in Hyde Park, London",
+      "folder": "Misc.",
+      "tags": [
+        "Tree",
+        "Hyde Park",
+        "London"
+      ],
+      "location": {
+        "name": "Hyde Park",
+        "lat": 51.5074889,
+        "lng": -0.1622074
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/672s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2026-04-19T10:14:55.955+01:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 1848,
+      "height": 4000,
+      "added_at": "2026-10-27T09:16:41.090187+00:00",
+      "i18n": {
+        "no": {
+          "title": "Tre i Hyde Park",
+          "description": "Et bilde av et tre i Hyde Park, London",
+          "tags": [
+            "Tre",
+            "Hyde Park",
+            "London"
+          ]
+        },
+        "de": {
+          "title": "Baum im Hyde Park",
+          "description": "Ein Bild eines Baumes im Hyde Park, London",
+          "tags": [
+            "Baum",
+            "Hyde Park",
+            "London"
+          ]
+        }
+      }
+    },
+    {
+      "id": "32966c25-75e9-4e55-be37-17eede02c032",
+      "filename": "images/hardangervidda-26/32966c25-75e9-4e55-be37-17eede02c032.webp",
+      "thumbnail": "images/hardangervidda-26/32966c25-75e9-4e55-be37-17eede02c032_thumb.webp",
+      "title": "Dam in Norway",
+      "description": "A dam we saw while driving along Hardangervidda",
+      "folder": "Hardangervidda '26",
+      "tags": [
+        "Hardangervidda",
+        "Dam",
+        "large"
+      ],
+      "location": {
+        "name": "Hardangervidda",
+        "lat": 60.1330539,
+        "lng": 7.5311028
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "samsung",
+        "model": "SM-S901B",
+        "lens_model": null,
+        "aperture": "f/1.8",
+        "shutter_speed": "1/2192s",
+        "iso": 50,
+        "focal_length": "5.4mm",
+        "date_taken": "2026-07-15T10:17:40.911+02:00",
+        "width": 4000,
+        "height": 1848,
+        "gps": null
+      },
+      "width": 4000,
+      "height": 1848,
+      "added_at": "2026-10-27T09:17:46.875449+00:00",
+      "i18n": {
+        "no": {
+          "title": "Dam i Norge",
+          "description": "En demning vi så mens vi kjørte langs Hardangervidda",
+          "tags": [
+            "Hardangervidda",
+            "Demning",
+            "stor"
+          ]
+        },
+        "de": {
+          "title": "Staudamm in Norwegen",
+          "description": "Ein Damm, den wir während der Fahrt entlang der Hardangervidda gesehen haben",
+          "tags": [
+            "Hardangervidda",
+            "Damm",
+            "groß"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d5e8e021-7c52-4406-b227-411a6a271dab",
+      "filename": "images/misc/d5e8e021-7c52-4406-b227-411a6a271dab.jpg",
+      "thumbnail": "images/misc/d5e8e021-7c52-4406-b227-411a6a271dab_thumb.webp",
+      "title": "Lightbulb lit by sun",
+      "description": "I was testing out my new filter, which allows me to take images of the sun.",
+      "folder": "Misc.",
+      "tags": [
+        "Sun",
+        "Artsy",
+        "Lightbulb"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5",
+        "shutter_speed": "1/10s",
+        "iso": 6400,
+        "focal_length": "43mm",
+        "date_taken": "2026-08-23T16:32:05.96+01:00",
+        "width": 3600,
+        "height": 2832,
+        "gps": null
+      },
+      "width": 3600,
+      "height": 2832,
+      "added_at": "2026-10-27T09:19:21.669493+00:00",
+      "i18n": {
+        "no": {
+          "title": "Lyspære opplyst av solen",
+          "description": "Jeg testet ut det nye filteret mitt, som lar meg ta bilder av solen.",
+          "tags": [
+            "Sol",
+            "Artsy",
+            "Lyspære"
+          ]
+        },
+        "de": {
+          "title": "Von der Sonne beleuchtete Glühbirne",
+          "description": "Ich habe meinen neuen Filter getestet, mit dem ich Bilder von der Sonne machen kann.",
+          "tags": [
+            "Sonne",
+            "Künstlerisch",
+            "Glühbirne"
+          ]
+        }
+      }
+    },
+    {
+      "id": "8196f722-caff-41e5-8268-d1eccee61cd2",
+      "filename": "images/misc/8196f722-caff-41e5-8268-d1eccee61cd2.webp",
+      "thumbnail": "images/misc/8196f722-caff-41e5-8268-d1eccee61cd2_thumb.webp",
+      "title": "Red Moon",
+      "description": "Apparantly taking a good picture of the moon is hard. It moves more that I thought!",
+      "folder": "Misc.",
+      "tags": [
+        "Moon",
+        "red",
+        "dusk",
+        "dark"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-08-23T22:52:44.66+01:00",
+        "width": 8968,
+        "height": 5103,
+        "gps": null
+      },
+      "width": 8968,
+      "height": 5103,
+      "added_at": "2026-10-27T09:20:31.502453+00:00",
+      "i18n": {
+        "no": {
+          "title": "Rød måne",
+          "description": "Det er tydeligvis vanskelig å ta et godt bilde av månen. Den beveger seg mer enn jeg trodde!",
+          "tags": [
+            "Måne",
+            "rød",
+            "skumring",
+            "mørk"
+          ]
+        },
+        "de": {
+          "title": "Roter Mond",
+          "description": "Anscheinend ist es schwierig, ein gutes Foto vom Mond zu machen. Es bewegt sich mehr, als ich dachte!",
+          "tags": [
+            "Mond",
+            "Rot",
+            "Dämmerung",
+            "dunkel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ffc91e4f-2868-4240-9a4e-f5efb8184438",
+      "filename": "images/misc/ffc91e4f-2868-4240-9a4e-f5efb8184438.webp",
+      "thumbnail": "images/misc/ffc91e4f-2868-4240-9a4e-f5efb8184438_thumb.webp",
+      "title": "Snowy mountain in fog",
+      "description": "Another image of a mountain I liked when visiting Bleik",
+      "folder": "Misc.",
+      "tags": [
+        "Snow",
+        "mountain",
+        "Bleik",
+        "fog"
+      ],
+      "location": {
+        "name": "Bleik",
+        "lat": 69.2718776,
+        "lng": 15.958459
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "RF-S14-30mm F4-6.3 IS STM PZ",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/125s",
+        "iso": 160,
+        "focal_length": "30mm",
+        "date_taken": "2026-02-17T09:40:06.06+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:22:31.914804+00:00",
+      "i18n": {
+        "no": {
+          "title": "Snødekt fjell i tåke",
+          "description": "Et annet bilde av et fjell jeg likte når jeg besøkte Bleik",
+          "tags": [
+            "Snø",
+            "fjell",
+            "Bleik",
+            "tåke"
+          ]
+        },
+        "de": {
+          "title": "Verschneiter Berg im Nebel",
+          "description": "Ein weiteres Bild eines Berges, das mir bei meinem Besuch in Bleik gefallen hat",
+          "tags": [
+            "Schnee",
+            "Berg",
+            "Bleik",
+            "Nebel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e3d61636-060b-435d-a550-3b139d04549c",
+      "filename": "images/misc/e3d61636-060b-435d-a550-3b139d04549c.webp",
+      "thumbnail": "images/misc/e3d61636-060b-435d-a550-3b139d04549c_thumb.webp",
+      "title": "Yellow Flower - Closeup",
+      "description": "A closeup of a flower I liked",
+      "folder": "Misc.",
+      "tags": [
+        "Flower",
+        "closeup"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/320s",
+        "iso": 100,
+        "focal_length": "60mm",
+        "date_taken": "2026-07-14T14:27:19.53+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:23:28.393920+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gul blomst - Nærbilde",
+          "description": "Et nærbilde av en blomst jeg likte",
+          "tags": [
+            "Blomst",
+            "nærbilde"
+          ]
+        },
+        "de": {
+          "title": "Gelbe Blume - Nahaufnahme",
+          "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
+          "tags": [
+            "Blume",
+            "Nahaufnahme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "7ce7893f-dfb8-4cb5-b9e0-08fd6ced3cf8",
+      "filename": "images/misc/7ce7893f-dfb8-4cb5-b9e0-08fd6ced3cf8.webp",
+      "thumbnail": "images/misc/7ce7893f-dfb8-4cb5-b9e0-08fd6ced3cf8_thumb.webp",
+      "title": "Pink flower - closeup",
+      "description": "A closeup of a flower I liked",
+      "folder": "Misc.",
+      "tags": [
+        "Pink",
+        "Flower",
+        "closeup"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/1250s",
+        "iso": 250,
+        "focal_length": "60mm",
+        "date_taken": "2026-07-14T14:27:27.42+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:24:02.111152+00:00",
+      "i18n": {
+        "no": {
+          "title": "Rosa blomst - nærbilde",
+          "description": "Et nærbilde av en blomst jeg likte",
+          "tags": [
+            "Rosa",
+            "Blomst",
+            "nærbilde"
+          ]
+        },
+        "de": {
+          "title": "Rosa Blume - Nahaufnahme",
+          "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
+          "tags": [
+            "Rosa",
+            "Blume",
+            "Nahaufnahme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e8f67677-6e73-4742-a1bf-e6e39a1e3988",
+      "filename": "images/misc/e8f67677-6e73-4742-a1bf-e6e39a1e3988.webp",
+      "thumbnail": "images/misc/e8f67677-6e73-4742-a1bf-e6e39a1e3988_thumb.webp",
+      "title": "Purple Flower - Closeup",
+      "description": "A closeup of a flower I liked",
+      "folder": "Misc.",
+      "tags": [
+        "Purple",
+        "Flower",
+        "closeup"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/1250s",
+        "iso": 500,
+        "focal_length": "60mm",
+        "date_taken": "2026-07-14T14:27:32.61+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:24:32.004561+00:00",
+      "i18n": {
+        "no": {
+          "title": "Lilla blomst - Nærbilde",
+          "description": "Et nærbilde av en blomst jeg likte",
+          "tags": [
+            "Lilla",
+            "Blomst",
+            "nærbilde"
+          ]
+        },
+        "de": {
+          "title": "Lila Blume - Nahaufnahme",
+          "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
+          "tags": [
+            "Lila",
+            "Blume",
+            "Nahaufnahme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "74559cbf-c4a1-4607-9b3c-7a8ac85603e5",
+      "filename": "images/misc/74559cbf-c4a1-4607-9b3c-7a8ac85603e5.webp",
+      "thumbnail": "images/misc/74559cbf-c4a1-4607-9b3c-7a8ac85603e5_thumb.webp",
+      "title": "Purple Flower - Closeup",
+      "description": "A closeup of a flower I liked",
+      "folder": "Misc.",
+      "tags": [
+        "Purple",
+        "Flower",
+        "closeup"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1250s",
+        "iso": 640,
+        "focal_length": "106mm",
+        "date_taken": "2026-07-14T14:27:55.44+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:25:01.312198+00:00",
+      "i18n": {
+        "no": {
+          "title": "Lilla blomst - Nærbilde",
+          "description": "Et nærbilde av en blomst jeg likte",
+          "tags": [
+            "Lilla",
+            "Blomst",
+            "nærbilde"
+          ]
+        },
+        "de": {
+          "title": "Lila Blume - Nahaufnahme",
+          "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
+          "tags": [
+            "Lila",
+            "Blume",
+            "Nahaufnahme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "58ed2236-8720-4f74-81f7-b9a601c7ff53",
+      "filename": "images/misc/58ed2236-8720-4f74-81f7-b9a601c7ff53.webp",
+      "thumbnail": "images/misc/58ed2236-8720-4f74-81f7-b9a601c7ff53_thumb.webp",
+      "title": "Yellow flower - closeup",
+      "description": "A closeup of a flower I liked",
+      "folder": "Misc.",
+      "tags": [
+        "Yellow",
+        "Flower",
+        "closeup"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/200s",
+        "iso": 100,
+        "focal_length": "60mm",
+        "date_taken": "2026-07-14T14:28:29.75+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:25:31.986133+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gul blomst - nærbilde",
+          "description": "Et nærbilde av en blomst jeg likte",
+          "tags": [
+            "Gul",
+            "Blomst",
+            "nærbilde"
+          ]
+        },
+        "de": {
+          "title": "Gelbe Blume - Nahaufnahme",
+          "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
+          "tags": [
+            "Gelb",
+            "Blume",
+            "Nahaufnahme"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c1730435-d046-4313-b4c5-ae70357d50da",
+      "filename": "images/hardangervidda-26/c1730435-d046-4313-b4c5-ae70357d50da.webp",
+      "thumbnail": "images/hardangervidda-26/c1730435-d046-4313-b4c5-ae70357d50da_thumb.webp",
+      "title": "Heartshaped stump",
+      "description": "Some went to see the waterfall, we were enjoying the other views. This heartshaped stump really caught my attention.",
+      "folder": "Hardangervidda '26",
+      "tags": [
+        "Beauty",
+        "in",
+        "Nature",
+        "heart",
+        "Tree",
+        "stump",
+        "shape"
+      ],
+      "location": {
+        "name": "Hardangervidda National Park",
+        "lat": 60.1330539,
+        "lng": 7.5311028
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R50 V",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 1250,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-14T16:46:37.30+01:00",
+        "width": 6000,
+        "height": 4000,
+        "gps": null
+      },
+      "width": 6000,
+      "height": 4000,
+      "added_at": "2026-10-27T09:27:12.556060+00:00",
+      "i18n": {
+        "no": {
+          "title": "Hjerteformet stubbe",
+          "description": "Noen gikk for å se fossen, vi nøt den andre utsikten. Denne hjerteformede stubben fanget virkelig oppmerksomheten min.",
+          "tags": [
+            "Skjønnhet",
+            "i",
+            "Natur",
+            "hjerte",
+            "Tre",
+            "stubbe",
+            "form"
+          ]
+        },
+        "de": {
+          "title": "Herzförmiger Stumpf",
+          "description": "Einige schauten sich den Wasserfall an, andere genossen die Aussicht. Dieser herzförmige Stumpf hat meine Aufmerksamkeit wirklich erregt.",
+          "tags": [
+            "Schönheit",
+            "In",
+            "Natur",
+            "Herz",
+            "Baum",
+            "Stumpf",
+            "Form"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f0c8ae6b-f5d3-43a9-a732-6c78b48d5042",
+      "filename": "images/hardangervidda-26/f0c8ae6b-f5d3-43a9-a732-6c78b48d5042.webp",
+      "thumbnail": "images/hardangervidda-26/f0c8ae6b-f5d3-43a9-a732-6c78b48d5042_thumb.webp",
+      "title": "Raven - Edited",
+      "description": "My first real challenge with my new lens. We suddenly had a flock of ravens above us, so I did my best to snap a picture of it. This image is cropped and color-edited to give a better view.",
+      "folder": "Hardangervidda '26",
+      "tags": [
+        "raven",
+        "flying",
+        "Bird"
+      ],
+      "location": {
+        "name": "Hardangervidda National Park",
+        "lat": 60.1330539,
+        "lng": 7.5311028
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": null,
+        "model": null,
+        "lens_model": null,
+        "aperture": null,
+        "shutter_speed": null,
+        "iso": null,
+        "focal_length": null,
+        "date_taken": null,
+        "width": 2035,
+        "height": 1357,
+        "gps": null
+      },
+      "width": 2035,
+      "height": 1357,
+      "added_at": "2026-10-27T09:29:59.623522+00:00",
+      "i18n": {
+        "no": {
+          "title": "Raven - Redigert",
+          "description": "Min første virkelige utfordring med mitt nye objektiv. Vi hadde plutselig en ravneflokk over oss, så jeg gjorde mitt beste for å ta et bilde av den. Dette bildet er beskåret og fargeredigert for å gi en bedre visning.",
+          "tags": [
+            "Ravn",
+            "flyr",
+            "fugl"
+          ]
+        },
+        "de": {
+          "title": "Rabe - Bearbeitet",
+          "description": "Meine erste echte Herausforderung mit meinem neuen Objektiv. Plötzlich hatten wir einen Schwarm Raben über uns, also tat ich mein Bestes, um ein Foto davon zu machen. Dieses Bild wurde zugeschnitten und farblich bearbeitet, um eine bessere Ansicht zu ermöglichen.",
+          "tags": [
+            "Rabe",
+            "fliegen",
+            "Vogel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "336d2903-abc6-4c23-a359-9e1aa834a8c3",
+      "filename": "images/misc/336d2903-abc6-4c23-a359-9e1aa834a8c3.webp",
+      "thumbnail": "images/misc/336d2903-abc6-4c23-a359-9e1aa834a8c3_thumb.webp",
+      "title": "A song thrush in the forest.",
+      "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
+      "folder": "Misc.",
+      "tags": [
+        "Song thrush",
+        "forest",
+        "branch",
+        "Bird",
+        "posing"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "251mm",
+        "date_taken": "2026-07-23T16:36:41.18+01:00",
+        "width": 3507,
+        "height": 2270,
+        "gps": null
+      },
+      "width": 3507,
+      "height": 2270,
+      "added_at": "2026-10-27T09:31:22.410045+00:00",
+      "i18n": {
+        "no": {
+          "title": "En sangtrost i skogen.",
+          "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
+          "tags": [
+            "M[ltrost",
+            "skog",
+            "gren",
+            "fugl",
+            "poserer"
+          ]
+        },
+        "de": {
+          "title": "Eine Singdrossel im Wald.",
+          "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
+          "tags": [
+            "Singdrossel",
+            "Wald",
+            "Zweig",
+            "Vogel",
+            "posieren"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ab1238e8-9ca3-4438-aec8-4fb18d878274",
+      "filename": "images/misc/ab1238e8-9ca3-4438-aec8-4fb18d878274.webp",
+      "thumbnail": "images/misc/ab1238e8-9ca3-4438-aec8-4fb18d878274_thumb.webp",
+      "title": "Sky phenomenon",
+      "description": "I was driving to work one day, and I saw this. I stopped my car to fetch a photo.",
+      "folder": "Misc.",
+      "tags": [
+        "cloud",
+        "phenomenon",
+        "color",
+        "light",
+        "rainbow"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/640s",
+        "iso": 100,
+        "focal_length": "64mm",
+        "date_taken": "2026-08-26T07:34:43.30+01:00",
+        "width": 6384,
+        "height": 3074,
+        "gps": null
+      },
+      "width": 6384,
+      "height": 3074,
+      "added_at": "2026-10-27T09:32:50.196720+00:00",
+      "i18n": {
+        "no": {
+          "title": "Himmelfenomen",
+          "description": "Jeg kjørte til jobb en dag, og jeg så dette. Jeg stoppet bilen min for å hente et bilde.",
+          "tags": [
+            "sky",
+            "fenomen",
+            "farge",
+            "lys",
+            "regnbue"
+          ]
+        },
+        "de": {
+          "title": "Himmelsphänomen",
+          "description": "Eines Tages fuhr ich zur Arbeit und sah das. Ich habe mein Auto angehalten, um ein Foto zu holen.",
+          "tags": [
+            "Wolke",
+            "Phänomen",
+            "Farbe",
+            "Licht",
+            "Regenbogen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "5170e135-93c7-4af4-9443-633c4f9e5216",
+      "filename": "images/misc/5170e135-93c7-4af4-9443-633c4f9e5216.webp",
+      "thumbnail": "images/misc/5170e135-93c7-4af4-9443-633c4f9e5216_thumb.webp",
+      "title": "Ducks!",
+      "description": "Ducks",
+      "folder": "Misc.",
+      "tags": [
+        "Ducks",
+        "Bird",
+        "water",
+        "birds"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": null,
+        "model": null,
+        "lens_model": null,
+        "aperture": null,
+        "shutter_speed": null,
+        "iso": null,
+        "focal_length": null,
+        "date_taken": null,
+        "width": 2160,
+        "height": 3840,
+        "gps": null
+      },
+      "width": 2160,
+      "height": 3840,
+      "added_at": "2026-10-27T09:33:21.095534+00:00",
+      "i18n": {
+        "no": {
+          "title": "Ender!",
+          "description": "Ender",
+          "tags": [
+            "Ender",
+            "fugl",
+            "vann",
+            "fugler"
+          ]
+        },
+        "de": {
+          "title": "Enten!",
+          "description": "Enten",
+          "tags": [
+            "Enten",
+            "Vogel",
+            "Wasser",
+            "Vögel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dd19ff95-9d5d-4fdd-8d2f-9d7d41ca2851",
+      "filename": "images/misc/dd19ff95-9d5d-4fdd-8d2f-9d7d41ca2851.webp",
+      "thumbnail": "images/misc/dd19ff95-9d5d-4fdd-8d2f-9d7d41ca2851_thumb.webp",
+      "title": "Mystical forest",
+      "description": "A neat area in a dark forest. A few rocks are lit, while the rest of the forest remains dark.",
+      "folder": "Misc.",
+      "tags": [
+        "Magical",
+        "mystical",
+        "magic",
+        "mystic",
+        "forest",
+        "dark"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/25s",
+        "iso": 200,
+        "focal_length": "57mm",
+        "date_taken": "2026-07-28T20:48:05.73+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:34:21.928173+00:00",
+      "i18n": {
+        "no": {
+          "title": "Mystisk skog",
+          "description": "Et pent område i en mørk skog. Noen få steiner er opplyst, mens resten av skogen forblir mørk.",
+          "tags": [
+            "Magisk",
+            "mystisk",
+            "magi",
+            "mystiker",
+            "skog",
+            "mørk"
+          ]
+        },
+        "de": {
+          "title": "Mystischer Wald",
+          "description": "Eine gepflegte Gegend in einem dunklen Wald. Ein paar Felsen sind beleuchtet, während der Rest des Waldes dunkel bleibt.",
+          "tags": [
+            "Magisch",
+            "mystisch",
+            "Magie",
+            "Mystiker",
+            "Wald",
+            "dunkel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c4980fe3-00ce-404e-9cd9-81cf2410d1d8",
+      "filename": "images/misc/c4980fe3-00ce-404e-9cd9-81cf2410d1d8.webp",
+      "thumbnail": "images/misc/c4980fe3-00ce-404e-9cd9-81cf2410d1d8_thumb.webp",
+      "title": "Backpacks in the forest",
+      "description": "I joined a few kids on a hike. This view caught my attention.",
+      "folder": "Misc.",
+      "tags": [
+        "Backpack",
+        "forest",
+        "trip",
+        "Hike"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/400s",
+        "iso": 6400,
+        "focal_length": "111mm",
+        "date_taken": "2026-09-01T11:05:56.04+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:35:50.906482+00:00",
+      "i18n": {
+        "no": {
+          "title": "Ryggsekker i skogen",
+          "description": "Jeg ble med noen få barn på tur. Dette synet fanget min oppmerksomhet.",
+          "tags": [
+            "Ryggsekk",
+            "skog",
+            "tur",
+            "Tur"
+          ]
+        },
+        "de": {
+          "title": "Rucksäcke im Wald",
+          "description": "Ich begleitete ein paar Kinder auf einer Wanderung. Dieser Anblick erregte meine Aufmerksamkeit.",
+          "tags": [
+            "Rucksack",
+            "Wald",
+            "Reise",
+            "Wanderung"
+          ]
+        }
+      }
+    },
+    {
+      "id": "93a75d16-bbf5-4966-b73e-3943071fee8f",
+      "filename": "images/misc/93a75d16-bbf5-4966-b73e-3943071fee8f.webp",
+      "thumbnail": "images/misc/93a75d16-bbf5-4966-b73e-3943071fee8f_thumb.webp",
+      "title": "Mushroom in the forest.",
+      "description": "A tiny mushroom.",
+      "folder": "Misc.",
+      "tags": [
+        "forest",
+        "mushroom"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/800s",
+        "iso": 6400,
+        "focal_length": "254mm",
+        "date_taken": "2026-09-01T11:06:11.14+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:37:02.564561+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sopp i skogen.",
+          "description": "En bitteliten sopp.",
+          "tags": [
+            "skog",
+            "sopp"
+          ]
+        },
+        "de": {
+          "title": "Pilz im Wald.",
+          "description": "Ein kleiner Pilz.",
+          "tags": [
+            "Wald",
+            "Pilz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "81f47b44-2b68-4c91-b8dd-4a5455d19b58",
+      "filename": "images/misc/81f47b44-2b68-4c91-b8dd-4a5455d19b58.jpg",
+      "thumbnail": "images/misc/81f47b44-2b68-4c91-b8dd-4a5455d19b58_thumb.webp",
+      "title": "Mushroom in forest",
+      "description": "A tiny mushroom.",
+      "folder": "Misc.",
+      "tags": [
+        "forest",
+        "mushroom"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/800s",
+        "iso": 6400,
+        "focal_length": "244mm",
+        "date_taken": "2026-09-01T11:12:17.64+01:00",
+        "width": 5869,
+        "height": 3507,
+        "gps": null
+      },
+      "width": 5869,
+      "height": 3507,
+      "added_at": "2026-10-27T09:38:17.351838+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sopp i skogen",
+          "description": "En bitteliten sopp.",
+          "tags": [
+            "skog",
+            "sopp"
+          ]
+        },
+        "de": {
+          "title": "Pilz im Wald",
+          "description": "Ein kleiner Pilz.",
+          "tags": [
+            "Wald",
+            "Pilz"
+          ]
+        }
+      }
+    },
+    {
+      "id": "281aa088-aeff-40b4-b202-58276082ed51",
+      "filename": "images/misc/281aa088-aeff-40b4-b202-58276082ed51.webp",
+      "thumbnail": "images/misc/281aa088-aeff-40b4-b202-58276082ed51_thumb.webp",
+      "title": "Stump",
+      "description": "A stump in a wet forest.",
+      "folder": "Misc.",
+      "tags": [
+        "stump",
+        "forest",
+        "wet"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/400s",
+        "iso": 6400,
+        "focal_length": "300mm",
+        "date_taken": "2026-09-01T11:07:19.00+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:41:24.181125+00:00",
+      "i18n": {
+        "no": {
+          "title": "Stubbe",
+          "description": "En stubbe i en våt skog.",
+          "tags": [
+            "stubbe",
+            "skog",
+            "våt"
+          ]
+        },
+        "de": {
+          "title": "Stumpf",
+          "description": "Ein Baumstumpf in einem nassen Wald.",
+          "tags": [
+            "Stumpf",
+            "Wald",
+            "nass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e82a22ea-6366-451c-ac96-2e4bd2ac3ac8",
+      "filename": "images/misc/e82a22ea-6366-451c-ac96-2e4bd2ac3ac8.webp",
+      "thumbnail": "images/misc/e82a22ea-6366-451c-ac96-2e4bd2ac3ac8_thumb.webp",
+      "title": "Grumpy Cat!",
+      "description": "My friends cat did not seem happy to see me.",
+      "folder": "Misc.",
+      "tags": [
+        "cat",
+        "grumpy",
+        "garden"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 4000,
+        "focal_length": "300mm",
+        "date_taken": "2026-09-01T18:05:57.08+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:42:38.584283+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gretten katt!",
+          "description": "Venninnenes katt virket ikke glad for å se meg.",
+          "tags": [
+            "katt",
+            "grinete",
+            "hage"
+          ]
+        },
+        "de": {
+          "title": "Mürrische Katze!",
+          "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
+          "tags": [
+            "Katze",
+            "mürrisch",
+            "Garten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a3b8f842-400c-495d-8d64-3004ef5014d4",
+      "filename": "images/misc/a3b8f842-400c-495d-8d64-3004ef5014d4.webp",
+      "thumbnail": "images/misc/a3b8f842-400c-495d-8d64-3004ef5014d4_thumb.webp",
+      "title": "Grumpy Cat",
+      "description": "My friends cat did not seem happy to see me.",
+      "folder": "Misc.",
+      "tags": [
+        "cat",
+        "grumpy",
+        "garden"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/800s",
+        "iso": 3200,
+        "focal_length": "222mm",
+        "date_taken": "2026-09-01T18:05:58.68+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:43:39.943123+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gretten katt",
+          "description": "Venninnenes katt virket ikke glad for å se meg.",
+          "tags": [
+            "katt",
+            "grinete",
+            "hage"
+          ]
+        },
+        "de": {
+          "title": "Mürrische Katze",
+          "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
+          "tags": [
+            "Katze",
+            "mürrisch",
+            "Garten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "699b083f-1a9e-4dbb-90e3-7be05b0c0659",
+      "filename": "images/misc/699b083f-1a9e-4dbb-90e3-7be05b0c0659.webp",
+      "thumbnail": "images/misc/699b083f-1a9e-4dbb-90e3-7be05b0c0659_thumb.webp",
+      "title": "Grumpy Cat",
+      "description": "My friends cat did not seem happy to see me.",
+      "folder": "Misc.",
+      "tags": [
+        "cat",
+        "grumpy",
+        "garden"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/800s",
+        "iso": 2500,
+        "focal_length": "177mm",
+        "date_taken": "2026-09-01T18:06:01.33+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:44:37.453369+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gretten katt",
+          "description": "Venninnenes katt virket ikke glad for å se meg.",
+          "tags": [
+            "katt",
+            "grinete",
+            "hage"
+          ]
+        },
+        "de": {
+          "title": "Mürrische Katze",
+          "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
+          "tags": [
+            "Katze",
+            "mürrisch",
+            "Garten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "387f0ea9-669e-47d7-a103-586e18eb3d55",
+      "filename": "images/misc/387f0ea9-669e-47d7-a103-586e18eb3d55.webp",
+      "thumbnail": "images/misc/387f0ea9-669e-47d7-a103-586e18eb3d55_thumb.webp",
+      "title": "Grumpy Cat",
+      "description": "My friends cat did not seem happy to see me.",
+      "folder": "Misc.",
+      "tags": [
+        "cat",
+        "grumpy",
+        "garden"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/400s",
+        "iso": 1600,
+        "focal_length": "110mm",
+        "date_taken": "2026-09-01T18:06:05.85+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:45:37.582317+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gretten katt",
+          "description": "Venninnenes katt virket ikke glad for å se meg.",
+          "tags": [
+            "katt",
+            "grinete",
+            "hage"
+          ]
+        },
+        "de": {
+          "title": "Mürrische Katze",
+          "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
+          "tags": [
+            "Katze",
+            "mürrisch",
+            "Garten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ac915455-1196-4e6c-bc4b-7c69765f3dbb",
+      "filename": "images/misc/ac915455-1196-4e6c-bc4b-7c69765f3dbb.webp",
+      "thumbnail": "images/misc/ac915455-1196-4e6c-bc4b-7c69765f3dbb_thumb.webp",
+      "title": "Grumpy Cat",
+      "description": "My friends cat did not seem happy to see me.",
+      "folder": "Misc.",
+      "tags": [
+        "cat",
+        "grumpy",
+        "garden"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/400s",
+        "iso": 1600,
+        "focal_length": "110mm",
+        "date_taken": "2026-09-01T18:06:06.77+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:46:33.605981+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gretten katt",
+          "description": "Venninnenes katt virket ikke glad for å se meg.",
+          "tags": [
+            "katt",
+            "grinete",
+            "hage"
+          ]
+        },
+        "de": {
+          "title": "Mürrische Katze",
+          "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
+          "tags": [
+            "Katze",
+            "mürrisch",
+            "Garten"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bae5220c-255a-4704-9625-0aa7973dcef0",
+      "filename": "images/misc/bae5220c-255a-4704-9625-0aa7973dcef0.webp",
+      "thumbnail": "images/misc/bae5220c-255a-4704-9625-0aa7973dcef0_thumb.webp",
+      "title": "A seagull in Oslo",
+      "description": "A seagull I saw in Oslo",
+      "folder": "Misc.",
+      "tags": [
+        "Seagull",
+        "Oslo"
+      ],
+      "location": {
+        "name": "Oslo",
+        "lat": 59.9133301,
+        "lng": 10.7389701
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1000s",
+        "iso": 800,
+        "focal_length": "187mm",
+        "date_taken": "2026-08-06T17:11:18.94+01:00",
+        "width": 6021,
+        "height": 3739,
+        "gps": null
+      },
+      "width": 6021,
+      "height": 3739,
+      "added_at": "2026-10-27T09:47:37.063140+00:00",
+      "i18n": {
+        "no": {
+          "title": "En måke i Oslo",
+          "description": "En måke jeg så i Oslo",
+          "tags": [
+            "Måke",
+            "Oslo"
+          ]
+        },
+        "de": {
+          "title": "Eine Möwe in Oslo",
+          "description": "Eine Möwe, die ich in Oslo gesehen habe",
+          "tags": [
+            "Möwe",
+            "Oslo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9ada55ec-dbfe-418c-b45b-613d3326bf45",
+      "filename": "images/misc/9ada55ec-dbfe-418c-b45b-613d3326bf45.webp",
+      "thumbnail": "images/misc/9ada55ec-dbfe-418c-b45b-613d3326bf45_thumb.webp",
+      "title": "Colored clouds",
+      "description": "Hey! Sometimes gamers look up.",
+      "folder": "Misc.",
+      "tags": [
+        "cloud",
+        "colors",
+        "pretty"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/640s",
+        "iso": 800,
+        "focal_length": "149mm",
+        "date_taken": "2026-08-16T20:33:09.49+01:00",
+        "width": 2794,
+        "height": 1432,
+        "gps": null
+      },
+      "width": 2794,
+      "height": 1432,
+      "added_at": "2026-10-27T09:48:06.421396+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fargede skyer",
+          "description": "Hei! Noen ganger ser spillere opp.",
+          "tags": [
+            "sky",
+            "farger",
+            "pen"
+          ]
+        },
+        "de": {
+          "title": "Farbige Wolken",
+          "description": "Hey! Manchmal schauen Gamer nach oben.",
+          "tags": [
+            "Wolke",
+            "Farben",
+            "hübsch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2b74ee2e-373d-4fad-976d-6ce47f4c2860",
+      "filename": "images/misc/2b74ee2e-373d-4fad-976d-6ce47f4c2860.webp",
+      "thumbnail": "images/misc/2b74ee2e-373d-4fad-976d-6ce47f4c2860_thumb.webp",
+      "title": "Boots on a hike",
+      "description": "A childs boots on a hike.",
+      "folder": "Misc.",
+      "tags": [
+        "Boots",
+        "Hike",
+        "trip"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/320s",
+        "iso": 2500,
+        "focal_length": "78mm",
+        "date_taken": "2026-08-18T11:13:22.06+01:00",
+        "width": 6002,
+        "height": 3224,
+        "gps": null
+      },
+      "width": 6002,
+      "height": 3224,
+      "added_at": "2026-10-27T09:48:41.916877+00:00",
+      "i18n": {
+        "no": {
+          "title": "Støvler på tur",
+          "description": "Et barns støvler på tur.",
+          "tags": [
+            "Støvler",
+            "Tur",
+            "tur"
+          ]
+        },
+        "de": {
+          "title": "Stiefel auf einer Wanderung",
+          "description": "Ein Kinderstiefel auf einer Wanderung.",
+          "tags": [
+            "Stiefel",
+            "Wanderung",
+            "Reise"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c430694d-b2a7-45be-9239-c374082585f5",
+      "filename": "images/misc/c430694d-b2a7-45be-9239-c374082585f5.webp",
+      "thumbnail": "images/misc/c430694d-b2a7-45be-9239-c374082585f5_thumb.webp",
+      "title": "Colored clouds",
+      "description": "I was driving to work one day, and I saw this. I stopped my car to fetch a photo.",
+      "folder": "Misc.",
+      "tags": [
+        "cloud",
+        "phenomenon",
+        "color",
+        "colors",
+        "pretty"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/640s",
+        "iso": 100,
+        "focal_length": "64mm",
+        "date_taken": "2026-08-26T07:34:39.82+01:00",
+        "width": 6001,
+        "height": 1630,
+        "gps": null
+      },
+      "width": 6001,
+      "height": 1630,
+      "added_at": "2026-10-27T09:50:26.210911+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fargede skyer",
+          "description": "Jeg kjørte til jobb en dag, og jeg så dette. Jeg stoppet bilen min for å hente et bilde.",
+          "tags": [
+            "sky",
+            "fenomen",
+            "farge",
+            "farger",
+            "pen"
+          ]
+        },
+        "de": {
+          "title": "Farbige Wolken",
+          "description": "Eines Tages fuhr ich zur Arbeit und sah das. Ich habe mein Auto angehalten, um ein Foto zu holen.",
+          "tags": [
+            "Wolke",
+            "Phänomen",
+            "Farbe",
+            "Farben",
+            "hübsch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "477e3ccf-9821-4bde-a8d6-c09e2b701862",
+      "filename": "images/misc/477e3ccf-9821-4bde-a8d6-c09e2b701862.webp",
+      "thumbnail": "images/misc/477e3ccf-9821-4bde-a8d6-c09e2b701862_thumb.webp",
+      "title": "Rock Wall - Texture",
+      "description": "Texture of a rock wall.",
+      "folder": "Misc.",
+      "tags": [
+        "rock",
+        "wall",
+        "texture"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 200,
+        "focal_length": "300mm",
+        "date_taken": "2026-08-26T10:59:38.00+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-27T09:51:22.744314+00:00",
+      "i18n": {
+        "no": {
+          "title": "Bergvegg - Tekstur",
+          "description": "Tekstur av en fjellvegg.",
+          "tags": [
+            "stein",
+            "vegg",
+            "tekstur"
+          ]
+        },
+        "de": {
+          "title": "Felswand - Textur",
+          "description": "Textur einer Felswand.",
+          "tags": [
+            "Felsen",
+            "Wand",
+            "Textur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d58071de-e791-463b-b277-5d1f972d7d6b",
+      "filename": "images/misc/d58071de-e791-463b-b277-5d1f972d7d6b.webp",
+      "thumbnail": "images/misc/d58071de-e791-463b-b277-5d1f972d7d6b_thumb.webp",
+      "title": "Rock Wall - Texture",
+      "description": "Texture of a rock wall.",
+      "folder": "Misc.",
+      "tags": [
+        "rock",
+        "wall",
+        "texture"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 200,
+        "focal_length": "300mm",
+        "date_taken": "2026-08-26T10:59:43.59+01:00",
+        "width": 5640,
+        "height": 2968,
+        "gps": null
+      },
+      "width": 5640,
+      "height": 2968,
+      "added_at": "2026-10-27T09:51:48.286519+00:00",
+      "i18n": {
+        "no": {
+          "title": "Bergvegg - Tekstur",
+          "description": "Tekstur av en fjellvegg.",
+          "tags": [
+            "stein",
+            "vegg",
+            "tekstur"
+          ]
+        },
+        "de": {
+          "title": "Felswand - Textur",
+          "description": "Textur einer Felswand.",
+          "tags": [
+            "Felsen",
+            "Wand",
+            "Textur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4173a74f-32c1-4d74-83f3-e32a91da929d",
+      "filename": "images/misc/4173a74f-32c1-4d74-83f3-e32a91da929d.webp",
+      "thumbnail": "images/misc/4173a74f-32c1-4d74-83f3-e32a91da929d_thumb.webp",
+      "title": "Stacked Rocks",
+      "description": "Three stacked rocks.",
+      "folder": "Misc.",
+      "tags": [
+        "rocks",
+        "stacked",
+        "art"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1250s",
+        "iso": 160,
+        "focal_length": "101mm",
+        "date_taken": "2026-08-26T11:00:01.01+01:00",
+        "width": 2961,
+        "height": 5650,
+        "gps": null
+      },
+      "width": 2961,
+      "height": 5650,
+      "added_at": "2026-10-27T09:52:33.314996+00:00",
+      "i18n": {
+        "no": {
+          "title": "Stablet steiner",
+          "description": "Tre stablede steiner.",
+          "tags": [
+            "steiner",
+            "stablet",
+            "kunst"
+          ]
+        },
+        "de": {
+          "title": "Gestapelte Steine",
+          "description": "Drei gestapelte Steine.",
+          "tags": [
+            "Felsen",
+            "gestapelt",
+            "Kunst"
+          ]
+        }
+      }
+    },
+    {
+      "id": "375601c8-005a-4f9c-bd30-c49b7e4213e5",
+      "filename": "images/misc/375601c8-005a-4f9c-bd30-c49b7e4213e5.jpg",
+      "thumbnail": "images/misc/375601c8-005a-4f9c-bd30-c49b7e4213e5_thumb.webp",
+      "title": "Foot on stump",
+      "description": "I joined a few kids on a hike. This was one of the pictures from then.",
+      "folder": "Misc.",
+      "tags": [
+        "foot",
+        "Hike",
+        "stump",
+        "forest"
+      ],
+      "location": null,
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/640s",
+        "iso": 6400,
+        "focal_length": "300mm",
+        "date_taken": "2026-09-01T11:05:42.65+01:00",
+        "width": 5631,
+        "height": 4056,
+        "gps": null
+      },
+      "width": 5631,
+      "height": 4056,
+      "added_at": "2026-10-27T09:53:29.862846+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fot på stubbe",
+          "description": "Jeg ble med noen få barn på tur. Dette var et av bildene fra da.",
+          "tags": [
+            "fot",
+            "Tur",
+            "stubbe",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Fuß auf Baumstumpf",
+          "description": "Ich begleitete ein paar Kinder auf einer Wanderung. Dies war eines der Bilder von damals.",
+          "tags": [
+            "Fuß",
+            "Wanderung",
+            "Stumpf",
+            "Wald"
+          ]
+        }
+      }
     }
   ]
 }
