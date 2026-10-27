@@ -9,7 +9,7 @@
       "folder": "Hardangervidda '26",
       "tags": [
         "flying",
-        "Bird",
+        "bird",
         "raven"
       ],
       "location": {
@@ -41,7 +41,7 @@
           "tags": [
             "flyr",
             "fugl",
-            "Ravn"
+            "ravn"
           ]
         },
         "de": {
@@ -49,8 +49,8 @@
           "description": "Meine erste echte Herausforderung mit meinem neuen Objektiv. Plötzlich hatten wir einen Schwarm Raben über uns, also tat ich mein Bestes, um ein Foto davon zu machen.",
           "tags": [
             "fliegen",
-            "Vogel",
-            "Rabe"
+            "vogel",
+            "rabe"
           ]
         }
       }
@@ -63,11 +63,11 @@
       "description": "Song thrush in the forest.",
       "folder": "Misc.",
       "tags": [
-        "Bird",
-        "Hike",
+        "bird",
+        "hike",
         "mountain",
         "closeup",
-        "Song thrush"
+        "song thrush"
       ],
       "location": {
         "name": "Mistberget",
@@ -97,21 +97,21 @@
           "description": "Måltrost i skogen.",
           "tags": [
             "fugl",
-            "Tur",
+            "tur",
             "fjell",
             "nærbilde",
-            "Måltrost"
+            "måltrost"
           ]
         },
         "de": {
           "title": "Singdrossel",
           "description": "Singdrossel im Wald.",
           "tags": [
-            "Vogel",
-            "Wanderung",
-            "Berg",
-            "Nahaufnahme",
-            "Singdrossel"
+            "vogel",
+            "wanderung",
+            "berg",
+            "nahaufnahme",
+            "singdrossel"
           ]
         }
       }
@@ -124,10 +124,10 @@
       "description": "Various knots and ropes used for sailing.",
       "folder": "Misc.",
       "tags": [
-        "Ropes",
-        "Knots",
+        "ropes",
+        "knots",
         "sailing",
-        "Ocean",
+        "ocean",
         "boat"
       ],
       "location": {
@@ -157,7 +157,7 @@
           "title": "Tau og knuter for seiling",
           "description": "Ulike knuter og tau som brukes til seiling.",
           "tags": [
-            "Tau",
+            "tau",
             "knuter",
             "seiling",
             "hav",
@@ -168,11 +168,11 @@
           "title": "Seile und Knoten zum Segeln",
           "description": "Verschiedene Knoten und Seile, die beim Segeln verwendet werden.",
           "tags": [
-            "Seile",
-            "Knoten",
-            "Segeln",
-            "Ozean",
-            "Boot"
+            "seile",
+            "knoten",
+            "segeln",
+            "ozean",
+            "boot"
           ]
         }
       }
@@ -185,10 +185,10 @@
       "description": "Stonebased dam.",
       "folder": "Misc.",
       "tags": [
-        "Dam",
-        "Stone",
-        "Nature",
-        "Norway"
+        "dam",
+        "stone",
+        "nature",
+        "norway"
       ],
       "location": null,
       "photographer": "Delight",
@@ -213,20 +213,20 @@
           "title": "Demning",
           "description": "Steinbasert demning.",
           "tags": [
-            "Demning",
-            "Stein",
-            "Natur",
-            "Norge"
+            "demning",
+            "stein",
+            "natur",
+            "norge"
           ]
         },
         "de": {
           "title": "Damm",
           "description": "Steinbasierter Staudamm.",
           "tags": [
-            "Damm",
-            "Stein",
-            "Natur",
-            "Norwegen"
+            "damm",
+            "stein",
+            "natur",
+            "norwegen"
           ]
         }
       }
@@ -240,10 +240,10 @@
       "folder": "Misc.",
       "tags": [
         "mountain",
-        "Bleik",
-        "Snow",
-        "Winter",
-        "Cold"
+        "bleik",
+        "snow",
+        "winter",
+        "cold"
       ],
       "location": {
         "name": "Bleik",
@@ -273,21 +273,21 @@
           "description": "Et snødekt fjell på Bleik",
           "tags": [
             "fjell",
-            "Bleik",
-            "Snø",
-            "Vinter",
-            "Kald"
+            "bleik",
+            "snø",
+            "vinter",
+            "kald"
           ]
         },
         "de": {
           "title": "Berg in Bleik",
           "description": "Ein schneebedeckter Berg in Bleik",
           "tags": [
-            "Berg",
-            "Bleik",
-            "Schnee",
-            "Winter",
-            "Kalt"
+            "berg",
+            "bleik",
+            "schnee",
+            "winter",
+            "kalt"
           ]
         }
       }
@@ -300,10 +300,10 @@
       "description": "An image of clouds seen from an airplane window",
       "folder": "Misc.",
       "tags": [
-        "Clouds",
+        "clouds",
         "above",
         "heaven",
-        "Norway",
+        "norway",
         "view",
         "mountains"
       ],
@@ -330,10 +330,10 @@
           "title": "Skyer ovenfra",
           "description": "Et bilde av skyer sett fra et flyvindu",
           "tags": [
-            "Skyer",
+            "skyer",
             "over",
             "himmel",
-            "Norge",
+            "norge",
             "utsikt",
             "fjell"
           ]
@@ -342,12 +342,12 @@
           "title": "Wolken von oben",
           "description": "Ein Bild von Wolken, gesehen aus einem Flugzeugfenster",
           "tags": [
-            "Wolken",
+            "wolken",
             "über",
-            "Himmel",
-            "Norwegen",
-            "Sicht",
-            "Gebirge"
+            "himmel",
+            "norwegen",
+            "sicht",
+            "gebirge"
           ]
         }
       }
@@ -360,10 +360,10 @@
       "description": "I was on a short vacation with my sister, and I found my new favorite tree!",
       "folder": "Misc.",
       "tags": [
-        "London",
-        "Hyde Park",
-        "Tree",
-        "Nature",
+        "london",
+        "hyde park",
+        "tree",
+        "nature",
         "big"
       ],
       "location": {
@@ -393,10 +393,10 @@
           "title": "Tre i Hyde Park",
           "description": "Jeg var på en kort ferie med søsteren min, og jeg fant mitt nye favoritttre!",
           "tags": [
-            "London",
-            "Hyde Park",
-            "Tre",
-            "Natur",
+            "london",
+            "hyde park",
+            "tre",
+            "natur",
             "stor"
           ]
         },
@@ -404,10 +404,10 @@
           "title": "Baum im Hyde Park",
           "description": "Ich war mit meiner Schwester im Kurzurlaub und habe meinen neuen Lieblingsbaum gefunden!",
           "tags": [
-            "London",
-            "Hyde Park",
-            "Baum",
-            "Natur",
+            "london",
+            "hyde park",
+            "baum",
+            "natur",
             "groß"
           ]
         }
@@ -421,9 +421,9 @@
       "description": "A picture of a tree in Hyde Park, London",
       "folder": "Misc.",
       "tags": [
-        "Tree",
-        "Hyde Park",
-        "London"
+        "tree",
+        "hyde park",
+        "london"
       ],
       "location": {
         "name": "Hyde Park",
@@ -452,18 +452,18 @@
           "title": "Tre i Hyde Park",
           "description": "Et bilde av et tre i Hyde Park, London",
           "tags": [
-            "Tre",
-            "Hyde Park",
-            "London"
+            "tre",
+            "hyde park",
+            "london"
           ]
         },
         "de": {
           "title": "Baum im Hyde Park",
           "description": "Ein Bild eines Baumes im Hyde Park, London",
           "tags": [
-            "Baum",
-            "Hyde Park",
-            "London"
+            "baum",
+            "hyde park",
+            "london"
           ]
         }
       }
@@ -476,8 +476,8 @@
       "description": "A dam we saw while driving along Hardangervidda",
       "folder": "Hardangervidda '26",
       "tags": [
-        "Hardangervidda",
-        "Dam",
+        "hardangervidda",
+        "dam",
         "large"
       ],
       "location": {
@@ -507,8 +507,8 @@
           "title": "Dam i Norge",
           "description": "En demning vi så mens vi kjørte langs Hardangervidda",
           "tags": [
-            "Hardangervidda",
-            "Demning",
+            "hardangervidda",
+            "demning",
             "stor"
           ]
         },
@@ -516,8 +516,8 @@
           "title": "Staudamm in Norwegen",
           "description": "Ein Damm, den wir während der Fahrt entlang der Hardangervidda gesehen haben",
           "tags": [
-            "Hardangervidda",
-            "Damm",
+            "hardangervidda",
+            "damm",
             "groß"
           ]
         }
@@ -531,9 +531,9 @@
       "description": "I was testing out my new filter, which allows me to take images of the sun.",
       "folder": "Misc.",
       "tags": [
-        "Sun",
-        "Artsy",
-        "Lightbulb"
+        "sun",
+        "artsy",
+        "lightbulb"
       ],
       "location": null,
       "photographer": "Delight",
@@ -558,18 +558,18 @@
           "title": "Lyspære opplyst av solen",
           "description": "Jeg testet ut det nye filteret mitt, som lar meg ta bilder av solen.",
           "tags": [
-            "Sol",
-            "Artsy",
-            "Lyspære"
+            "sol",
+            "artsy",
+            "lyspære"
           ]
         },
         "de": {
           "title": "Von der Sonne beleuchtete Glühbirne",
           "description": "Ich habe meinen neuen Filter getestet, mit dem ich Bilder von der Sonne machen kann.",
           "tags": [
-            "Sonne",
-            "Künstlerisch",
-            "Glühbirne"
+            "sonne",
+            "künstlerisch",
+            "glühbirne"
           ]
         }
       }
@@ -582,7 +582,7 @@
       "description": "Apparantly taking a good picture of the moon is hard. It moves more that I thought!",
       "folder": "Misc.",
       "tags": [
-        "Moon",
+        "moon",
         "red",
         "dusk",
         "dark"
@@ -610,7 +610,7 @@
           "title": "Rød måne",
           "description": "Det er tydeligvis vanskelig å ta et godt bilde av månen. Den beveger seg mer enn jeg trodde!",
           "tags": [
-            "Måne",
+            "måne",
             "rød",
             "skumring",
             "mørk"
@@ -620,9 +620,9 @@
           "title": "Roter Mond",
           "description": "Anscheinend ist es schwierig, ein gutes Foto vom Mond zu machen. Es bewegt sich mehr, als ich dachte!",
           "tags": [
-            "Mond",
-            "Rot",
-            "Dämmerung",
+            "mond",
+            "rot",
+            "dämmerung",
             "dunkel"
           ]
         }
@@ -636,9 +636,9 @@
       "description": "Another image of a mountain I liked when visiting Bleik",
       "folder": "Misc.",
       "tags": [
-        "Snow",
+        "snow",
         "mountain",
-        "Bleik",
+        "bleik",
         "fog"
       ],
       "location": {
@@ -668,9 +668,9 @@
           "title": "Snødekt fjell i tåke",
           "description": "Et annet bilde av et fjell jeg likte når jeg besøkte Bleik",
           "tags": [
-            "Snø",
+            "snø",
             "fjell",
-            "Bleik",
+            "bleik",
             "tåke"
           ]
         },
@@ -678,10 +678,10 @@
           "title": "Verschneiter Berg im Nebel",
           "description": "Ein weiteres Bild eines Berges, das mir bei meinem Besuch in Bleik gefallen hat",
           "tags": [
-            "Schnee",
-            "Berg",
-            "Bleik",
-            "Nebel"
+            "schnee",
+            "berg",
+            "bleik",
+            "nebel"
           ]
         }
       }
@@ -694,7 +694,7 @@
       "description": "A closeup of a flower I liked",
       "folder": "Misc.",
       "tags": [
-        "Flower",
+        "flower",
         "closeup"
       ],
       "location": null,
@@ -720,7 +720,7 @@
           "title": "Gul blomst - Nærbilde",
           "description": "Et nærbilde av en blomst jeg likte",
           "tags": [
-            "Blomst",
+            "blomst",
             "nærbilde"
           ]
         },
@@ -728,8 +728,8 @@
           "title": "Gelbe Blume - Nahaufnahme",
           "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
           "tags": [
-            "Blume",
-            "Nahaufnahme"
+            "blume",
+            "nahaufnahme"
           ]
         }
       }
@@ -742,8 +742,8 @@
       "description": "A closeup of a flower I liked",
       "folder": "Misc.",
       "tags": [
-        "Pink",
-        "Flower",
+        "pink",
+        "flower",
         "closeup"
       ],
       "location": null,
@@ -769,8 +769,8 @@
           "title": "Rosa blomst - nærbilde",
           "description": "Et nærbilde av en blomst jeg likte",
           "tags": [
-            "Rosa",
-            "Blomst",
+            "rosa",
+            "blomst",
             "nærbilde"
           ]
         },
@@ -778,9 +778,9 @@
           "title": "Rosa Blume - Nahaufnahme",
           "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
           "tags": [
-            "Rosa",
-            "Blume",
-            "Nahaufnahme"
+            "rosa",
+            "blume",
+            "nahaufnahme"
           ]
         }
       }
@@ -793,8 +793,8 @@
       "description": "A closeup of a flower I liked",
       "folder": "Misc.",
       "tags": [
-        "Purple",
-        "Flower",
+        "purple",
+        "flower",
         "closeup"
       ],
       "location": null,
@@ -820,8 +820,8 @@
           "title": "Lilla blomst - Nærbilde",
           "description": "Et nærbilde av en blomst jeg likte",
           "tags": [
-            "Lilla",
-            "Blomst",
+            "lilla",
+            "blomst",
             "nærbilde"
           ]
         },
@@ -829,9 +829,9 @@
           "title": "Lila Blume - Nahaufnahme",
           "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
           "tags": [
-            "Lila",
-            "Blume",
-            "Nahaufnahme"
+            "lila",
+            "blume",
+            "nahaufnahme"
           ]
         }
       }
@@ -844,8 +844,8 @@
       "description": "A closeup of a flower I liked",
       "folder": "Misc.",
       "tags": [
-        "Purple",
-        "Flower",
+        "purple",
+        "flower",
         "closeup"
       ],
       "location": null,
@@ -871,8 +871,8 @@
           "title": "Lilla blomst - Nærbilde",
           "description": "Et nærbilde av en blomst jeg likte",
           "tags": [
-            "Lilla",
-            "Blomst",
+            "lilla",
+            "blomst",
             "nærbilde"
           ]
         },
@@ -880,9 +880,9 @@
           "title": "Lila Blume - Nahaufnahme",
           "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
           "tags": [
-            "Lila",
-            "Blume",
-            "Nahaufnahme"
+            "lila",
+            "blume",
+            "nahaufnahme"
           ]
         }
       }
@@ -895,8 +895,8 @@
       "description": "A closeup of a flower I liked",
       "folder": "Misc.",
       "tags": [
-        "Yellow",
-        "Flower",
+        "yellow",
+        "flower",
         "closeup"
       ],
       "location": null,
@@ -922,8 +922,8 @@
           "title": "Gul blomst - nærbilde",
           "description": "Et nærbilde av en blomst jeg likte",
           "tags": [
-            "Gul",
-            "Blomst",
+            "gul",
+            "blomst",
             "nærbilde"
           ]
         },
@@ -931,9 +931,9 @@
           "title": "Gelbe Blume - Nahaufnahme",
           "description": "Eine Nahaufnahme einer Blume, die mir gefiel",
           "tags": [
-            "Gelb",
-            "Blume",
-            "Nahaufnahme"
+            "gelb",
+            "blume",
+            "nahaufnahme"
           ]
         }
       }
@@ -946,11 +946,11 @@
       "description": "Some went to see the waterfall, we were enjoying the other views. This heartshaped stump really caught my attention.",
       "folder": "Hardangervidda '26",
       "tags": [
-        "Beauty",
+        "beauty",
         "in",
-        "Nature",
+        "nature",
         "heart",
-        "Tree",
+        "tree",
         "stump",
         "shape"
       ],
@@ -981,11 +981,11 @@
           "title": "Hjerteformet stubbe",
           "description": "Noen gikk for å se fossen, vi nøt den andre utsikten. Denne hjerteformede stubben fanget virkelig oppmerksomheten min.",
           "tags": [
-            "Skjønnhet",
+            "skjønnhet",
             "i",
-            "Natur",
+            "natur",
             "hjerte",
-            "Tre",
+            "tre",
             "stubbe",
             "form"
           ]
@@ -994,13 +994,13 @@
           "title": "Herzförmiger Stumpf",
           "description": "Einige schauten sich den Wasserfall an, andere genossen die Aussicht. Dieser herzförmige Stumpf hat meine Aufmerksamkeit wirklich erregt.",
           "tags": [
-            "Schönheit",
-            "In",
-            "Natur",
-            "Herz",
-            "Baum",
-            "Stumpf",
-            "Form"
+            "schönheit",
+            "in",
+            "natur",
+            "herz",
+            "baum",
+            "stumpf",
+            "form"
           ]
         }
       }
@@ -1015,7 +1015,7 @@
       "tags": [
         "raven",
         "flying",
-        "Bird"
+        "bird"
       ],
       "location": {
         "name": "Hardangervidda National Park",
@@ -1044,7 +1044,7 @@
           "title": "Raven - Redigert",
           "description": "Min første virkelige utfordring med mitt nye objektiv. Vi hadde plutselig en ravneflokk over oss, så jeg gjorde mitt beste for å ta et bilde av den. Dette bildet er beskåret og fargeredigert for å gi en bedre visning.",
           "tags": [
-            "Ravn",
+            "ravn",
             "flyr",
             "fugl"
           ]
@@ -1053,9 +1053,9 @@
           "title": "Rabe - Bearbeitet",
           "description": "Meine erste echte Herausforderung mit meinem neuen Objektiv. Plötzlich hatten wir einen Schwarm Raben über uns, also tat ich mein Bestes, um ein Foto davon zu machen. Dieses Bild wurde zugeschnitten und farblich bearbeitet, um eine bessere Ansicht zu ermöglichen.",
           "tags": [
-            "Rabe",
+            "rabe",
             "fliegen",
-            "Vogel"
+            "vogel"
           ]
         }
       }
@@ -1068,10 +1068,10 @@
       "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
       "folder": "Misc.",
       "tags": [
-        "Song thrush",
+        "song thrush",
         "forest",
         "branch",
-        "Bird",
+        "bird",
         "posing"
       ],
       "location": {
@@ -1101,7 +1101,7 @@
           "title": "En sangtrost i skogen.",
           "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
           "tags": [
-            "Måltrost",
+            "måltrost",
             "skog",
             "gren",
             "fugl",
@@ -1112,10 +1112,10 @@
           "title": "Eine Singdrossel im Wald.",
           "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
           "tags": [
-            "Singdrossel",
-            "Wald",
-            "Zweig",
-            "Vogel",
+            "singdrossel",
+            "wald",
+            "zweig",
+            "vogel",
             "posieren"
           ]
         }
@@ -1169,11 +1169,11 @@
           "title": "Himmelsphänomen",
           "description": "Eines Tages fuhr ich zur Arbeit und sah das. Ich habe mein Auto angehalten, um ein Foto zu holen.",
           "tags": [
-            "Wolke",
-            "Phänomen",
-            "Farbe",
-            "Licht",
-            "Regenbogen"
+            "wolke",
+            "phänomen",
+            "farbe",
+            "licht",
+            "regenbogen"
           ]
         }
       }
@@ -1186,8 +1186,8 @@
       "description": "Ducks",
       "folder": "Misc.",
       "tags": [
-        "Ducks",
-        "Bird",
+        "ducks",
+        "bird",
         "water",
         "birds"
       ],
@@ -1214,7 +1214,7 @@
           "title": "Ender!",
           "description": "Ender",
           "tags": [
-            "Ender",
+            "ender",
             "fugl",
             "vann",
             "fugler"
@@ -1224,10 +1224,10 @@
           "title": "Enten!",
           "description": "Enten",
           "tags": [
-            "Enten",
-            "Vogel",
-            "Wasser",
-            "Vögel"
+            "enten",
+            "vogel",
+            "wasser",
+            "vögel"
           ]
         }
       }
@@ -1240,7 +1240,7 @@
       "description": "A neat area in a dark forest. A few rocks are lit, while the rest of the forest remains dark.",
       "folder": "Misc.",
       "tags": [
-        "Magical",
+        "magical",
         "mystical",
         "magic",
         "mystic",
@@ -1270,7 +1270,7 @@
           "title": "Mystisk skog",
           "description": "Et pent område i en mørk skog. Noen få steiner er opplyst, mens resten av skogen forblir mørk.",
           "tags": [
-            "Magisk",
+            "magisk",
             "mystisk",
             "magi",
             "mystiker",
@@ -1282,11 +1282,11 @@
           "title": "Mystischer Wald",
           "description": "Eine gepflegte Gegend in einem dunklen Wald. Ein paar Felsen sind beleuchtet, während der Rest des Waldes dunkel bleibt.",
           "tags": [
-            "Magisch",
+            "magisch",
             "mystisch",
-            "Magie",
-            "Mystiker",
-            "Wald",
+            "magie",
+            "mystiker",
+            "wald",
             "dunkel"
           ]
         }
@@ -1300,10 +1300,10 @@
       "description": "I joined a few kids on a hike. This view caught my attention.",
       "folder": "Misc.",
       "tags": [
-        "Backpack",
+        "backpack",
         "forest",
         "trip",
-        "Hike"
+        "hike"
       ],
       "location": null,
       "photographer": "Delight",
@@ -1328,20 +1328,20 @@
           "title": "Ryggsekker i skogen",
           "description": "Jeg ble med noen få barn på tur. Dette synet fanget min oppmerksomhet.",
           "tags": [
-            "Ryggsekk",
+            "ryggsekk",
             "skog",
             "tur",
-            "Tur"
+            "tur"
           ]
         },
         "de": {
           "title": "Rucksäcke im Wald",
           "description": "Ich begleitete ein paar Kinder auf einer Wanderung. Dieser Anblick erregte meine Aufmerksamkeit.",
           "tags": [
-            "Rucksack",
-            "Wald",
-            "Reise",
-            "Wanderung"
+            "rucksack",
+            "wald",
+            "reise",
+            "wanderung"
           ]
         }
       }
@@ -1388,8 +1388,8 @@
           "title": "Pilz im Wald.",
           "description": "Ein kleiner Pilz.",
           "tags": [
-            "Wald",
-            "Pilz"
+            "wald",
+            "pilz"
           ]
         }
       }
@@ -1436,8 +1436,8 @@
           "title": "Pilz im Wald",
           "description": "Ein kleiner Pilz.",
           "tags": [
-            "Wald",
-            "Pilz"
+            "wald",
+            "pilz"
           ]
         }
       }
@@ -1486,8 +1486,8 @@
           "title": "Stumpf",
           "description": "Ein Baumstumpf in einem nassen Wald.",
           "tags": [
-            "Stumpf",
-            "Wald",
+            "stumpf",
+            "wald",
             "nass"
           ]
         }
@@ -1537,9 +1537,9 @@
           "title": "Mürrische Katze!",
           "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
           "tags": [
-            "Katze",
+            "katze",
             "mürrisch",
-            "Garten"
+            "garten"
           ]
         }
       }
@@ -1588,9 +1588,9 @@
           "title": "Mürrische Katze",
           "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
           "tags": [
-            "Katze",
+            "katze",
             "mürrisch",
-            "Garten"
+            "garten"
           ]
         }
       }
@@ -1639,9 +1639,9 @@
           "title": "Mürrische Katze",
           "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
           "tags": [
-            "Katze",
+            "katze",
             "mürrisch",
-            "Garten"
+            "garten"
           ]
         }
       }
@@ -1690,9 +1690,9 @@
           "title": "Mürrische Katze",
           "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
           "tags": [
-            "Katze",
+            "katze",
             "mürrisch",
-            "Garten"
+            "garten"
           ]
         }
       }
@@ -1741,9 +1741,9 @@
           "title": "Mürrische Katze",
           "description": "Die Katze meines Freundes schien sich nicht zu freuen, mich zu sehen.",
           "tags": [
-            "Katze",
+            "katze",
             "mürrisch",
-            "Garten"
+            "garten"
           ]
         }
       }
@@ -1756,8 +1756,8 @@
       "description": "A seagull I saw in Oslo",
       "folder": "Misc.",
       "tags": [
-        "Seagull",
-        "Oslo"
+        "seagull",
+        "oslo"
       ],
       "location": {
         "name": "Oslo",
@@ -1786,16 +1786,16 @@
           "title": "En måke i Oslo",
           "description": "En måke jeg så i Oslo",
           "tags": [
-            "Måke",
-            "Oslo"
+            "måke",
+            "oslo"
           ]
         },
         "de": {
           "title": "Eine Möwe in Oslo",
           "description": "Eine Möwe, die ich in Oslo gesehen habe",
           "tags": [
-            "Möwe",
-            "Oslo"
+            "möwe",
+            "oslo"
           ]
         }
       }
@@ -1844,8 +1844,8 @@
           "title": "Farbige Wolken",
           "description": "Hey! Manchmal schauen Gamer nach oben.",
           "tags": [
-            "Wolke",
-            "Farben",
+            "wolke",
+            "farben",
             "hübsch"
           ]
         }
@@ -1859,8 +1859,8 @@
       "description": "A childs boots on a hike.",
       "folder": "Misc.",
       "tags": [
-        "Boots",
-        "Hike",
+        "boots",
+        "hike",
         "trip"
       ],
       "location": null,
@@ -1886,8 +1886,8 @@
           "title": "Støvler på tur",
           "description": "Et barns støvler på tur.",
           "tags": [
-            "Støvler",
-            "Tur",
+            "støvler",
+            "tur",
             "tur"
           ]
         },
@@ -1895,9 +1895,9 @@
           "title": "Stiefel auf einer Wanderung",
           "description": "Ein Kinderstiefel auf einer Wanderung.",
           "tags": [
-            "Stiefel",
-            "Wanderung",
-            "Reise"
+            "stiefel",
+            "wanderung",
+            "reise"
           ]
         }
       }
@@ -1950,10 +1950,10 @@
           "title": "Farbige Wolken",
           "description": "Eines Tages fuhr ich zur Arbeit und sah das. Ich habe mein Auto angehalten, um ein Foto zu holen.",
           "tags": [
-            "Wolke",
-            "Phänomen",
-            "Farbe",
-            "Farben",
+            "wolke",
+            "phänomen",
+            "farbe",
+            "farben",
             "hübsch"
           ]
         }
@@ -2003,9 +2003,9 @@
           "title": "Felswand - Textur",
           "description": "Textur einer Felswand.",
           "tags": [
-            "Felsen",
-            "Wand",
-            "Textur"
+            "felsen",
+            "wand",
+            "textur"
           ]
         }
       }
@@ -2054,9 +2054,9 @@
           "title": "Felswand - Textur",
           "description": "Textur einer Felswand.",
           "tags": [
-            "Felsen",
-            "Wand",
-            "Textur"
+            "felsen",
+            "wand",
+            "textur"
           ]
         }
       }
@@ -2105,9 +2105,9 @@
           "title": "Gestapelte Steine",
           "description": "Drei gestapelte Steine.",
           "tags": [
-            "Felsen",
+            "felsen",
             "gestapelt",
-            "Kunst"
+            "kunst"
           ]
         }
       }
@@ -2121,7 +2121,7 @@
       "folder": "Misc.",
       "tags": [
         "foot",
-        "Hike",
+        "hike",
         "stump",
         "forest"
       ],
@@ -2149,7 +2149,7 @@
           "description": "Jeg ble med noen få barn på tur. Dette var et av bildene fra da.",
           "tags": [
             "fot",
-            "Tur",
+            "tur",
             "stubbe",
             "skog"
           ]
@@ -2158,10 +2158,10 @@
           "title": "Fuß auf Baumstumpf",
           "description": "Ich begleitete ein paar Kinder auf einer Wanderung. Dies war eines der Bilder von damals.",
           "tags": [
-            "Fuß",
-            "Wanderung",
-            "Stumpf",
-            "Wald"
+            "fuß",
+            "wanderung",
+            "stumpf",
+            "wald"
           ]
         }
       }
