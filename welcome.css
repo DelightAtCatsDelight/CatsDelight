@@ -202,7 +202,7 @@ html, body {
 }
 
 @media (max-width: 640px) {
-  .hero { min-height: 84vh; padding: 24px 16px; }
+  .hero { min-height: 84vh; min-height: 84svh; padding: 24px 16px; }
   .about { padding: 48px 16px 64px; }
   .about-actions { flex-direction: column; }
   .about-actions .cta { justify-content: center; width: 100%; }

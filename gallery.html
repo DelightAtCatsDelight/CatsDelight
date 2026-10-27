@@ -36,6 +36,13 @@
         <button class="nav-btn next" id="next-btn" aria-label="Next">&#8250;</button>
         <button class="close-btn" id="close-btn" aria-label="Close">&times;</button>
         <button class="info-toggle" id="info-toggle" aria-label="Toggle info panel" aria-expanded="true">i</button>
+        <button class="share-btn" id="share-btn" aria-label="Share">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+            <line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/>
+          </svg>
+        </button>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
       </div>
       <aside class="panel" id="panel">
         <h2 id="panel-title"></h2>
@@ -81,6 +88,9 @@
           location: "Location",
           camera: "Camera",
           viewMap: "view map",
+          share: "Share",
+          linkCopied: "Link copied!",
+          copyPrompt: "Copy this link:",
           labels: { camera: "Camera", lens: "Lens", focal: "Focal length", aperture: "Aperture", shutter: "Shutter", iso: "ISO", taken: "Taken", dimensions: "Dimensions" }
         },
         no: {
@@ -99,6 +109,9 @@
           location: "Sted",
           camera: "Kamera",
           viewMap: "vis kart",
+          share: "Del",
+          linkCopied: "Lenke kopiert!",
+          copyPrompt: "Kopier denne lenken:",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennvidde", aperture: "Blender", shutter: "Lukkertid", iso: "ISO", taken: "Tatt", dimensions: "Dimensjoner" }
         },
         de: {
@@ -117,6 +130,9 @@
           location: "Ort",
           camera: "Kamera",
           viewMap: "Karte ansehen",
+          share: "Teilen",
+          linkCopied: "Link kopiert!",
+          copyPrompt: "Diesen Link kopieren:",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennweite", aperture: "Blende", shutter: "Verschlusszeit", iso: "ISO", taken: "Aufgenommen", dimensions: "Abmessungen" }
         }
       };
@@ -141,6 +157,8 @@
       const nextBtn = document.getElementById("next-btn");
       const closeBtn = document.getElementById("close-btn");
       const infoToggle = document.getElementById("info-toggle");
+      const shareBtn = document.getElementById("share-btn");
+      const toast = document.getElementById("toast");
 
       function t() {
         return STRINGS[lang] || STRINGS.en;
@@ -170,6 +188,8 @@
         nextBtn.setAttribute("aria-label", s.next);
         closeBtn.setAttribute("aria-label", s.close);
         infoToggle.setAttribute("aria-label", s.toggleInfo);
+        shareBtn.setAttribute("aria-label", s.share);
+        shareBtn.title = s.share;
         document.getElementById("location-heading").textContent = s.location;
         document.getElementById("camera-heading").textContent = s.camera;
         document.title = lightbox.classList.contains("open") ? document.title : s.pageTitle;
@@ -184,13 +204,18 @@
         localStorage.setItem(LANG_KEY, lang);
         applyStaticStrings();
         if (images.length) renderGrid();
-        if (lightbox.classList.contains("open")) renderStage();
+        if (lightbox.classList.contains("open")) renderStage(0);
       }
 
       switchEl.addEventListener("click", (e) => {
         const btn = e.target.closest("button[data-lang]");
         if (!btn) return;
         setLang(btn.dataset.lang);
+      });
+
+      window.addEventListener("hashchange", () => {
+        const id = photoIdFromHash();
+        if (id && images.length) openPhotoById(id);
       });
 
       function metaRow(label, value) {
@@ -233,13 +258,51 @@
         });
       }
 
-      function renderStage() {
+      // Slide/fade between photos: the old one slides out while the new one
+      // preloads, then the new one slides in from the side you're heading to.
+      let swapToken = 0;
+      function swapStageImage(src, direction) {
+        const token = ++swapToken;
+        if (!direction || !stageImg.getAttribute("src")) {
+          stageImg.src = src;
+          return;
+        }
+        const outCls = direction > 0 ? "out-left" : "out-right";
+        const inCls = direction > 0 ? "out-right" : "out-left";
+        const loaded = new Promise((resolve) => {
+          const pre = new Image();
+          pre.onload = pre.onerror = resolve;
+          pre.src = src;
+        });
+        const fadedOut = new Promise((resolve) => setTimeout(resolve, 220));
+        stageImg.classList.remove("out-left", "out-right");
+        stageImg.classList.add(outCls);
+        Promise.all([loaded, fadedOut]).then(() => {
+          if (token !== swapToken) return; // user already moved on
+          stageImg.classList.add("no-anim");
+          stageImg.classList.remove("out-left", "out-right");
+          stageImg.classList.add(inCls);
+          stageImg.src = src;
+          void stageImg.offsetWidth; // commit the start position before animating in
+          stageImg.classList.remove("no-anim", inCls);
+        });
+      }
+
+      function preloadNeighbours() {
+        [-1, 1].forEach((d) => {
+          const n = filtered[(lightboxIndex + d + filtered.length) % filtered.length];
+          if (n) new Image().src = n.filename;
+        });
+      }
+
+      function renderStage(direction) {
         const img = filtered[lightboxIndex];
         if (!img) return;
         const s = t();
 
         const title = localized(img, "title");
-        stageImg.src = img.filename;
+        swapStageImage(img.filename, direction);
+        setPhotoHash(img.id);
         stageImg.alt = title || "";
         document.title = title ? `${title} · ${s.pageTitle}` : s.pageTitle;
 
@@ -277,11 +340,60 @@
           metaRow(s.labels.taken, cam.date_taken),
           metaRow(s.labels.dimensions, img.width && img.height ? `${img.width}×${img.height}` : ""),
         ].join("");
+        preloadNeighbours();
       }
+
+      // ---- Shareable links: gallery.html#photo=<id> opens that photo ----
+      function photoIdFromHash() {
+        const m = location.hash.match(/^#photo=(.+)$/);
+        return m ? decodeURIComponent(m[1]) : null;
+      }
+
+      function setPhotoHash(id) {
+        const url = id ? `#photo=${encodeURIComponent(id)}` : location.pathname + location.search;
+        if ((id && location.hash !== url) || (!id && location.hash)) history.replaceState(null, "", url);
+      }
+
+      function openPhotoById(id) {
+        let i = filtered.findIndex((img) => img.id === id);
+        if (i < 0 && images.some((img) => img.id === id)) {
+          folderFilter.value = ""; // it's in another folder -- show all
+          applyFilter();
+          i = filtered.findIndex((img) => img.id === id);
+        }
+        if (i >= 0) openLightbox(i);
+      }
+
+      let toastTimer;
+      function showToast(message) {
+        toast.textContent = message;
+        toast.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove("show"), 2000);
+      }
+
+      shareBtn.addEventListener("click", async () => {
+        const img = filtered[lightboxIndex];
+        if (!img) return;
+        const url = location.href;
+        const title = localized(img, "title") || t().pageTitle;
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, url });
+          } catch (err) { /* user cancelled the share sheet */ }
+          return;
+        }
+        try {
+          await navigator.clipboard.writeText(url);
+          showToast(t().linkCopied);
+        } catch (err) {
+          window.prompt(t().copyPrompt, url);
+        }
+      });
 
       function openLightbox(i) {
         lightboxIndex = i;
-        renderStage();
+        renderStage(0);
         lightbox.classList.add("open");
         lightbox.setAttribute("aria-hidden", "false");
         document.body.classList.add("lightbox-open");
@@ -292,13 +404,24 @@
         lightbox.setAttribute("aria-hidden", "true");
         document.body.classList.remove("lightbox-open");
         document.title = t().pageTitle;
+        setPhotoHash(null);
       }
 
       function show(delta) {
         if (!filtered.length) return;
         lightboxIndex = (lightboxIndex + delta + filtered.length) % filtered.length;
-        renderStage();
+        renderStage(delta);
       }
+
+      // Basic deterrent against casual right-click / long-press "Save image".
+      // Not real protection (anything shown in a browser can be saved) --
+      // the watermark is what actually travels with the photo.
+      document.addEventListener("contextmenu", (e) => {
+        if (e.target.closest(".thumb, .stage")) e.preventDefault();
+      });
+      document.addEventListener("dragstart", (e) => {
+        if (e.target.tagName === "IMG") e.preventDefault();
+      });
 
       function setPanelCollapsed(collapsed) {
         lightbox.classList.toggle("panel-collapsed", collapsed);
@@ -335,7 +458,9 @@
         show(dx > 0 ? -1 : 1);
       }, { passive: true });
 
-      setPanelCollapsed(localStorage.getItem(PANEL_KEY) === "1");
+      // On phones the info panel covers half the photo, so start it closed there.
+      const savedPanel = localStorage.getItem(PANEL_KEY);
+      setPanelCollapsed(savedPanel === null ? window.matchMedia("(max-width: 720px)").matches : savedPanel === "1");
 
       function applyFilter() {
         const folder = folderFilter.value;
@@ -362,6 +487,8 @@
           folderFilter.innerHTML = `<option value="" id="folder-default-option">${t().allFolders}</option>` +
             folders.map((f) => `<option value="${f}">${f}</option>`).join("");
           applyFilter();
+          const sharedId = photoIdFromHash();
+          if (sharedId) openPhotoById(sharedId);
         })
         .catch((err) => {
           loadFailed = true;

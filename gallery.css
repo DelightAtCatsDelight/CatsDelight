@@ -186,6 +186,22 @@ main { flex: 1; }
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+/* Slide/fade between photos (see swapStageImage) */
+.stage img.out-left { opacity: 0; transform: translateX(-40px); }
+.stage img.out-right { opacity: 0; transform: translateX(40px); }
+.stage img.no-anim { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  .stage img { transition: opacity 0.15s ease; }
+  .stage img.out-left, .stage img.out-right { transform: none; }
+}
+
+/* Basic deterrent against dragging / long-press saving (see gallery.html) */
+.thumb img, .stage img {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 .nav-btn {
   position: absolute;
@@ -241,6 +257,44 @@ main { flex: 1; }
 }
 .info-toggle:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
 
+.share-btn {
+  position: absolute;
+  top: 16px;
+  right: 58px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.5);
+  background: rgba(20,18,13,0.55);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.share-btn:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
+
+.toast {
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  background: var(--accent);
+  color: #1a1509;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 999px;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 3;
+}
+.toast.show { opacity: 1; transform: none; }
+
 .panel {
   width: 340px;
   flex-shrink: 0;
@@ -272,10 +326,27 @@ main { flex: 1; }
 
 a.map-link { color: var(--accent); }
 
+/* ---- Touch screens: no hover, so always show titles ---- */
+@media (hover: none) {
+  .thumb-title { opacity: 1; padding-top: 14px; font-size: 0.72rem; }
+  .thumb:hover, .thumb:hover img { transform: none; }
+}
+
 /* ---- Mobile ---- */
 @media (max-width: 720px) {
   .lang-switch { top: 12px; right: 12px; }
+  /* keep the folder picker clear of the fixed language switch */
+  header { padding: 14px 150px 14px 14px; }
+  header select { max-width: 100%; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; padding: 10px; }
+
+  .nav-btn { width: 38px; height: 38px; font-size: 1.3rem; background: rgba(20,18,13,0.4); }
+  .nav-btn.prev { left: 8px; }
+  .nav-btn.next { right: 8px; }
+  .close-btn { top: 10px; left: 10px; }
+  .info-toggle { top: 12px; right: 10px; }
+  .share-btn { top: 12px; right: 50px; }
+  .toast { top: 52px; right: 10px; }
 
   .lightbox-body { flex-direction: column; }
   .panel {
