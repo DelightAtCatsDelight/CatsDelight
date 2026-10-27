@@ -65,6 +65,12 @@
             <line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/>
           </svg>
         </button>
+        <button class="zoom-btn" id="zoom-btn" aria-pressed="false">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/>
+            <line x1="7.5" y1="10.5" x2="13.5" y2="10.5"/><line class="zoom-plus" x1="10.5" y1="7.5" x2="10.5" y2="13.5"/>
+          </svg>
+        </button>
         <button class="paw-btn" id="paw-btn" aria-pressed="false">
           <span class="paw-icon" aria-hidden="true"></span>
           <span class="paw-count" id="paw-count"></span>
@@ -128,6 +134,8 @@
           camera: "Camera",
           viewMap: "view map",
           share: "Share",
+          zoomIn: "Zoom in (or scroll / double-click the photo)",
+          zoomOut: "Zoom out",
           linkCopied: "Link copied!",
           copyPrompt: "Copy this link:",
           shareTitle: "Share this photo",
@@ -168,6 +176,8 @@
           camera: "Kamera",
           viewMap: "vis kart",
           share: "Del",
+          zoomIn: "Zoom inn (eller rull / dobbeltklikk på bildet)",
+          zoomOut: "Zoom ut",
           linkCopied: "Lenke kopiert!",
           copyPrompt: "Kopier denne lenken:",
           shareTitle: "Del dette bildet",
@@ -208,6 +218,8 @@
           camera: "Kamera",
           viewMap: "Karte ansehen",
           share: "Teilen",
+          zoomIn: "Vergrößern (oder scrollen / Foto doppelklicken)",
+          zoomOut: "Verkleinern",
           linkCopied: "Link kopiert!",
           copyPrompt: "Diesen Link kopieren:",
           shareTitle: "Dieses Foto teilen",
@@ -299,6 +311,7 @@
         infoToggle.setAttribute("aria-label", s.toggleInfo);
         shareBtn.setAttribute("aria-label", s.share);
         shareBtn.title = s.share;
+        renderZoomBtn();
         document.getElementById("privacy-link").textContent = s.privacy;
         document.getElementById("stock-note-text").textContent = s.stockNote;
         document.getElementById("stock-footer-link").textContent = s.stockFooter;
@@ -417,6 +430,7 @@
         const s = t();
 
         const title = localized(img, "title");
+        resetZoom();
         swapStageImage(img.filename, direction);
         setPhotoHash(img.id);
         loadPaws(img);
@@ -769,6 +783,7 @@
         setPhotoHash(null);
         hidePawHint();
         closeShareMenu();
+        resetZoom();
       }
 
       function show(delta) {
@@ -791,6 +806,7 @@
       });
 
       function setPanelCollapsed(collapsed) {
+        resetZoom(); // the photo's fitted size changes with the panel
         lightbox.classList.toggle("panel-collapsed", collapsed);
         infoToggle.setAttribute("aria-expanded", String(!collapsed));
         localStorage.setItem(PANEL_KEY, collapsed ? "1" : "0");
@@ -813,24 +829,182 @@
           }
           return;
         }
+        const { cx, cy } = stageBox();
         if (e.key === "ArrowLeft") show(-1);
         if (e.key === "ArrowRight") show(1);
-        if (e.key === "Escape") closeLightbox();
+        if (e.key === "+" || e.key === "=") zoomTo(zoom.s * 1.5, cx, cy);
+        if (e.key === "-") zoomTo(zoom.s / 1.5, cx, cy);
+        if (e.key === "0") resetZoom();
+        if (e.key === "Escape") {
+          if (isZoomed()) resetZoom(); // first Escape zooms out, the next one closes
+          else closeLightbox();
+        }
       });
 
       // Touch swipe navigation inside the lightbox.
       let touchStartX = null;
       const stage = document.getElementById("stage");
       stage.addEventListener("touchstart", (e) => {
-        touchStartX = e.changedTouches[0].clientX;
+        // a second finger means pinch-zoom, and a zoomed photo pans instead
+        touchStartX = e.touches.length === 1 && !isZoomed() ? e.changedTouches[0].clientX : null;
       }, { passive: true });
       stage.addEventListener("touchend", (e) => {
-        if (touchStartX === null) return;
+        if (touchStartX === null || isZoomed()) return;
         const dx = e.changedTouches[0].clientX - touchStartX;
         touchStartX = null;
         if (Math.abs(dx) < 40) return;
         show(dx > 0 ? -1 : 1);
       }, { passive: true });
+
+      // ---- Zoom: wheel, double-click/-tap, pinch, the zoom button; drag to pan ----
+      // The lightbox already shows the full-resolution file, so zooming reveals
+      // real detail. The image is flex-centred in the stage, so it's scaled
+      // around the stage's centre and shifted by (x, y), clamped to its edges.
+      const zoomBtn = document.getElementById("zoom-btn");
+      const zoom = { s: 1, x: 0, y: 0 };
+      const pointers = new Map(); // pointerId -> { x, y, sx, sy, t }
+      let pinch = null; // zoom state + finger distance/midpoint when a pinch starts
+      let pan = null;   // zoom offset + pointer position when a drag starts
+      let lastTap = null;
+      let lastTouchToggle = 0;
+
+      function isZoomed() {
+        return zoom.s > 1.01;
+      }
+
+      function nativeScale() {
+        return stageImg.naturalWidth / (stageImg.offsetWidth || 1);
+      }
+
+      function maxZoom() {
+        return Math.max(3, nativeScale() * 1.5);
+      }
+
+      function stageBox() {
+        const r = stage.getBoundingClientRect();
+        return { cx: r.left + r.width / 2, cy: r.top + r.height / 2, w: r.width, h: r.height };
+      }
+
+      function renderZoomBtn() {
+        const zoomed = isZoomed();
+        const label = zoomed ? t().zoomOut : t().zoomIn;
+        zoomBtn.setAttribute("aria-pressed", String(zoomed));
+        zoomBtn.setAttribute("aria-label", label);
+        zoomBtn.title = label;
+      }
+
+      function applyZoom() {
+        const { w, h } = stageBox();
+        const limX = Math.max(0, (stageImg.offsetWidth * zoom.s - w) / 2);
+        const limY = Math.max(0, (stageImg.offsetHeight * zoom.s - h) / 2);
+        zoom.x = Math.min(limX, Math.max(-limX, zoom.x));
+        zoom.y = Math.min(limY, Math.max(-limY, zoom.y));
+        stageImg.style.transform = isZoomed() ? `translate(${zoom.x}px, ${zoom.y}px) scale(${zoom.s})` : "";
+        stage.classList.toggle("zoomed", isZoomed());
+        renderZoomBtn();
+      }
+
+      // Zoom to scale s, keeping the photo point under (px, py) where it is.
+      function zoomTo(s, px, py) {
+        const { cx, cy } = stageBox();
+        s = Math.min(maxZoom(), Math.max(1, s));
+        const k = s / zoom.s;
+        zoom.x = px - cx - k * (px - cx - zoom.x);
+        zoom.y = py - cy - k * (py - cy - zoom.y);
+        zoom.s = s;
+        if (!isZoomed()) Object.assign(zoom, { s: 1, x: 0, y: 0 });
+        applyZoom();
+      }
+
+      // Double-click/-tap and the button jump to 100% pixels (at least 2.5x).
+      function toggleZoom(px, py) {
+        if (isZoomed()) zoomTo(1, px, py);
+        else zoomTo(Math.min(maxZoom(), Math.max(2.5, nativeScale())), px, py);
+      }
+
+      function resetZoom() {
+        Object.assign(zoom, { s: 1, x: 0, y: 0 });
+        pointers.clear();
+        pinch = pan = null;
+        stage.classList.remove("zoomed", "gesturing");
+        stageImg.style.transform = "";
+        renderZoomBtn();
+      }
+
+      function startGesture() {
+        const pts = [...pointers.values()];
+        pinch = pan = null;
+        if (pts.length >= 2) {
+          const [a, b] = pts;
+          pinch = { ...zoom, dist: Math.hypot(a.x - b.x, a.y - b.y) || 1, mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2 };
+        } else if (pts.length === 1 && isZoomed()) {
+          pan = { x: zoom.x, y: zoom.y, px: pts[0].x, py: pts[0].y };
+        }
+        stage.classList.toggle("gesturing", Boolean(pinch || pan));
+      }
+
+      zoomBtn.addEventListener("click", () => {
+        const { cx, cy } = stageBox();
+        toggleZoom(cx, cy);
+      });
+
+      stage.addEventListener("wheel", (e) => {
+        if (!stageImg.naturalWidth || e.target.closest(".share-menu")) return;
+        e.preventDefault();
+        const dy = e.deltaMode === 1 ? e.deltaY * 40 : e.deltaY; // lines -> pixels
+        zoomTo(zoom.s * Math.exp(-dy * 0.002), e.clientX, e.clientY);
+      }, { passive: false });
+
+      stageImg.addEventListener("dblclick", (e) => {
+        if (Date.now() - lastTouchToggle < 600) return; // already handled as a double-tap
+        toggleZoom(e.clientX, e.clientY);
+      });
+
+      stageImg.addEventListener("pointerdown", (e) => {
+        if (e.pointerType === "mouse" && e.button !== 0) return;
+        stageImg.setPointerCapture(e.pointerId);
+        pointers.set(e.pointerId, { x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY, t: Date.now() });
+        startGesture();
+      });
+
+      stageImg.addEventListener("pointermove", (e) => {
+        const p = pointers.get(e.pointerId);
+        if (!p) return;
+        p.x = e.clientX;
+        p.y = e.clientY;
+        if (pinch && pointers.size >= 2) {
+          const [a, b] = [...pointers.values()];
+          const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+          // follow the fingers' midpoint, then scale around it
+          Object.assign(zoom, { s: pinch.s, x: pinch.x + mx - pinch.mx, y: pinch.y + my - pinch.my });
+          zoomTo(pinch.s * Math.hypot(a.x - b.x, a.y - b.y) / pinch.dist, mx, my);
+        } else if (pan) {
+          zoom.x = pan.x + e.clientX - pan.px;
+          zoom.y = pan.y + e.clientY - pan.py;
+          applyZoom();
+        }
+      });
+
+      function endPointer(e) {
+        const p = pointers.get(e.pointerId);
+        if (!p) return;
+        pointers.delete(e.pointerId);
+        startGesture(); // e.g. one finger still down after a pinch keeps panning
+        const isTap = e.type === "pointerup" && e.pointerType === "touch" && !pointers.size &&
+          Date.now() - p.t < 300 && Math.hypot(p.x - p.sx, p.y - p.sy) < 10;
+        if (!isTap) return;
+        if (lastTap && Date.now() - lastTap.t < 320 && Math.hypot(p.x - lastTap.x, p.y - lastTap.y) < 40) {
+          lastTap = null;
+          lastTouchToggle = Date.now();
+          toggleZoom(p.x, p.y);
+        } else {
+          lastTap = { x: p.x, y: p.y, t: Date.now() };
+        }
+      }
+      stageImg.addEventListener("pointerup", endPointer);
+      stageImg.addEventListener("pointercancel", endPointer);
+
+      window.addEventListener("resize", () => { if (isZoomed()) applyZoom(); });
 
       // On phones the info panel covers half the photo, so start it closed there.
       const savedPanel = localStorage.getItem(PANEL_KEY);

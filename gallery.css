@@ -253,13 +253,19 @@ main { flex: 1; }
   justify-content: center;
   position: relative;
   min-width: 0;
+  overflow: hidden; /* a zoomed photo stays out of the info panel */
 }
 .stage img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   transition: opacity 0.22s ease, transform 0.22s ease;
+  cursor: zoom-in;
+  touch-action: none; /* pinch/pan handled in gallery.html (swipes still work) */
 }
+/* Zoom (see "Zoom" in gallery.html) */
+.stage.zoomed img { cursor: grab; transition: transform 0.12s ease-out; }
+.stage.gesturing img { cursor: grabbing; transition: none; }
 /* Slide/fade between photos (see swapStageImage) */
 .stage img.out-left { opacity: 0; transform: translateX(-40px); }
 .stage img.out-right { opacity: 0; transform: translateX(40px); }
@@ -287,6 +293,7 @@ main { flex: 1; }
   height: 46px;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 2; /* above a zoomed (transformed) photo */
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 .nav-btn:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
@@ -306,6 +313,7 @@ main { flex: 1; }
   font-size: 1.3rem;
   line-height: 1;
   cursor: pointer;
+  z-index: 2;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 .close-btn:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
@@ -348,6 +356,28 @@ main { flex: 1; }
   transition: background 0.2s ease, border-color 0.2s ease;
 }
 .share-btn:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
+
+.zoom-btn {
+  position: absolute;
+  top: 16px;
+  right: 100px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.5);
+  background: rgba(20,18,13,0.55);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.zoom-btn:hover { background: rgba(20,18,13,0.85); border-color: var(--accent); }
+.zoom-btn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: rgba(20,18,13,0.85); }
+.zoom-btn[aria-pressed="true"] .zoom-plus { display: none; } /* magnifier "+" becomes "-" */
 .share-btn[aria-expanded="true"] { border-color: var(--accent); background: rgba(20,18,13,0.85); }
 
 .share-menu {
@@ -650,6 +680,7 @@ a.map-link { color: var(--accent); }
   .close-btn { top: 10px; left: 10px; }
   .info-toggle { top: 12px; right: 10px; }
   .share-btn { top: 12px; right: 50px; }
+  .zoom-btn { top: 12px; right: 90px; }
   .toast { top: 52px; right: 10px; }
   .paw-btn { bottom: 14px; }
   .paw-hint { bottom: 64px; font-size: 0.78rem; }
