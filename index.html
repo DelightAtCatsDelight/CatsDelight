@@ -52,6 +52,10 @@
           <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12Z"/></svg>
           <span id="cta-youtube-label">Watch on YouTube</span>
         </a>
+        <a class="cta stock" href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m21 16-5-5-8 8"/></svg>
+          <span id="cta-stock-label">Buy on Adobe Stock</span>
+        </a>
       </div>
     </div>
   </main>
@@ -76,6 +80,7 @@
           aboutP2: "Norwegian places. Norwegian hikes. And, when the trail is quiet enough, Norwegian ASMR.",
           ctaSecondary: "Browse the gallery",
           ctaYoutube: "Watch on YouTube",
+          ctaStock: "Buy on Adobe Stock",
           privacy: "Privacy & cookies"
         },
         no: {
@@ -89,6 +94,7 @@
           aboutP2: "Norske steder. Norske turer. Og når stien er stille nok, norsk ASMR.",
           ctaSecondary: "Utforsk galleriet",
           ctaYoutube: "Se på YouTube",
+          ctaStock: "Kjøp på Adobe Stock",
           privacy: "Personvern og informasjonskapsler"
         },
         de: {
@@ -102,6 +108,7 @@
           aboutP2: "Norwegische Orte, norwegische Wanderungen, und wenn der Weg still genug ist, norwegisches ASMR.",
           ctaSecondary: "Galerie durchsuchen",
           ctaYoutube: "Auf YouTube ansehen",
+          ctaStock: "Bei Adobe Stock kaufen",
           privacy: "Datenschutz & Cookies"
         }
       };
@@ -130,6 +137,7 @@
         document.getElementById("cta-secondary").textContent = t.ctaSecondary;
         document.getElementById("cta-youtube-label").textContent = t.ctaYoutube;
         document.getElementById("privacy-link").textContent = t.privacy;
+        document.getElementById("cta-stock-label").textContent = t.ctaStock;
 
         const cite = document.getElementById("quote-translation");
         cite.textContent = t.quoteTranslation;

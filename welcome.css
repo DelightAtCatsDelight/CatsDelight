@@ -201,6 +201,16 @@ html, body {
   border-color: #d99a9a;
 }
 
+.cta.stock {
+  border-color: #3f5a44;
+  color: var(--accent-2);
+}
+.cta.stock:hover {
+  background: var(--accent-2);
+  color: #0f1a11;
+  border-color: var(--accent-2);
+}
+
 .site-footer {
   text-align: center;
   padding: 18px 16px 28px;

@@ -27,7 +27,11 @@
       <div class="grid" id="grid"></div>
       <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
     </main>
-    <footer class="site-footer"><a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a></footer>
+    <footer class="site-footer">
+      <a href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener" id="stock-footer-link">Our photos on Adobe Stock</a>
+      <span aria-hidden="true">&middot;</span>
+      <a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a>
+    </footer>
   </div>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -58,6 +62,10 @@
         <div class="description" id="panel-description"></div>
 
         <div class="tags" id="panel-tags"></div>
+
+        <a class="stock-note" href="https://stock.adobe.com/contributor/213696925/Delight" target="_blank" rel="noopener">
+          <span id="stock-note-text">Want to use this photo? Find our photos on Adobe Stock</span> <span aria-hidden="true">&rarr;</span>
+        </a>
 
         <div class="meta-block" id="location-block" style="display:none;">
           <h3 id="location-heading">Location</h3>
@@ -103,6 +111,8 @@
           pawed: "You gave this photo a paw",
           pawHint: "Like this photo? Give it a paw!",
           privacy: "Privacy & cookies",
+          stockNote: "Want to use this photo? Find our photos on Adobe Stock",
+          stockFooter: "Our photos on Adobe Stock",
           labels: { camera: "Camera", lens: "Lens", focal: "Focal length", aperture: "Aperture", shutter: "Shutter", iso: "ISO", taken: "Taken", dimensions: "Dimensions" }
         },
         no: {
@@ -128,6 +138,8 @@
           pawed: "Du ga bildet en pote",
           pawHint: "Liker du bildet? Gi det en pote!",
           privacy: "Personvern og informasjonskapsler",
+          stockNote: "Vil du bruke bildet? Finn bildene våre på Adobe Stock",
+          stockFooter: "Bildene våre på Adobe Stock",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennvidde", aperture: "Blender", shutter: "Lukkertid", iso: "ISO", taken: "Tatt", dimensions: "Dimensjoner" }
         },
         de: {
@@ -153,6 +165,8 @@
           pawed: "Du hast diesem Foto eine Pfote gegeben",
           pawHint: "Gefällt dir das Foto? Gib ihm eine Pfote!",
           privacy: "Datenschutz & Cookies",
+          stockNote: "Möchtest du dieses Foto verwenden? Unsere Fotos gibt es bei Adobe Stock",
+          stockFooter: "Unsere Fotos bei Adobe Stock",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennweite", aperture: "Blende", shutter: "Verschlusszeit", iso: "ISO", taken: "Aufgenommen", dimensions: "Abmessungen" }
         }
       };
@@ -213,6 +227,8 @@
         shareBtn.setAttribute("aria-label", s.share);
         shareBtn.title = s.share;
         document.getElementById("privacy-link").textContent = s.privacy;
+        document.getElementById("stock-note-text").textContent = s.stockNote;
+        document.getElementById("stock-footer-link").textContent = s.stockFooter;
         if (filtered[lightboxIndex]) renderPaw(filtered[lightboxIndex]);
         document.getElementById("location-heading").textContent = s.location;
         document.getElementById("camera-heading").textContent = s.camera;

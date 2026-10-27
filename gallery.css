@@ -420,12 +420,28 @@ main { flex: 1; }
   50% { transform: translate(-50%, -4px); }
 }
 
+.stock-note {
+  display: block;
+  margin: 0 0 22px;
+  padding: 10px 14px;
+  border: 1px solid #3f5a44;
+  border-radius: 10px;
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+.stock-note:hover { background: rgba(130, 168, 136, 0.1); border-color: var(--accent-2); }
+
 .site-footer {
   text-align: center;
   padding: 18px 16px 28px;
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
+  color: var(--muted);
 }
+.site-footer span { margin: 0 8px; }
 .site-footer a { color: var(--muted); text-decoration: none; }
 .site-footer a:hover { color: var(--accent); }
 
