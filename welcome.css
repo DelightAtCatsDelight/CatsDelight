@@ -201,6 +201,28 @@ html, body {
   border-color: #d99a9a;
 }
 
+.site-footer {
+  text-align: center;
+  padding: 18px 16px 28px;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+}
+.site-footer a { color: var(--muted); text-decoration: none; }
+.site-footer a:hover { color: var(--accent); }
+
+/* ---- Privacy page ---- */
+.privacy { padding-top: 90px; }
+.privacy h3 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  margin: 34px 0 10px;
+  font-weight: 600;
+}
+.privacy ul { line-height: 1.75; font-weight: 300; padding-left: 22px; margin: 0 0 22px; }
+.privacy a { color: var(--accent); }
+.privacy .back-link { color: var(--muted); text-decoration: none; font-size: 0.88rem; }
+.privacy .back-link:hover { color: var(--accent); }
+
 @media (max-width: 640px) {
   .hero { min-height: 84vh; min-height: 84svh; padding: 24px 16px; }
   .about { padding: 48px 16px 64px; }

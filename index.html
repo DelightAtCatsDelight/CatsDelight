@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Welcome</title>
   <link rel="stylesheet" href="welcome.css">
+  <!-- Visitor stats: GoatCounter (no cookies, no personal data) -- see privacy.html -->
+  <script data-goatcounter="https://delight.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
   <div class="lang-switch" id="lang-switch" role="group" aria-label="Language">
@@ -53,6 +55,7 @@
       </div>
     </div>
   </main>
+  <footer class="site-footer"><a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a></footer>
 
   <script>
     (function () {
@@ -72,7 +75,8 @@
           quoteTranslation: "I found it, I found it! What did you find? I found something cool to take a picture of!",
           aboutP2: "Norwegian places. Norwegian hikes. And, when the trail is quiet enough, Norwegian ASMR.",
           ctaSecondary: "Browse the gallery",
-          ctaYoutube: "Watch on YouTube"
+          ctaYoutube: "Watch on YouTube",
+          privacy: "Privacy & cookies"
         },
         no: {
           pageTitle: "Velkommen",
@@ -84,7 +88,8 @@
           quoteTranslation: "",
           aboutP2: "Norske steder. Norske turer. Og når stien er stille nok, norsk ASMR.",
           ctaSecondary: "Utforsk galleriet",
-          ctaYoutube: "Se på YouTube"
+          ctaYoutube: "Se på YouTube",
+          privacy: "Personvern og informasjonskapsler"
         },
         de: {
           pageTitle: "Willkommen",
@@ -96,7 +101,8 @@
           quoteTranslation: "Ich hab's gefunden, ich hab's gefunden! Was hast du gefunden? Ich habe etwas Tolles zum Fotografieren gefunden!",
           aboutP2: "Norwegische Orte, norwegische Wanderungen, und wenn der Weg still genug ist, norwegisches ASMR.",
           ctaSecondary: "Galerie durchsuchen",
-          ctaYoutube: "Auf YouTube ansehen"
+          ctaYoutube: "Auf YouTube ansehen",
+          privacy: "Datenschutz & Cookies"
         }
       };
 
@@ -123,6 +129,7 @@
         document.getElementById("about-p2").textContent = t.aboutP2;
         document.getElementById("cta-secondary").textContent = t.ctaSecondary;
         document.getElementById("cta-youtube-label").textContent = t.ctaYoutube;
+        document.getElementById("privacy-link").textContent = t.privacy;
 
         const cite = document.getElementById("quote-translation");
         cite.textContent = t.quoteTranslation;

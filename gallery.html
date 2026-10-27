@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery</title>
   <link rel="stylesheet" href="gallery.css">
+  <!-- Visitor stats: GoatCounter (no cookies, no personal data) -- see privacy.html -->
+  <script data-goatcounter="https://delight.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
   <div class="lang-switch" id="lang-switch" role="group" aria-label="Language">
@@ -25,6 +27,7 @@
       <div class="grid" id="grid"></div>
       <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
     </main>
+    <footer class="site-footer"><a href="privacy.html" id="privacy-link">Privacy &amp; cookies</a></footer>
   </div>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -41,6 +44,10 @@
             <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
             <line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/>
           </svg>
+        </button>
+        <button class="paw-btn" id="paw-btn" aria-pressed="false">
+          <span class="paw-icon" aria-hidden="true">🐾</span>
+          <span class="paw-count" id="paw-count"></span>
         </button>
         <div class="toast" id="toast" role="status" aria-live="polite"></div>
       </div>
@@ -91,6 +98,9 @@
           share: "Share",
           linkCopied: "Link copied!",
           copyPrompt: "Copy this link:",
+          givePaw: "Give this photo a paw",
+          pawed: "You gave this photo a paw",
+          privacy: "Privacy & cookies",
           labels: { camera: "Camera", lens: "Lens", focal: "Focal length", aperture: "Aperture", shutter: "Shutter", iso: "ISO", taken: "Taken", dimensions: "Dimensions" }
         },
         no: {
@@ -112,6 +122,9 @@
           share: "Del",
           linkCopied: "Lenke kopiert!",
           copyPrompt: "Kopier denne lenken:",
+          givePaw: "Gi bildet en pote",
+          pawed: "Du ga bildet en pote",
+          privacy: "Personvern og informasjonskapsler",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennvidde", aperture: "Blender", shutter: "Lukkertid", iso: "ISO", taken: "Tatt", dimensions: "Dimensjoner" }
         },
         de: {
@@ -133,6 +146,9 @@
           share: "Teilen",
           linkCopied: "Link kopiert!",
           copyPrompt: "Diesen Link kopieren:",
+          givePaw: "Diesem Foto eine Pfote geben",
+          pawed: "Du hast diesem Foto eine Pfote gegeben",
+          privacy: "Datenschutz & Cookies",
           labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennweite", aperture: "Blende", shutter: "Verschlusszeit", iso: "ISO", taken: "Aufgenommen", dimensions: "Abmessungen" }
         }
       };
@@ -159,6 +175,8 @@
       const infoToggle = document.getElementById("info-toggle");
       const shareBtn = document.getElementById("share-btn");
       const toast = document.getElementById("toast");
+      const pawBtn = document.getElementById("paw-btn");
+      const pawCountEl = document.getElementById("paw-count");
 
       function t() {
         return STRINGS[lang] || STRINGS.en;
@@ -190,6 +208,8 @@
         infoToggle.setAttribute("aria-label", s.toggleInfo);
         shareBtn.setAttribute("aria-label", s.share);
         shareBtn.title = s.share;
+        document.getElementById("privacy-link").textContent = s.privacy;
+        if (filtered[lightboxIndex]) renderPaw(filtered[lightboxIndex]);
         document.getElementById("location-heading").textContent = s.location;
         document.getElementById("camera-heading").textContent = s.camera;
         document.title = lightbox.classList.contains("open") ? document.title : s.pageTitle;
@@ -303,6 +323,7 @@
         const title = localized(img, "title");
         swapStageImage(img.filename, direction);
         setPhotoHash(img.id);
+        loadPaws(img);
         stageImg.alt = title || "";
         document.title = title ? `${title} · ${s.pageTitle}` : s.pageTitle;
 
@@ -391,9 +412,75 @@
         }
       });
 
+      // ---- Paws (likes) ----
+      // GitHub Pages has no backend, so counts live in Abacus, a free keyless
+      // counter API (namespace/key -> number). This browser remembers which
+      // photos it already pawed, allowing one paw per photo per browser.
+      const PAW_API = "https://abacus.jasoncameron.dev";
+      const PAW_NAMESPACE = "catsdelight";
+      const PAWED_KEY = "gallery-pawed";
+      const pawCounts = {}; // photo id -> count (fetched lazily per photo)
+      let pawed = new Set();
+      try { pawed = new Set(JSON.parse(localStorage.getItem(PAWED_KEY) || "[]")); } catch (err) { /* ignore */ }
+
+      function pawUrl(action, id) {
+        return `${PAW_API}/${action}/${PAW_NAMESPACE}/paw-${id}`;
+      }
+
+      function renderPaw(img) {
+        const has = pawed.has(img.id);
+        pawBtn.classList.toggle("pawed", has);
+        pawBtn.setAttribute("aria-pressed", String(has));
+        const label = has ? t().pawed : t().givePaw;
+        pawBtn.title = label;
+        pawBtn.setAttribute("aria-label", label);
+        pawCountEl.textContent = img.id in pawCounts ? String(pawCounts[img.id]) : "";
+      }
+
+      async function loadPaws(img) {
+        renderPaw(img);
+        if (img.id in pawCounts) return;
+        try {
+          const res = await fetch(pawUrl("get", img.id));
+          pawCounts[img.id] = res.status === 404 ? 0 : ((await res.json()).value || 0);
+        } catch (err) {
+          return; // counter service unreachable -- the button still works locally
+        }
+        if (filtered[lightboxIndex] === img) renderPaw(img);
+      }
+
+      pawBtn.addEventListener("click", async () => {
+        const img = filtered[lightboxIndex];
+        if (!img) return;
+        pawBtn.classList.remove("pop");
+        void pawBtn.offsetWidth; // restart the animation
+        pawBtn.classList.add("pop");
+        if (pawed.has(img.id)) return;
+        pawed.add(img.id);
+        try { localStorage.setItem(PAWED_KEY, JSON.stringify([...pawed])); } catch (err) { /* ignore */ }
+        pawCounts[img.id] = (pawCounts[img.id] || 0) + 1; // optimistic
+        renderPaw(img);
+        try {
+          const res = await fetch(pawUrl("hit", img.id));
+          const value = (await res.json()).value;
+          if (typeof value === "number") pawCounts[img.id] = value;
+        } catch (err) {
+          return;
+        }
+        if (filtered[lightboxIndex] === img) renderPaw(img);
+      });
+
+      // Photo views show up in GoatCounter as "photo/<id>" events.
+      function countPhotoView(img) {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: `photo/${img.id}`, title: img.title || img.id, event: true });
+        }
+      }
+
       function openLightbox(i) {
         lightboxIndex = i;
         renderStage(0);
+        countPhotoView(filtered[i]);
         lightbox.classList.add("open");
         lightbox.setAttribute("aria-hidden", "false");
         document.body.classList.add("lightbox-open");
@@ -411,6 +498,7 @@
         if (!filtered.length) return;
         lightboxIndex = (lightboxIndex + delta + filtered.length) % filtered.length;
         renderStage(delta);
+        countPhotoView(filtered[lightboxIndex]);
       }
 
       // Basic deterrent against casual right-click / long-press "Save image".
