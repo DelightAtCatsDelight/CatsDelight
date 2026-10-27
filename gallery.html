@@ -54,6 +54,7 @@
           <span class="paw-count" id="paw-count"></span>
         </button>
         <div class="paw-hint" id="paw-hint" aria-hidden="true"></div>
+        <div class="share-menu" id="share-menu" role="menu" hidden></div>
         <div class="toast" id="toast" role="status" aria-live="polite"></div>
       </div>
       <aside class="panel" id="panel">
@@ -107,6 +108,11 @@
           share: "Share",
           linkCopied: "Link copied!",
           copyPrompt: "Copy this link:",
+          shareTitle: "Share this photo",
+          copyLink: "Copy link",
+          email: "Email",
+          moreOptions: "More…",
+          emailBody: "A photo from Cat's Delight:",
           givePaw: "Give this photo a paw",
           pawed: "You gave this photo a paw",
           pawHint: "Like this photo? Give it a paw!",
@@ -134,6 +140,11 @@
           share: "Del",
           linkCopied: "Lenke kopiert!",
           copyPrompt: "Kopier denne lenken:",
+          shareTitle: "Del dette bildet",
+          copyLink: "Kopier lenke",
+          email: "E-post",
+          moreOptions: "Mer …",
+          emailBody: "Et bilde fra Cat's Delight:",
           givePaw: "Gi bildet en pote",
           pawed: "Du ga bildet en pote",
           pawHint: "Liker du bildet? Gi det en pote!",
@@ -161,6 +172,11 @@
           share: "Teilen",
           linkCopied: "Link kopiert!",
           copyPrompt: "Diesen Link kopieren:",
+          shareTitle: "Dieses Foto teilen",
+          copyLink: "Link kopieren",
+          email: "E-Mail",
+          moreOptions: "Mehr …",
+          emailBody: "Ein Foto von Cat's Delight:",
           givePaw: "Diesem Foto eine Pfote geben",
           pawed: "Du hast diesem Foto eine Pfote gegeben",
           pawHint: "Gefällt dir das Foto? Gib ihm eine Pfote!",
@@ -413,23 +429,118 @@
         toastTimer = setTimeout(() => toast.classList.remove("show"), 2000);
       }
 
-      shareBtn.addEventListener("click", async () => {
+      // ---- Share menu ----
+      // Links point at share/<id>.html (written by the prepper on export):
+      // social sites build their preview card from that page's tags, then it
+      // forwards visitors to gallery.html#photo=<id>.
+      const shareMenu = document.getElementById("share-menu");
+      const enc = encodeURIComponent;
+      const LINK_SVG = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>';
+      const SHARE_TARGETS = [
+        { id: "copy", badge: LINK_SVG, color: "#4a4436" },
+        { id: "whatsapp", label: "WhatsApp", badge: "✆", color: "#25d366",
+          href: (u, title) => `https://wa.me/?text=${enc(`${title} ${u}`)}` },
+        { id: "facebook", label: "Facebook", badge: "f", color: "#1877f2",
+          href: (u) => `https://www.facebook.com/sharer/sharer.php?u=${enc(u)}` },
+        { id: "x", label: "X", badge: "𝕏", color: "#000000",
+          href: (u, title) => `https://twitter.com/intent/tweet?url=${enc(u)}&text=${enc(title)}` },
+        { id: "bluesky", label: "Bluesky", badge: "🦋", color: "#1185fe",
+          href: (u, title) => `https://bsky.app/intent/compose?text=${enc(`${title} ${u}`)}` },
+        { id: "pinterest", label: "Pinterest", badge: "P", color: "#e60023",
+          href: (u, title, image) => `https://www.pinterest.com/pin/create/button/?url=${enc(u)}&media=${enc(image)}&description=${enc(title)}` },
+        { id: "reddit", label: "Reddit", badge: "r", color: "#ff4500",
+          href: (u, title) => `https://www.reddit.com/submit?url=${enc(u)}&title=${enc(title)}` },
+        { id: "telegram", label: "Telegram", badge: "➤", color: "#229ed9",
+          href: (u, title) => `https://t.me/share/url?url=${enc(u)}&text=${enc(title)}` },
+        { id: "email", badge: "✉", color: "#7a6a4a", mail: true,
+          href: (u, title) => `mailto:?subject=${enc(title)}&body=${enc(`${t().emailBody}\n${u}`)}` },
+        { id: "native", badge: "⋯", color: "#4a4436", nativeOnly: true },
+      ];
+
+      function shareInfo() {
         const img = filtered[lightboxIndex];
-        if (!img) return;
-        const url = location.href;
-        const title = localized(img, "title") || t().pageTitle;
-        if (navigator.share) {
-          try {
-            await navigator.share({ title, url });
-          } catch (err) { /* user cancelled the share sheet */ }
-          return;
+        return {
+          url: new URL(`share/${enc(img.id)}.html`, location.href).href,
+          title: localized(img, "title") || t().pageTitle,
+          // ~1200px JPEG made alongside each photo on export (Pinterest needs an image URL)
+          image: new URL(img.filename.replace(/\.[^.]+$/, "_share.jpg"), location.href).href,
+        };
+      }
+
+      function countShare(target) {
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: `share/${target}`, title: `Share: ${target}`, event: true });
         }
+      }
+
+      async function copyLink(url) {
         try {
           await navigator.clipboard.writeText(url);
           showToast(t().linkCopied);
         } catch (err) {
           window.prompt(t().copyPrompt, url);
         }
+      }
+
+      function closeShareMenu() {
+        shareMenu.hidden = true;
+        shareBtn.setAttribute("aria-expanded", "false");
+      }
+
+      function openShareMenu() {
+        const s = t();
+        shareMenu.innerHTML = "";
+        const heading = document.createElement("div");
+        heading.className = "share-menu-title";
+        heading.textContent = s.shareTitle;
+        shareMenu.appendChild(heading);
+        SHARE_TARGETS.forEach((target) => {
+          if (target.nativeOnly && !navigator.share) return;
+          const item = document.createElement("button");
+          item.type = "button";
+          item.className = "share-item";
+          item.setAttribute("role", "menuitem");
+          const badge = document.createElement("span");
+          badge.className = "share-badge";
+          badge.style.background = target.color;
+          badge.innerHTML = target.badge;
+          const label = document.createElement("span");
+          label.textContent = target.label || { copy: s.copyLink, email: s.email, native: s.moreOptions }[target.id];
+          item.append(badge, label);
+          item.addEventListener("click", async () => {
+            const { url, title, image } = shareInfo();
+            closeShareMenu();
+            countShare(target.id);
+            if (target.id === "copy") return copyLink(url);
+            if (target.id === "native") {
+              try { await navigator.share({ title, url }); } catch (err) { /* cancelled */ }
+              return;
+            }
+            const href = target.href(url, title, image);
+            if (target.mail) location.href = href;
+            else window.open(href, "_blank", "noopener,width=680,height=640");
+          });
+          shareMenu.appendChild(item);
+        });
+        shareMenu.hidden = false;
+        shareBtn.setAttribute("aria-expanded", "true");
+        const first = shareMenu.querySelector(".share-item");
+        if (first) first.focus({ preventScroll: true });
+      }
+
+      shareBtn.setAttribute("aria-haspopup", "menu");
+      shareBtn.setAttribute("aria-expanded", "false");
+      shareBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (shareMenu.hidden) openShareMenu();
+        else closeShareMenu();
+      });
+      document.addEventListener("click", (e) => {
+        if (!shareMenu.hidden && !shareMenu.contains(e.target)) closeShareMenu();
+      });
+      // The menu sits inside the stage -- don't let scrolling it count as a photo swipe.
+      ["touchstart", "touchend"].forEach((type) => {
+        shareMenu.addEventListener(type, (e) => e.stopPropagation(), { passive: true });
       });
 
       // ---- Paws (likes) ----
@@ -596,11 +707,13 @@
         document.title = t().pageTitle;
         setPhotoHash(null);
         hidePawHint();
+        closeShareMenu();
       }
 
       function show(delta) {
         if (!filtered.length) return;
         lightboxIndex = (lightboxIndex + delta + filtered.length) % filtered.length;
+        closeShareMenu();
         renderStage(delta);
         countPhotoView(filtered[lightboxIndex]);
         maybeShowPawHint();
@@ -632,6 +745,13 @@
 
       document.addEventListener("keydown", (e) => {
         if (!lightbox.classList.contains("open")) return;
+        if (!shareMenu.hidden) {
+          if (e.key === "Escape") {
+            closeShareMenu();
+            shareBtn.focus();
+          }
+          return;
+        }
         if (e.key === "ArrowLeft") show(-1);
         if (e.key === "ArrowRight") show(1);
         if (e.key === "Escape") closeLightbox();
