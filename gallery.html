@@ -19,10 +19,17 @@
     <header>
       <a class="back-link" id="back-link" href="index.html">&larr; Welcome</a>
       <h1 id="gallery-heading">Gallery</h1>
-      <select id="folder-filter">
-        <option value="" id="folder-default-option">All folders</option>
-      </select>
     </header>
+    <div class="toolbar">
+      <div class="toolbar-row">
+        <input type="search" id="search-input" placeholder="Search photos…" autocomplete="off" spellcheck="false">
+        <select id="folder-filter">
+          <option value="" id="folder-default-option">All folders</option>
+        </select>
+        <button type="button" class="clear-filters" id="clear-filters" hidden>Clear filters</button>
+      </div>
+      <div class="tag-filter" id="tag-filter"></div>
+    </div>
     <main>
       <div class="grid" id="grid"></div>
       <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
@@ -103,6 +110,12 @@
           back: "Welcome",
           heading: "Gallery",
           allFolders: "All folders",
+          search: "Search photos…",
+          clearFilters: "Clear filters",
+          moreTags: "+ {n} more",
+          fewerTags: "Fewer tags",
+          filterByTag: "Show photos tagged “{tag}”",
+          noMatches: "No photos match these filters.",
           emptyState: "No images to show.",
           loadError: "Could not load image_info.json: ",
           prev: "Previous",
@@ -137,6 +150,12 @@
           back: "Velkommen",
           heading: "Galleri",
           allFolders: "Alle mapper",
+          search: "Søk i bildene …",
+          clearFilters: "Nullstill filtre",
+          moreTags: "+ {n} til",
+          fewerTags: "Færre stikkord",
+          filterByTag: "Vis bilder merket «{tag}»",
+          noMatches: "Ingen bilder passer med filtrene.",
           emptyState: "Ingen bilder å vise.",
           loadError: "Kunne ikke laste image_info.json: ",
           prev: "Forrige",
@@ -171,6 +190,12 @@
           back: "Willkommen",
           heading: "Galerie",
           allFolders: "Alle Ordner",
+          search: "Fotos durchsuchen …",
+          clearFilters: "Filter zurücksetzen",
+          moreTags: "+ {n} weitere",
+          fewerTags: "Weniger Schlagwörter",
+          filterByTag: "Fotos mit „{tag}“ anzeigen",
+          noMatches: "Keine Fotos passen zu diesen Filtern.",
           emptyState: "Keine Bilder vorhanden.",
           loadError: "image_info.json konnte nicht geladen werden: ",
           prev: "Zurück",
@@ -213,6 +238,12 @@
       const grid = document.getElementById("grid");
       const emptyState = document.getElementById("empty-state");
       const folderFilter = document.getElementById("folder-filter");
+      const searchInput = document.getElementById("search-input");
+      const tagFilterEl = document.getElementById("tag-filter");
+      const clearFiltersBtn = document.getElementById("clear-filters");
+      const activeTags = new Set(); // lower-cased English tags, combined with AND
+      let tagsExpanded = false;
+      const TAG_LIMIT = 12;
       const switchEl = document.getElementById("lang-switch");
 
       const lightbox = document.getElementById("lightbox");
@@ -254,6 +285,9 @@
         document.getElementById("back-link").textContent = "← " + s.back;
         document.getElementById("gallery-heading").textContent = s.heading;
         document.getElementById("folder-default-option").textContent = s.allFolders;
+        searchInput.placeholder = s.search;
+        searchInput.setAttribute("aria-label", s.search);
+        clearFiltersBtn.textContent = s.clearFilters;
         if (loadFailed) {
           emptyState.textContent = s.loadError + lastErrorMessage;
         } else if (!filtered.length && !images.length) {
@@ -284,7 +318,8 @@
         lang = next;
         localStorage.setItem(LANG_KEY, lang);
         applyStaticStrings();
-        if (images.length) renderGrid();
+        // Search also matches the current language's translations, so re-filter.
+        if (images.length) applyFilter();
         if (lightbox.classList.contains("open")) renderStage(0);
       }
 
@@ -324,7 +359,7 @@
       function renderGrid() {
         grid.innerHTML = "";
         emptyState.style.display = filtered.length ? "none" : "";
-        emptyState.textContent = t().emptyState;
+        emptyState.textContent = images.length ? t().noMatches : t().emptyState;
         filtered.forEach((img, i) => {
           const cell = document.createElement("button");
           cell.type = "button";
@@ -392,8 +427,9 @@
         document.getElementById("panel-photographer").textContent = img.photographer ? `${s.by} ${img.photographer}` : "";
         document.getElementById("panel-description").textContent = localized(img, "description") || "";
 
-        document.getElementById("panel-tags").innerHTML = (localized(img, "tags") || [])
-          .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("");
+        document.getElementById("panel-tags").innerHTML = imageTags(img)
+          .map(({ key, label }) => `<button type="button" class="tag" data-tag="${escapeHtml(key)}"
+            title="${escapeHtml(s.filterByTag.replace("{tag}", label))}">${escapeHtml(label)}</button>`).join("");
 
         const locationBlock = document.getElementById("location-block");
         if (img.location && img.location.name) {
@@ -439,7 +475,7 @@
       function openPhotoById(id) {
         let i = filtered.findIndex((img) => img.id === id);
         if (i < 0 && images.some((img) => img.id === id)) {
-          folderFilter.value = ""; // it's in another folder -- show all
+          resetFilters(); // it's filtered out -- show all
           applyFilter();
           i = filtered.findIndex((img) => img.id === id);
         }
@@ -800,15 +836,126 @@
       const savedPanel = localStorage.getItem(PANEL_KEY);
       setPanelCollapsed(savedPanel === null ? window.matchMedia("(max-width: 720px)").matches : savedPanel === "1");
 
+      // ---- Filtering: folder + free-text search + tags ----
+      // Tags are keyed by their lower-cased English spelling; i18n[lang].tags
+      // is index-aligned with the English list, so it supplies the label.
+      function imageTags(img) {
+        const en = img.tags || [];
+        const tr = img.i18n && img.i18n[lang] && img.i18n[lang].tags;
+        const labels = Array.isArray(tr) && tr.length === en.length ? tr : en;
+        return en.map((tag, i) => ({ key: tag.trim().toLowerCase(), label: labels[i] || tag }));
+      }
+
+      function fold(s) {
+        return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+      }
+
+      // English and the current language, so "fugl" and "bird" both find a bird.
+      function searchText(img) {
+        const tr = (img.i18n && img.i18n[lang]) || {};
+        return fold([
+          img.title, img.description, (img.tags || []).join(" "),
+          tr.title, tr.description, (tr.tags || []).join(" "),
+          img.folder, img.location && img.location.name,
+        ].join(" "));
+      }
+
+      function resetFilters() {
+        folderFilter.value = "";
+        searchInput.value = "";
+        activeTags.clear();
+      }
+
+      function renderTagFilter() {
+        const s = t();
+        const counts = new Map(); // key -> { count, labels: Map(label -> uses) }
+        filtered.forEach((img) => {
+          imageTags(img).forEach(({ key, label }) => {
+            const entry = counts.get(key) || { count: 0, labels: new Map() };
+            entry.count++;
+            entry.labels.set(label, (entry.labels.get(label) || 0) + 1);
+            counts.set(key, entry);
+          });
+        });
+        activeTags.forEach((key) => { if (!counts.has(key)) counts.set(key, { count: 0, labels: new Map([[key, 1]]) }); });
+
+        const all = [...counts.entries()].map(([key, { count, labels }]) => ({
+          key, count,
+          label: [...labels.entries()].sort((a, b) => b[1] - a[1])[0][0], // most-used spelling
+        })).sort((a, b) => activeTags.has(b.key) - activeTags.has(a.key) || b.count - a.count || a.label.localeCompare(b.label));
+
+        const shown = tagsExpanded ? all : all.filter((tag, i) => i < TAG_LIMIT || activeTags.has(tag.key));
+        tagFilterEl.innerHTML = shown.map(({ key, label, count }) => {
+          const on = activeTags.has(key);
+          return `<button type="button" class="tag-chip" data-tag="${escapeHtml(key)}" aria-pressed="${on}">` +
+            `${escapeHtml(label)}${on ? "" : ` <span class="tag-count">${count}</span>`}</button>`;
+        }).join("");
+        if (all.length > TAG_LIMIT) {
+          const more = document.createElement("button");
+          more.type = "button";
+          more.className = "tag-more";
+          more.textContent = tagsExpanded ? s.fewerTags : s.moreTags.replace("{n}", all.length - shown.length);
+          if (tagsExpanded || all.length > shown.length) tagFilterEl.appendChild(more);
+        }
+      }
+
       function applyFilter() {
         const folder = folderFilter.value;
-        filtered = folder ? images.filter((i) => i.folder === folder) : images.slice();
+        const words = fold(searchInput.value).split(/\s+/).filter(Boolean);
+        filtered = images.filter((img) => {
+          if (folder && img.folder !== folder) return false;
+          if (activeTags.size) {
+            const keys = new Set(imageTags(img).map((tag) => tag.key));
+            for (const key of activeTags) if (!keys.has(key)) return false;
+          }
+          if (words.length) {
+            const text = searchText(img);
+            if (!words.every((w) => text.includes(w))) return false;
+          }
+          return true;
+        });
+        clearFiltersBtn.hidden = !(folder || words.length || activeTags.size);
+        renderTagFilter();
         renderGrid();
+      }
+
+      function toggleTag(key) {
+        if (activeTags.has(key)) activeTags.delete(key);
+        else activeTags.add(key);
+        applyFilter();
       }
 
       folderFilter.addEventListener("change", () => {
         closeLightbox();
         applyFilter();
+      });
+
+      searchInput.addEventListener("input", applyFilter);
+
+      clearFiltersBtn.addEventListener("click", () => {
+        resetFilters();
+        applyFilter();
+      });
+
+      tagFilterEl.addEventListener("click", (e) => {
+        if (e.target.closest(".tag-more")) {
+          tagsExpanded = !tagsExpanded;
+          renderTagFilter();
+          return;
+        }
+        const chip = e.target.closest(".tag-chip");
+        if (chip) toggleTag(chip.dataset.tag);
+      });
+
+      // Clicking a tag in the info panel shows every photo with that tag.
+      document.getElementById("panel-tags").addEventListener("click", (e) => {
+        const btn = e.target.closest(".tag[data-tag]");
+        if (!btn) return;
+        closeLightbox();
+        resetFilters();
+        activeTags.add(btn.dataset.tag);
+        applyFilter();
+        window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
       lang = detectLang();
@@ -823,7 +970,7 @@
           images = (data.images || []).slice().sort((a, b) => (a.added_at || "").localeCompare(b.added_at || ""));
           const folders = Array.from(new Set(images.map((i) => i.folder).filter(Boolean))).sort();
           folderFilter.innerHTML = `<option value="" id="folder-default-option">${t().allFolders}</option>` +
-            folders.map((f) => `<option value="${f}">${f}</option>`).join("");
+            folders.map((f) => `<option value="${escapeHtml(f)}">${escapeHtml(f)}</option>`).join("");
           applyFilter();
           const sharedId = photoIdFromHash();
           if (sharedId) openPhotoById(sharedId);
