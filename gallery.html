@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <div class="lang-switch" id="lang-switch" role="group" aria-label="Language">
+    <button type="button" data-lang="no" title="Norsk" aria-label="Norsk">NO</button>
+    <button type="button" data-lang="en" title="English" aria-label="English">EN</button>
+    <button type="button" data-lang="de" title="Deutsch" aria-label="Deutsch">DE</button>
+  </div>
+
+  <div class="app">
+    <header>
+      <a class="back-link" id="back-link" href="index.html">&larr; Welcome</a>
+      <h1 id="gallery-heading">Gallery</h1>
+      <select id="folder-filter">
+        <option value="" id="folder-default-option">All folders</option>
+      </select>
+    </header>
+    <main>
+      <div class="grid" id="grid"></div>
+      <div class="empty-state" id="empty-state" style="display:none;">No images to show.</div>
+    </main>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-body">
+      <div class="stage" id="stage">
+        <button class="nav-btn prev" id="prev-btn" aria-label="Previous">&#8249;</button>
+        <img id="stage-img" alt="">
+        <button class="nav-btn next" id="next-btn" aria-label="Next">&#8250;</button>
+        <button class="close-btn" id="close-btn" aria-label="Close">&times;</button>
+        <button class="info-toggle" id="info-toggle" aria-label="Toggle info panel" aria-expanded="true">i</button>
+      </div>
+      <aside class="panel" id="panel">
+        <h2 id="panel-title"></h2>
+        <div class="photographer" id="panel-photographer"></div>
+        <div class="description" id="panel-description"></div>
+
+        <div class="tags" id="panel-tags"></div>
+
+        <div class="meta-block" id="location-block" style="display:none;">
+          <h3 id="location-heading">Location</h3>
+          <div id="panel-location"></div>
+        </div>
+
+        <div class="meta-block">
+          <h3 id="camera-heading">Camera</h3>
+          <div id="panel-camera"></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const LANG_KEY = "delightfulcat-lang";
+      const SUPPORTED = ["no", "en", "de"];
+
+      const STRINGS = {
+        en: {
+          pageTitle: "Gallery",
+          back: "Welcome",
+          heading: "Gallery",
+          allFolders: "All folders",
+          emptyState: "No images to show.",
+          loadError: "Could not load image_info.json: ",
+          prev: "Previous",
+          next: "Next",
+          close: "Close",
+          toggleInfo: "Toggle info panel",
+          untitled: "(untitled)",
+          by: "by",
+          location: "Location",
+          camera: "Camera",
+          viewMap: "view map",
+          labels: { camera: "Camera", lens: "Lens", focal: "Focal length", aperture: "Aperture", shutter: "Shutter", iso: "ISO", taken: "Taken", dimensions: "Dimensions" }
+        },
+        no: {
+          pageTitle: "Galleri",
+          back: "Velkommen",
+          heading: "Galleri",
+          allFolders: "Alle mapper",
+          emptyState: "Ingen bilder å vise.",
+          loadError: "Kunne ikke laste image_info.json: ",
+          prev: "Forrige",
+          next: "Neste",
+          close: "Lukk",
+          toggleInfo: "Vis eller skjul infopanelet",
+          untitled: "(uten tittel)",
+          by: "av",
+          location: "Sted",
+          camera: "Kamera",
+          viewMap: "vis kart",
+          labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennvidde", aperture: "Blender", shutter: "Lukkertid", iso: "ISO", taken: "Tatt", dimensions: "Dimensjoner" }
+        },
+        de: {
+          pageTitle: "Galerie",
+          back: "Willkommen",
+          heading: "Galerie",
+          allFolders: "Alle Ordner",
+          emptyState: "Keine Bilder vorhanden.",
+          loadError: "image_info.json konnte nicht geladen werden: ",
+          prev: "Zurück",
+          next: "Weiter",
+          close: "Schließen",
+          toggleInfo: "Infopanel ein- oder ausblenden",
+          untitled: "(ohne Titel)",
+          by: "von",
+          location: "Ort",
+          camera: "Kamera",
+          viewMap: "Karte ansehen",
+          labels: { camera: "Kamera", lens: "Objektiv", focal: "Brennweite", aperture: "Blende", shutter: "Verschlusszeit", iso: "ISO", taken: "Aufgenommen", dimensions: "Abmessungen" }
+        }
+      };
+
+      let lang = "en";
+      let images = [];
+      let filtered = [];
+      let lightboxIndex = 0;
+      let loadFailed = false;
+      let lastErrorMessage = "";
+      const PANEL_KEY = "gallery-panel-collapsed";
+
+      const grid = document.getElementById("grid");
+      const emptyState = document.getElementById("empty-state");
+      const folderFilter = document.getElementById("folder-filter");
+      const switchEl = document.getElementById("lang-switch");
+
+      const lightbox = document.getElementById("lightbox");
+      const lightboxBackdrop = document.getElementById("lightbox-backdrop");
+      const stageImg = document.getElementById("stage-img");
+      const prevBtn = document.getElementById("prev-btn");
+      const nextBtn = document.getElementById("next-btn");
+      const closeBtn = document.getElementById("close-btn");
+      const infoToggle = document.getElementById("info-toggle");
+
+      function t() {
+        return STRINGS[lang] || STRINGS.en;
+      }
+
+      function detectLang() {
+        const saved = localStorage.getItem(LANG_KEY);
+        if (saved && SUPPORTED.includes(saved)) return saved;
+        const nav = (navigator.language || "en").toLowerCase();
+        if (nav.startsWith("nb") || nav.startsWith("nn") || nav.startsWith("no")) return "no";
+        if (nav.startsWith("de")) return "de";
+        return "en";
+      }
+
+      function applyStaticStrings() {
+        const s = t();
+        document.documentElement.lang = lang;
+        document.getElementById("back-link").textContent = "← " + s.back;
+        document.getElementById("gallery-heading").textContent = s.heading;
+        document.getElementById("folder-default-option").textContent = s.allFolders;
+        if (loadFailed) {
+          emptyState.textContent = s.loadError + lastErrorMessage;
+        } else if (!filtered.length && !images.length) {
+          emptyState.textContent = s.emptyState;
+        }
+        prevBtn.setAttribute("aria-label", s.prev);
+        nextBtn.setAttribute("aria-label", s.next);
+        closeBtn.setAttribute("aria-label", s.close);
+        infoToggle.setAttribute("aria-label", s.toggleInfo);
+        document.getElementById("location-heading").textContent = s.location;
+        document.getElementById("camera-heading").textContent = s.camera;
+        document.title = lightbox.classList.contains("open") ? document.title : s.pageTitle;
+
+        switchEl.querySelectorAll("button").forEach((btn) => {
+          btn.setAttribute("aria-current", btn.dataset.lang === lang ? "true" : "false");
+        });
+      }
+
+      function setLang(next) {
+        lang = next;
+        localStorage.setItem(LANG_KEY, lang);
+        applyStaticStrings();
+        if (lightbox.classList.contains("open")) renderStage();
+      }
+
+      switchEl.addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-lang]");
+        if (!btn) return;
+        setLang(btn.dataset.lang);
+      });
+
+      function metaRow(label, value) {
+        if (value === null || value === undefined || value === "") return "";
+        return `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`;
+      }
+
+      function thumbSrc(img) {
+        return img.thumbnail || img.filename;
+      }
+
+      function renderGrid() {
+        grid.innerHTML = "";
+        emptyState.style.display = filtered.length ? "none" : "";
+        emptyState.textContent = t().emptyState;
+        filtered.forEach((img, i) => {
+          const cell = document.createElement("button");
+          cell.type = "button";
+          cell.className = "thumb";
+          cell.innerHTML = `
+            <img src="${thumbSrc(img)}" alt="${img.title || ""}" loading="lazy">
+            ${img.title ? `<span class="thumb-title">${img.title}</span>` : ""}
+          `;
+          cell.addEventListener("click", () => openLightbox(i));
+          grid.appendChild(cell);
+        });
+      }
+
+      function renderStage() {
+        const img = filtered[lightboxIndex];
+        if (!img) return;
+        const s = t();
+
+        stageImg.src = img.filename;
+        stageImg.alt = img.title || "";
+        document.title = img.title ? `${img.title} · ${s.pageTitle}` : s.pageTitle;
+
+        document.getElementById("panel-title").textContent = img.title || s.untitled;
+        document.getElementById("panel-photographer").textContent = img.photographer ? `${s.by} ${img.photographer}` : "";
+        document.getElementById("panel-description").textContent = img.description || "";
+
+        document.getElementById("panel-tags").innerHTML = (img.tags || [])
+          .map((tag) => `<span class="tag">${tag}</span>`).join("");
+
+        const locationBlock = document.getElementById("location-block");
+        if (img.location && img.location.name) {
+          let html = img.location.name;
+          if (img.location.lat != null && img.location.lng != null) {
+            const url = `https://www.openstreetmap.org/?mlat=${img.location.lat}&mlon=${img.location.lng}#map=12/${img.location.lat}/${img.location.lng}`;
+            html += ` &middot; <a class="map-link" href="${url}" target="_blank" rel="noopener">${s.viewMap}</a>`;
+          }
+          document.getElementById("panel-location").innerHTML = html;
+          locationBlock.style.display = "";
+        } else {
+          locationBlock.style.display = "none";
+        }
+
+        const cam = img.camera || {};
+        const cameraLabel = cam.model && cam.make && !cam.model.toLowerCase().startsWith(cam.make.toLowerCase())
+          ? `${cam.make} ${cam.model}`
+          : (cam.model || cam.make || "");
+        document.getElementById("panel-camera").innerHTML = [
+          metaRow(s.labels.camera, cameraLabel),
+          metaRow(s.labels.lens, cam.lens_model),
+          metaRow(s.labels.focal, cam.focal_length),
+          metaRow(s.labels.aperture, cam.aperture),
+          metaRow(s.labels.shutter, cam.shutter_speed),
+          metaRow(s.labels.iso, cam.iso),
+          metaRow(s.labels.taken, cam.date_taken),
+          metaRow(s.labels.dimensions, img.width && img.height ? `${img.width}×${img.height}` : ""),
+        ].join("");
+      }
+
+      function openLightbox(i) {
+        lightboxIndex = i;
+        renderStage();
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.classList.add("lightbox-open");
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove("open");
+        lightbox.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("lightbox-open");
+        document.title = t().pageTitle;
+      }
+
+      function show(delta) {
+        if (!filtered.length) return;
+        lightboxIndex = (lightboxIndex + delta + filtered.length) % filtered.length;
+        renderStage();
+      }
+
+      function setPanelCollapsed(collapsed) {
+        lightbox.classList.toggle("panel-collapsed", collapsed);
+        infoToggle.setAttribute("aria-expanded", String(!collapsed));
+        localStorage.setItem(PANEL_KEY, collapsed ? "1" : "0");
+      }
+
+      prevBtn.addEventListener("click", () => show(-1));
+      nextBtn.addEventListener("click", () => show(1));
+      closeBtn.addEventListener("click", closeLightbox);
+      lightboxBackdrop.addEventListener("click", closeLightbox);
+      infoToggle.addEventListener("click", () => {
+        setPanelCollapsed(!lightbox.classList.contains("panel-collapsed"));
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (!lightbox.classList.contains("open")) return;
+        if (e.key === "ArrowLeft") show(-1);
+        if (e.key === "ArrowRight") show(1);
+        if (e.key === "Escape") closeLightbox();
+      });
+
+      // Touch swipe navigation inside the lightbox.
+      let touchStartX = null;
+      const stage = document.getElementById("stage");
+      stage.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].clientX;
+      }, { passive: true });
+      stage.addEventListener("touchend", (e) => {
+        if (touchStartX === null) return;
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        touchStartX = null;
+        if (Math.abs(dx) < 40) return;
+        show(dx > 0 ? -1 : 1);
+      }, { passive: true });
+
+      setPanelCollapsed(localStorage.getItem(PANEL_KEY) === "1");
+
+      function applyFilter() {
+        const folder = folderFilter.value;
+        filtered = folder ? images.filter((i) => i.folder === folder) : images.slice();
+        renderGrid();
+      }
+
+      folderFilter.addEventListener("change", () => {
+        closeLightbox();
+        applyFilter();
+      });
+
+      lang = detectLang();
+      applyStaticStrings();
+
+      fetch("image_info.json")
+        .then((res) => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          return res.json();
+        })
+        .then((data) => {
+          images = (data.images || []).slice().sort((a, b) => (a.added_at || "").localeCompare(b.added_at || ""));
+          const folders = Array.from(new Set(images.map((i) => i.folder).filter(Boolean))).sort();
+          folderFilter.innerHTML = `<option value="" id="folder-default-option">${t().allFolders}</option>` +
+            folders.map((f) => `<option value="${f}">${f}</option>`).join("");
+          applyFilter();
+        })
+        .catch((err) => {
+          loadFailed = true;
+          lastErrorMessage = err.message;
+          emptyState.textContent = t().loadError + lastErrorMessage;
+          emptyState.style.display = "";
+        });
+    })();
+  </script>
+</body>
+</html>
