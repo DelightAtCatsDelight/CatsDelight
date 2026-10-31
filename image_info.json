@@ -2165,6 +2165,2770 @@
           ]
         }
       }
+    },
+    {
+      "id": "893d2c89-99a4-4272-b004-c0be17a44240",
+      "filename": "images/mistberget/893d2c89-99a4-4272-b004-c0be17a44240.webp",
+      "thumbnail": "images/mistberget/893d2c89-99a4-4272-b004-c0be17a44240_thumb.webp",
+      "title": "Old Metal Sign",
+      "description": "A sign showing the text \"Private forest road\"",
+      "folder": "Mistberget",
+      "tags": [
+        "mistberget",
+        "eidsvoll",
+        "norway",
+        "summer",
+        "old",
+        "metal",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/200s",
+        "iso": 500,
+        "focal_length": "52mm",
+        "date_taken": "2026-07-23T13:30:19.29+01:00",
+        "width": 4103,
+        "height": 3917,
+        "gps": null
+      },
+      "width": 4103,
+      "height": 3917,
+      "added_at": "2026-10-31T14:23:57.052755+00:00",
+      "i18n": {
+        "no": {
+          "title": "Gammelt metallskilt",
+          "description": "Et skilt som viser teksten \"Privat skogsvei\"",
+          "tags": [
+            "mistberget",
+            "eidsvoll",
+            "norge",
+            "sommer",
+            "gammel",
+            "metall",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Altes Metallschild",
+          "description": "Ein Schild mit der Aufschrift „Private Forststraße“",
+          "tags": [
+            "nebelberget",
+            "eidsvoll",
+            "norwegen",
+            "sommer",
+            "alt",
+            "metall",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "012b041d-94ce-4aae-92f2-05078a1d6000",
+      "filename": "images/mistberget/012b041d-94ce-4aae-92f2-05078a1d6000.webp",
+      "thumbnail": "images/mistberget/012b041d-94ce-4aae-92f2-05078a1d6000_thumb.webp",
+      "title": "Airplane flying above",
+      "description": "An airplane flying above the camera on a blue sky",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "flying",
+        "above",
+        "norway",
+        "eidsvoll",
+        "mistberget",
+        "sky",
+        "blue"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1250s",
+        "iso": 400,
+        "focal_length": "164mm",
+        "date_taken": "2026-07-23T14:11:55.32+01:00",
+        "width": 11422,
+        "height": 5523,
+        "gps": null
+      },
+      "width": 11422,
+      "height": 5523,
+      "added_at": "2026-10-31T14:29:59.359049+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fly som flyr over",
+          "description": "Et fly som flyr over kameraet på en blå himmel",
+          "tags": [
+            "akershus",
+            "flyr",
+            "over",
+            "norge",
+            "eidsvoll",
+            "mistberget",
+            "himmel",
+            "blå"
+          ]
+        },
+        "de": {
+          "title": "Flugzeug fliegt oben",
+          "description": "Ein Flugzeug fliegt über der Kamera an einem blauen Himmel",
+          "tags": [
+            "akershus",
+            "fliegen",
+            "über",
+            "norwegen",
+            "eidsvoll",
+            "nebelberget",
+            "himmel",
+            "blau"
+          ]
+        }
+      }
+    },
+    {
+      "id": "35d5cc73-cad8-4bf6-8b36-0a63f0ee8cb5",
+      "filename": "images/mistberget/35d5cc73-cad8-4bf6-8b36-0a63f0ee8cb5.webp",
+      "thumbnail": "images/mistberget/35d5cc73-cad8-4bf6-8b36-0a63f0ee8cb5_thumb.webp",
+      "title": "Airplane flying above, on a blue sky",
+      "description": "An airplane flying above the camera on a blue sky",
+      "folder": "Mistberget",
+      "tags": [
+        "flying",
+        "above",
+        "blue",
+        "sky",
+        "airplane",
+        "norway",
+        "eidsvoll",
+        "mistberget"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1250s",
+        "iso": 400,
+        "focal_length": "164mm",
+        "date_taken": "2026-07-23T14:11:56.70+01:00",
+        "width": 6067,
+        "height": 4195,
+        "gps": null
+      },
+      "width": 6067,
+      "height": 4195,
+      "added_at": "2026-10-31T14:30:43.788950+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fly som flyr over, på en blå himmel",
+          "description": "Et fly som flyr over kameraet på en blå himmel",
+          "tags": [
+            "flyr",
+            "over",
+            "blå",
+            "himmel",
+            "fly",
+            "norge",
+            "eidsvoll",
+            "mistberget"
+          ]
+        },
+        "de": {
+          "title": "Flugzeug fliegt oben, an einem blauen Himmel",
+          "description": "Ein Flugzeug fliegt über der Kamera an einem blauen Himmel",
+          "tags": [
+            "fliegen",
+            "über",
+            "blau",
+            "himmel",
+            "flugzeug",
+            "norwegen",
+            "eidsvoll",
+            "nebelberget"
+          ]
+        }
+      }
+    },
+    {
+      "id": "50a3b12c-9781-4f9b-b445-95872d700483",
+      "filename": "images/mistberget/50a3b12c-9781-4f9b-b445-95872d700483.webp",
+      "thumbnail": "images/mistberget/50a3b12c-9781-4f9b-b445-95872d700483_thumb.webp",
+      "title": "Norwegian Rural Landscape",
+      "description": "The landscape around Eidsvoll",
+      "folder": "Mistberget",
+      "tags": [
+        "eidsvoll",
+        "mistberget",
+        "norway",
+        "forest",
+        "summer",
+        "akershus"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/400s",
+        "iso": 100,
+        "focal_length": "57mm",
+        "date_taken": "2026-07-23T14:12:18.06+01:00",
+        "width": 5915,
+        "height": 3461,
+        "gps": null
+      },
+      "width": 5915,
+      "height": 3461,
+      "added_at": "2026-10-31T14:31:21.337921+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk bygdelandskap",
+          "description": "Landskapet rundt Eidsvoll",
+          "tags": [
+            "eidsvoll",
+            "mistberget",
+            "norge",
+            "skog",
+            "sommer",
+            "akershus"
+          ]
+        },
+        "de": {
+          "title": "Norwegische ländliche Landschaft",
+          "description": "Die Landschaft rund um Eidsvoll",
+          "tags": [
+            "eidsvoll",
+            "nebelberget",
+            "norwegen",
+            "wald",
+            "sommer",
+            "akershus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "46e296d2-e303-42d9-9218-afa57a3452e3",
+      "filename": "images/mistberget/46e296d2-e303-42d9-9218-afa57a3452e3.webp",
+      "thumbnail": "images/mistberget/46e296d2-e303-42d9-9218-afa57a3452e3_thumb.webp",
+      "title": "Iron Rich Rock",
+      "description": "The landscape around Eidsvoll",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "rich",
+        "norway",
+        "forest",
+        "akershus"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/200s",
+        "iso": 400,
+        "focal_length": "63mm",
+        "date_taken": "2026-07-23T14:19:17.42+01:00",
+        "width": 3740,
+        "height": 1973,
+        "gps": null
+      },
+      "width": 3740,
+      "height": 1973,
+      "added_at": "2026-10-31T14:32:15.382396+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock",
+          "description": "Landskapet rundt Eidsvoll",
+          "tags": [
+            "stein",
+            "stryke",
+            "rik",
+            "norge",
+            "skog",
+            "akershus"
+          ]
+        },
+        "de": {
+          "title": "Eisenreicher Stein",
+          "description": "Die Landschaft rund um Eidsvoll",
+          "tags": [
+            "felsen",
+            "eisen",
+            "reich",
+            "norwegen",
+            "wald",
+            "akershus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fa38f833-8b24-4a0e-8b98-38d6b4c47307",
+      "filename": "images/mistberget/fa38f833-8b24-4a0e-8b98-38d6b4c47307.webp",
+      "thumbnail": "images/mistberget/fa38f833-8b24-4a0e-8b98-38d6b4c47307_thumb.webp",
+      "title": "Iron Rich Rock",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "norway",
+        "rich",
+        "iron",
+        "forest",
+        "eidsvoll",
+        "mistberget"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 3200,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T14:20:06.57+01:00",
+        "width": 3118,
+        "height": 1377,
+        "gps": null
+      },
+      "width": 3118,
+      "height": 1377,
+      "added_at": "2026-10-31T14:32:48.934579+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "norge",
+            "rik",
+            "stryke",
+            "skog",
+            "eidsvoll",
+            "mistberget"
+          ]
+        },
+        "de": {
+          "title": "Eisenreicher Stein",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "norwegen",
+            "reich",
+            "eisen",
+            "wald",
+            "eidsvoll",
+            "nebelberget"
+          ]
+        }
+      }
+    },
+    {
+      "id": "72413768-1348-47b2-9fb4-f36e3eb4e3fd",
+      "filename": "images/mistberget/72413768-1348-47b2-9fb4-f36e3eb4e3fd.webp",
+      "thumbnail": "images/mistberget/72413768-1348-47b2-9fb4-f36e3eb4e3fd_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "rich",
+        "wall",
+        "iron",
+        "mistberget"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/320s",
+        "iso": 100,
+        "focal_length": "49mm",
+        "date_taken": "2026-07-23T14:21:15.00+01:00",
+        "width": 1696,
+        "height": 2350,
+        "gps": null
+      },
+      "width": 1696,
+      "height": 2350,
+      "added_at": "2026-10-31T14:33:13.968334+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "rik",
+            "vegg",
+            "stryke",
+            "mistberget"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "reich",
+            "wand",
+            "eisen",
+            "nebelberget"
+          ]
+        }
+      }
+    },
+    {
+      "id": "66665d5a-beff-400c-9047-2971f727b288",
+      "filename": "images/mistberget/66665d5a-beff-400c-9047-2971f727b288.webp",
+      "thumbnail": "images/mistberget/66665d5a-beff-400c-9047-2971f727b288_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "rich",
+        "wall",
+        "iron",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/320s",
+        "iso": 100,
+        "focal_length": "48mm",
+        "date_taken": "2026-07-23T14:21:33.07+01:00",
+        "width": 6563,
+        "height": 1973,
+        "gps": null
+      },
+      "width": 6563,
+      "height": 1973,
+      "added_at": "2026-10-31T14:33:39.327326+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "rik",
+            "vegg",
+            "stryke",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "reich",
+            "wand",
+            "eisen",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "6179fd69-9d0f-453b-8f8c-8997b8ed0772",
+      "filename": "images/mistberget/6179fd69-9d0f-453b-8f8c-8997b8ed0772.webp",
+      "thumbnail": "images/mistberget/6179fd69-9d0f-453b-8f8c-8997b8ed0772_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "rich",
+        "wall",
+        "mistberget",
+        "norway",
+        "eidsvoll"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/320s",
+        "iso": 100,
+        "focal_length": "89mm",
+        "date_taken": "2026-07-23T14:21:36.11+01:00",
+        "width": 5029,
+        "height": 3448,
+        "gps": null
+      },
+      "width": 5029,
+      "height": 3448,
+      "added_at": "2026-10-31T14:33:58.342433+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "stryke",
+            "rik",
+            "vegg",
+            "mistberget",
+            "norge",
+            "eidsvoll"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "eisen",
+            "reich",
+            "wand",
+            "nebelberget",
+            "norwegen",
+            "eidsvoll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d10f2808-e98b-4c11-aa53-ba56711d8210",
+      "filename": "images/mistberget/d10f2808-e98b-4c11-aa53-ba56711d8210.webp",
+      "thumbnail": "images/mistberget/d10f2808-e98b-4c11-aa53-ba56711d8210_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "wall",
+        "rich",
+        "mistberget",
+        "norway",
+        "eidsvoll"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/8",
+        "shutter_speed": "1/400s",
+        "iso": 125,
+        "focal_length": "115mm",
+        "date_taken": "2026-07-23T14:21:41.82+01:00",
+        "width": 5823,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 5823,
+      "height": 3904,
+      "added_at": "2026-10-31T14:34:15.976018+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "stryke",
+            "vegg",
+            "rik",
+            "mistberget",
+            "norge",
+            "eidsvoll"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "eisen",
+            "wand",
+            "reich",
+            "nebelberget",
+            "norwegen",
+            "eidsvoll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1c303aa6-eeb9-4502-912c-b2d88f4883f2",
+      "filename": "images/mistberget/1c303aa6-eeb9-4502-912c-b2d88f4883f2.webp",
+      "thumbnail": "images/mistberget/1c303aa6-eeb9-4502-912c-b2d88f4883f2_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "wall",
+        "rich",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 400,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T14:21:45.62+01:00",
+        "width": 5657,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 5657,
+      "height": 3904,
+      "added_at": "2026-10-31T14:34:31.576988+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "stryke",
+            "vegg",
+            "rik",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "eisen",
+            "wand",
+            "reich",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d960598e-b010-4ef7-8afd-40235f0fce86",
+      "filename": "images/mistberget/d960598e-b010-4ef7-8afd-40235f0fce86.webp",
+      "thumbnail": "images/mistberget/d960598e-b010-4ef7-8afd-40235f0fce86_thumb.webp",
+      "title": "Forest Road",
+      "description": "A rocky road in the forest",
+      "folder": "Mistberget",
+      "tags": [
+        "summer",
+        "rocky",
+        "forest",
+        "road",
+        "norway",
+        "mistberget",
+        "eidsvoll",
+        "rock"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/4.5",
+        "shutter_speed": "1/125s",
+        "iso": 100,
+        "focal_length": "28mm",
+        "date_taken": "2026-07-23T13:32:44.00+01:00",
+        "width": 6028,
+        "height": 2647,
+        "gps": null
+      },
+      "width": 6028,
+      "height": 2647,
+      "added_at": "2026-10-31T14:35:09.494219+00:00",
+      "i18n": {
+        "no": {
+          "title": "Skogsvei",
+          "description": "En steinete vei i skogen",
+          "tags": [
+            "sommer",
+            "steinete",
+            "skog",
+            "vei",
+            "norge",
+            "mistberget",
+            "eidsvoll",
+            "stein"
+          ]
+        },
+        "de": {
+          "title": "Forststraße",
+          "description": "Ein steiniger Weg im Wald",
+          "tags": [
+            "sommer",
+            "felsig",
+            "wald",
+            "straße",
+            "norwegen",
+            "nebelberget",
+            "eidsvoll",
+            "felsen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "153d232e-489c-4fd8-b5a8-af61e3fdbd72",
+      "filename": "images/mistberget/153d232e-489c-4fd8-b5a8-af61e3fdbd72.webp",
+      "thumbnail": "images/mistberget/153d232e-489c-4fd8-b5a8-af61e3fdbd72_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "rich",
+        "wall",
+        "eidsvoll",
+        "mistberget"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/8",
+        "shutter_speed": "1/400s",
+        "iso": 200,
+        "focal_length": "120mm",
+        "date_taken": "2026-07-23T14:21:55.93+01:00",
+        "width": 5928,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 5928,
+      "height": 3904,
+      "added_at": "2026-10-31T14:35:26.277099+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "stryke",
+            "rik",
+            "vegg",
+            "eidsvoll",
+            "mistberget"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "eisen",
+            "reich",
+            "wand",
+            "eidsvoll",
+            "nebelberget"
+          ]
+        }
+      }
+    },
+    {
+      "id": "0a45fc6d-0a0e-4608-aaf9-62dec9972a44",
+      "filename": "images/mistberget/0a45fc6d-0a0e-4608-aaf9-62dec9972a44.webp",
+      "thumbnail": "images/mistberget/0a45fc6d-0a0e-4608-aaf9-62dec9972a44_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "iron",
+        "rich",
+        "wall",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/320s",
+        "iso": 100,
+        "focal_length": "52mm",
+        "date_taken": "2026-07-23T14:21:58.57+01:00",
+        "width": 6319,
+        "height": 3177,
+        "gps": null
+      },
+      "width": 6319,
+      "height": 3177,
+      "added_at": "2026-10-31T14:35:44.612268+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stein",
+            "stryke",
+            "rik",
+            "vegg",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "felsen",
+            "eisen",
+            "reich",
+            "wand",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "737fd337-ab9d-43e0-b83a-2d53754ab72c",
+      "filename": "images/mistberget/737fd337-ab9d-43e0-b83a-2d53754ab72c.webp",
+      "thumbnail": "images/mistberget/737fd337-ab9d-43e0-b83a-2d53754ab72c_thumb.webp",
+      "title": "Iron Rich Rock Wall",
+      "description": "A rock that is rich on iron",
+      "folder": "Mistberget",
+      "tags": [
+        "iron",
+        "rich",
+        "rock",
+        "wall",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/9",
+        "shutter_speed": "1/500s",
+        "iso": 160,
+        "focal_length": "148mm",
+        "date_taken": "2026-07-23T14:22:12.19+01:00",
+        "width": 5856,
+        "height": 2714,
+        "gps": null
+      },
+      "width": 5856,
+      "height": 2714,
+      "added_at": "2026-10-31T14:36:04.413464+00:00",
+      "i18n": {
+        "no": {
+          "title": "Iron Rich Rock Wall",
+          "description": "En stein som er rik på jern",
+          "tags": [
+            "stryke",
+            "rik",
+            "stein",
+            "vegg",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Eisenreiche Felswand",
+          "description": "Ein Gestein, das reich an Eisen ist",
+          "tags": [
+            "eisen",
+            "reich",
+            "felsen",
+            "wand",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "65600ab0-9673-45c9-b887-777adf829d7b",
+      "filename": "images/mistberget/65600ab0-9673-45c9-b887-777adf829d7b.webp",
+      "thumbnail": "images/mistberget/65600ab0-9673-45c9-b887-777adf829d7b_thumb.webp",
+      "title": "Lost Glove",
+      "description": "A glove hanging on a branch in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "hanging",
+        "forest",
+        "branch",
+        "glove",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5",
+        "shutter_speed": "1/200s",
+        "iso": 400,
+        "focal_length": "42mm",
+        "date_taken": "2026-07-23T14:33:03.45+01:00",
+        "width": 3859,
+        "height": 2396,
+        "gps": null
+      },
+      "width": 3859,
+      "height": 2396,
+      "added_at": "2026-10-31T14:36:30.132212+00:00",
+      "i18n": {
+        "no": {
+          "title": "Tapt hanske",
+          "description": "En hanske hengende på en gren i skogen.",
+          "tags": [
+            "hengende",
+            "skog",
+            "gren",
+            "hanske",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Verlorener Handschuh",
+          "description": "Ein Handschuh, der an einem Ast im Wald hängt.",
+          "tags": [
+            "hängend",
+            "wald",
+            "zweig",
+            "handschuh",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d4dde577-0e8d-4f6a-95c5-3011b6d08db5",
+      "filename": "images/mistberget/d4dde577-0e8d-4f6a-95c5-3011b6d08db5.webp",
+      "thumbnail": "images/mistberget/d4dde577-0e8d-4f6a-95c5-3011b6d08db5_thumb.webp",
+      "title": "Butterfly on flower",
+      "description": "A small butterfly on a flower.",
+      "folder": "Mistberget",
+      "tags": [
+        "small",
+        "flower",
+        "butterfly",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T14:38:52.49+01:00",
+        "width": 5413,
+        "height": 2561,
+        "gps": null
+      },
+      "width": 5413,
+      "height": 2561,
+      "added_at": "2026-10-31T14:37:25.479561+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sommerfugl på blomst",
+          "description": "En liten sommerfugl på en blomst.",
+          "tags": [
+            "liten",
+            "blomst",
+            "sommerfugl",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Schmetterling auf Blume",
+          "description": "Ein kleiner Schmetterling auf einer Blume.",
+          "tags": [
+            "klein",
+            "blume",
+            "schmetterling",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f28ac382-3566-41fe-8e35-71fa00a3ca41",
+      "filename": "images/mistberget/f28ac382-3566-41fe-8e35-71fa00a3ca41.webp",
+      "thumbnail": "images/mistberget/f28ac382-3566-41fe-8e35-71fa00a3ca41_thumb.webp",
+      "title": "Cameraception",
+      "description": "A camera taking a photo of a camera taking a photo of a camera taking a photo of a camera",
+      "folder": "Mistberget",
+      "tags": [
+        "cameraception",
+        "camera",
+        "forest",
+        "eos",
+        "r50v"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/4.5",
+        "shutter_speed": "1/125s",
+        "iso": 1600,
+        "focal_length": "36mm",
+        "date_taken": "2026-07-23T15:04:46.79+01:00",
+        "width": 3706,
+        "height": 2462,
+        "gps": null
+      },
+      "width": 3706,
+      "height": 2462,
+      "added_at": "2026-10-31T14:38:35.815913+00:00",
+      "i18n": {
+        "no": {
+          "title": "Kameraoppfatning",
+          "description": "Et kamera som tar et bilde av et kamera som tar et bilde av et kamera som tar et bilde av et kamera",
+          "tags": [
+            "kameraoppfatning",
+            "kamera",
+            "skog",
+            "eos",
+            "r50v"
+          ]
+        },
+        "de": {
+          "title": "Kameraaufnahme",
+          "description": "Eine Kamera macht ein Foto von einer Kamera macht ein Foto von einer Kamera macht ein Foto von einer Kamera",
+          "tags": [
+            "kameraaufnahme",
+            "kamera",
+            "wald",
+            "eos",
+            "r50v"
+          ]
+        }
+      }
+    },
+    {
+      "id": "44ecbaa2-70f8-4d6d-ab7a-21363950fe90",
+      "filename": "images/mistberget/44ecbaa2-70f8-4d6d-ab7a-21363950fe90.webp",
+      "thumbnail": "images/mistberget/44ecbaa2-70f8-4d6d-ab7a-21363950fe90_thumb.webp",
+      "title": "Song thrush in the forest.",
+      "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "summer",
+        "seem",
+        "forest",
+        "bird",
+        "song thrush"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "180mm",
+        "date_taken": "2026-07-23T16:36:40.30+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-10-31T14:39:06.222366+00:00",
+      "i18n": {
+        "no": {
+          "title": "Måltrost i skogen.",
+          "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
+          "tags": [
+            "akershus",
+            "sommer",
+            "virke",
+            "skog",
+            "fugl",
+            "måltrost"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald.",
+          "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
+          "tags": [
+            "akershus",
+            "sommer",
+            "erscheinen",
+            "wald",
+            "vogel",
+            "singdrossel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "7616c0a3-666e-4725-ad82-24fcbe843ca2",
+      "filename": "images/misc/7616c0a3-666e-4725-ad82-24fcbe843ca2.webp",
+      "thumbnail": "images/misc/7616c0a3-666e-4725-ad82-24fcbe843ca2_thumb.webp",
+      "title": "Song Thrush",
+      "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
+      "folder": "Misc.",
+      "tags": [
+        "forest",
+        "norway",
+        "song thrush",
+        "bird",
+        "mistberget"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "251mm",
+        "date_taken": "2026-07-23T16:36:41.18+01:00",
+        "width": 1967,
+        "height": 1933,
+        "gps": null
+      },
+      "width": 1967,
+      "height": 1933,
+      "added_at": "2026-10-31T14:39:32.709709+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost",
+          "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
+          "tags": [
+            "skog",
+            "norge",
+            "måltrost",
+            "fugl",
+            "mistberget"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel",
+          "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
+          "tags": [
+            "wald",
+            "norwegen",
+            "singdrossel",
+            "vogel",
+            "nebelberget"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4e2d9ba1-2dfc-4c3e-b757-df2bad963ec1",
+      "filename": "images/mistberget/4e2d9ba1-2dfc-4c3e-b757-df2bad963ec1.webp",
+      "thumbnail": "images/mistberget/4e2d9ba1-2dfc-4c3e-b757-df2bad963ec1_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
+      "folder": "Mistberget",
+      "tags": [
+        "summer",
+        "forest",
+        "bird",
+        "song thrush"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "262mm",
+        "date_taken": "2026-07-23T16:36:42.26+01:00",
+        "width": 4983,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 4983,
+      "height": 3904,
+      "added_at": "2026-10-31T14:40:09.502528+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
+          "tags": [
+            "sommer",
+            "skog",
+            "fugl",
+            "måltrost"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
+          "tags": [
+            "sommer",
+            "wald",
+            "vogel",
+            "singdrossel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "5093802f-0df6-4517-9aca-c148162574b5",
+      "filename": "images/mistberget/5093802f-0df6-4517-9aca-c148162574b5.webp",
+      "thumbnail": "images/mistberget/5093802f-0df6-4517-9aca-c148162574b5_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest. This bird did not seem alarmed by us walking near it. When I thought I had lost it, it flew up and posed for me, while I was just a few metres away!",
+      "folder": "Mistberget",
+      "tags": [
+        "bird",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "287mm",
+        "date_taken": "2026-07-23T16:36:43.43+01:00",
+        "width": 2021,
+        "height": 2231,
+        "gps": null
+      },
+      "width": 2021,
+      "height": 2231,
+      "added_at": "2026-10-31T14:40:35.630747+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Sangtrost i skogen. Denne fuglen virket ikke skremt av at vi gikk i nærheten av den. Da jeg trodde jeg hadde mistet den, fløy den opp og poserte for meg, mens jeg var bare noen meter unna!",
+          "tags": [
+            "fugl",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald. Dieser Vogel schien nicht beunruhigt zu sein, als wir in seine Nähe gingen. Als ich dachte, ich hätte es verloren, flog es hoch und posierte für mich, während ich nur ein paar Meter entfernt war!",
+          "tags": [
+            "vogel",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "04ae537c-5df7-4986-9699-6dd3217e3ede",
+      "filename": "images/mistberget/04ae537c-5df7-4986-9699-6dd3217e3ede.webp",
+      "thumbnail": "images/mistberget/04ae537c-5df7-4986-9699-6dd3217e3ede_thumb.webp",
+      "title": "Rocky Cave",
+      "description": "A cave formation",
+      "folder": "Mistberget",
+      "tags": [
+        "mistberget",
+        "forest",
+        "norway",
+        "eidsvoll",
+        "rock"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/250s",
+        "iso": 100,
+        "focal_length": "75mm",
+        "date_taken": "2026-07-23T13:33:51.00+01:00",
+        "width": 2291,
+        "height": 1483,
+        "gps": null
+      },
+      "width": 2291,
+      "height": 1483,
+      "added_at": "2026-10-31T14:41:35.497144+00:00",
+      "i18n": {
+        "no": {
+          "title": "Steinete hule",
+          "description": "En huleformasjon",
+          "tags": [
+            "mistberget",
+            "skog",
+            "norge",
+            "eidsvoll",
+            "stein"
+          ]
+        },
+        "de": {
+          "title": "Felsige Höhle",
+          "description": "Eine Höhlenformation",
+          "tags": [
+            "nebelberget",
+            "wald",
+            "norwegen",
+            "eidsvoll",
+            "felsen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "abe99f23-3809-43ee-96f3-fac981e3521c",
+      "filename": "images/mistberget/abe99f23-3809-43ee-96f3-fac981e3521c.webp",
+      "thumbnail": "images/mistberget/abe99f23-3809-43ee-96f3-fac981e3521c_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "mistberget",
+        "summer",
+        "bird",
+        "song thrush",
+        "forest",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T16:36:45.61+01:00",
+        "width": 2516,
+        "height": 2323,
+        "gps": null
+      },
+      "width": 2516,
+      "height": 2323,
+      "added_at": "2026-10-31T14:42:03.463326+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "mistberget",
+            "sommer",
+            "fugl",
+            "måltrost",
+            "skog",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "nebelberget",
+            "sommer",
+            "vogel",
+            "singdrossel",
+            "wald",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f2f53e6f-6390-49e5-baff-c97825179c19",
+      "filename": "images/mistberget/f2f53e6f-6390-49e5-baff-c97825179c19.webp",
+      "thumbnail": "images/mistberget/f2f53e6f-6390-49e5-baff-c97825179c19_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T16:36:46.06+01:00",
+        "width": 3257,
+        "height": 3223,
+        "gps": null
+      },
+      "width": 3257,
+      "height": 3223,
+      "added_at": "2026-10-31T14:42:24.250083+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3cbd018a-a381-4a67-ae4c-4ed519350884",
+      "filename": "images/mistberget/3cbd018a-a381-4a67-ae4c-4ed519350884.webp",
+      "thumbnail": "images/mistberget/3cbd018a-a381-4a67-ae4c-4ed519350884_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/1000s",
+        "iso": 640,
+        "focal_length": "206mm",
+        "date_taken": "2026-07-23T16:36:51.50+01:00",
+        "width": 2218,
+        "height": 2733,
+        "gps": null
+      },
+      "width": 2218,
+      "height": 2733,
+      "added_at": "2026-10-31T14:42:46.238599+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3af795ec-cc5a-483f-bcff-317ff9c4954c",
+      "filename": "images/mistberget/3af795ec-cc5a-483f-bcff-317ff9c4954c.webp",
+      "thumbnail": "images/mistberget/3af795ec-cc5a-483f-bcff-317ff9c4954c_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 1000,
+        "focal_length": "283mm",
+        "date_taken": "2026-07-23T16:36:59.49+01:00",
+        "width": 3065,
+        "height": 3084,
+        "gps": null
+      },
+      "width": 3065,
+      "height": 3084,
+      "added_at": "2026-10-31T14:42:59.254178+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3d1dd40a-afb0-47d3-811f-5082fc066a34",
+      "filename": "images/mistberget/3d1dd40a-afb0-47d3-811f-5082fc066a34.webp",
+      "thumbnail": "images/mistberget/3d1dd40a-afb0-47d3-811f-5082fc066a34_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 800,
+        "focal_length": "283mm",
+        "date_taken": "2026-07-23T16:36:59.83+01:00",
+        "width": 4507,
+        "height": 3124,
+        "gps": null
+      },
+      "width": 4507,
+      "height": 3124,
+      "added_at": "2026-10-31T14:43:11.086973+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "11dc9ada-e49a-4a48-9cda-b219f2638aeb",
+      "filename": "images/mistberget/11dc9ada-e49a-4a48-9cda-b219f2638aeb.webp",
+      "thumbnail": "images/mistberget/11dc9ada-e49a-4a48-9cda-b219f2638aeb_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 800,
+        "focal_length": "283mm",
+        "date_taken": "2026-07-23T16:37:00.11+01:00",
+        "width": 2920,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 2920,
+      "height": 3904,
+      "added_at": "2026-10-31T14:43:23.981563+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "66ecdeee-a01a-4cd1-97f6-348ec9cfb82f",
+      "filename": "images/mistberget/66ecdeee-a01a-4cd1-97f6-348ec9cfb82f.webp",
+      "thumbnail": "images/mistberget/66ecdeee-a01a-4cd1-97f6-348ec9cfb82f_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 800,
+        "focal_length": "283mm",
+        "date_taken": "2026-07-23T16:37:00.82+01:00",
+        "width": 4672,
+        "height": 2694,
+        "gps": null
+      },
+      "width": 4672,
+      "height": 2694,
+      "added_at": "2026-10-31T14:43:40.148127+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ea19cfbd-d709-488f-9c4f-5100aa73d5f7",
+      "filename": "images/mistberget/ea19cfbd-d709-488f-9c4f-5100aa73d5f7.webp",
+      "thumbnail": "images/mistberget/ea19cfbd-d709-488f-9c4f-5100aa73d5f7_thumb.webp",
+      "title": "Song Thrush in the forest",
+      "description": "Song thrush in the forest.",
+      "folder": "Mistberget",
+      "tags": [
+        "forest",
+        "song thrush",
+        "mistberget",
+        "norway"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 800,
+        "focal_length": "283mm",
+        "date_taken": "2026-07-23T16:37:02.85+01:00",
+        "width": 5723,
+        "height": 3216,
+        "gps": null
+      },
+      "width": 5723,
+      "height": 3216,
+      "added_at": "2026-10-31T14:43:52.152407+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sangtrost i skogen",
+          "description": "Måltrost i skogen.",
+          "tags": [
+            "skog",
+            "måltrost",
+            "mistberget",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Singdrossel im Wald",
+          "description": "Singdrossel im Wald.",
+          "tags": [
+            "wald",
+            "singdrossel",
+            "nebelberget",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2fbbc08f-2741-44c2-bb39-7296467ebbdb",
+      "filename": "images/mistberget/2fbbc08f-2741-44c2-bb39-7296467ebbdb.webp",
+      "thumbnail": "images/mistberget/2fbbc08f-2741-44c2-bb39-7296467ebbdb_thumb.webp",
+      "title": "Norwegian Town - Eidsvoll",
+      "description": "The town of Eidsvoll seen from the mountain Mistberget",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "norwegian",
+        "town",
+        "mistberget",
+        "eidsvoll",
+        "mountain",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1250s",
+        "iso": 800,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T17:59:22.00+01:00",
+        "width": 6960,
+        "height": 1384,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 1384,
+      "added_at": "2026-10-31T14:44:35.262921+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk by - Eidsvoll",
+          "description": "Byen Eidsvoll sett fra fjellet Mistberget",
+          "tags": [
+            "akershus",
+            "norsk",
+            "by",
+            "mistberget",
+            "eidsvoll",
+            "fjell",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Norwegische Stadt - Eidsvoll",
+          "description": "Die Stadt Eidsvoll vom Berg Mistberget aus gesehen",
+          "tags": [
+            "akershus",
+            "norwegisch",
+            "stadt",
+            "nebelberget",
+            "eidsvoll",
+            "berg",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "83a5f68d-29d7-40ae-aec5-83eda661d087",
+      "filename": "images/mistberget/83a5f68d-29d7-40ae-aec5-83eda661d087.webp",
+      "thumbnail": "images/mistberget/83a5f68d-29d7-40ae-aec5-83eda661d087_thumb.webp",
+      "title": "Norwegian Town - Eidsvoll",
+      "description": "The town of Eidsvoll seen from the mountain Mistberget",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "summer",
+        "mistberget",
+        "eidsvoll",
+        "mountain",
+        "norwegian",
+        "town",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 1000,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T17:59:49.00+01:00",
+        "width": 5452,
+        "height": 2144,
+        "gps": null
+      },
+      "width": 5452,
+      "height": 2144,
+      "added_at": "2026-10-31T14:44:52.700135+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk by - Eidsvoll",
+          "description": "Byen Eidsvoll sett fra fjellet Mistberget",
+          "tags": [
+            "akershus",
+            "sommer",
+            "mistberget",
+            "eidsvoll",
+            "fjell",
+            "norsk",
+            "by",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Norwegische Stadt - Eidsvoll",
+          "description": "Die Stadt Eidsvoll vom Berg Mistberget aus gesehen",
+          "tags": [
+            "akershus",
+            "sommer",
+            "nebelberget",
+            "eidsvoll",
+            "berg",
+            "norwegisch",
+            "stadt",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4c32112a-b664-447e-9ba5-6c123cf00675",
+      "filename": "images/mistberget/4c32112a-b664-447e-9ba5-6c123cf00675.webp",
+      "thumbnail": "images/mistberget/4c32112a-b664-447e-9ba5-6c123cf00675_thumb.webp",
+      "title": "Burrow",
+      "description": "Small burrow",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "burrow",
+        "small",
+        "mistberget",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/4.5",
+        "shutter_speed": "1/640s",
+        "iso": 800,
+        "focal_length": "32mm",
+        "date_taken": "2026-07-23T13:39:37.58+01:00",
+        "width": 4335,
+        "height": 2145,
+        "gps": null
+      },
+      "width": 4335,
+      "height": 2145,
+      "added_at": "2026-10-31T14:45:14.897897+00:00",
+      "i18n": {
+        "no": {
+          "title": "Burrow",
+          "description": "Liten hule",
+          "tags": [
+            "akershus",
+            "burrow",
+            "liten",
+            "mistberget",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Bau",
+          "description": "Kleiner Bau",
+          "tags": [
+            "akershus",
+            "bau",
+            "klein",
+            "nebelberget",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f33e8584-69c3-442f-91eb-9dfc2a727f26",
+      "filename": "images/mistberget/f33e8584-69c3-442f-91eb-9dfc2a727f26.webp",
+      "thumbnail": "images/mistberget/f33e8584-69c3-442f-91eb-9dfc2a727f26_thumb.webp",
+      "title": "Norwegian Town - Eidsvoll",
+      "description": "The town of Eidsvoll seen from the mountain Mistberget",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "summer",
+        "mistberget",
+        "eidsvoll",
+        "mountain",
+        "norwegian",
+        "town",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 640,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T17:59:50.00+01:00",
+        "width": 5254,
+        "height": 2277,
+        "gps": null
+      },
+      "width": 5254,
+      "height": 2277,
+      "added_at": "2026-10-31T14:46:54.005213+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk by - Eidsvoll",
+          "description": "Byen Eidsvoll sett fra fjellet Mistberget",
+          "tags": [
+            "akershus",
+            "sommer",
+            "mistberget",
+            "eidsvoll",
+            "fjell",
+            "norsk",
+            "by",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Norwegische Stadt - Eidsvoll",
+          "description": "Die Stadt Eidsvoll vom Berg Mistberget aus gesehen",
+          "tags": [
+            "akershus",
+            "sommer",
+            "nebelberget",
+            "eidsvoll",
+            "berg",
+            "norwegisch",
+            "stadt",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "5b58a85e-18de-49f2-84bf-92e25daee78a",
+      "filename": "images/mistberget/5b58a85e-18de-49f2-84bf-92e25daee78a.webp",
+      "thumbnail": "images/mistberget/5b58a85e-18de-49f2-84bf-92e25daee78a_thumb.webp",
+      "title": "Norwegian Town - Eidsvoll",
+      "description": "The town of Eidsvoll seen from the mountain Mistberget",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "mistberget",
+        "eidsvoll",
+        "mountain",
+        "norwegian",
+        "town",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/7.1",
+        "shutter_speed": "1/1000s",
+        "iso": 640,
+        "focal_length": "300mm",
+        "date_taken": "2026-07-23T17:59:51.08+01:00",
+        "width": 6960,
+        "height": 2601,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 2601,
+      "added_at": "2026-10-31T14:47:09.502113+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk by - Eidsvoll",
+          "description": "Byen Eidsvoll sett fra fjellet Mistberget",
+          "tags": [
+            "akershus",
+            "mistberget",
+            "eidsvoll",
+            "fjell",
+            "norsk",
+            "by",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Norwegische Stadt - Eidsvoll",
+          "description": "Die Stadt Eidsvoll vom Berg Mistberget aus gesehen",
+          "tags": [
+            "akershus",
+            "nebelberget",
+            "eidsvoll",
+            "berg",
+            "norwegisch",
+            "stadt",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a6b4b56f-c784-44c7-a8d7-ab56f5f7b06e",
+      "filename": "images/mistberget/a6b4b56f-c784-44c7-a8d7-ab56f5f7b06e.webp",
+      "thumbnail": "images/mistberget/a6b4b56f-c784-44c7-a8d7-ab56f5f7b06e_thumb.webp",
+      "title": "Norwegian Town - Eidsvoll",
+      "description": "The town of Eidsvoll seen from the mountain Mistberget",
+      "folder": "Mistberget",
+      "tags": [
+        "summer",
+        "mistberget",
+        "eidsvoll",
+        "mountain",
+        "norwegian",
+        "town",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/6.3",
+        "shutter_speed": "1/800s",
+        "iso": 320,
+        "focal_length": "175mm",
+        "date_taken": "2026-07-23T17:59:57.06+01:00",
+        "width": 6180,
+        "height": 2899,
+        "gps": null
+      },
+      "width": 6180,
+      "height": 2899,
+      "added_at": "2026-10-31T14:47:27.010246+00:00",
+      "i18n": {
+        "no": {
+          "title": "Norsk by - Eidsvoll",
+          "description": "Byen Eidsvoll sett fra fjellet Mistberget",
+          "tags": [
+            "sommer",
+            "mistberget",
+            "eidsvoll",
+            "fjell",
+            "norsk",
+            "by",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Norwegische Stadt - Eidsvoll",
+          "description": "Die Stadt Eidsvoll vom Berg Mistberget aus gesehen",
+          "tags": [
+            "sommer",
+            "nebelberget",
+            "eidsvoll",
+            "berg",
+            "norwegisch",
+            "stadt",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9681ca87-0485-4060-ab10-a2aa42fcc4cb",
+      "filename": "images/mistberget/9681ca87-0485-4060-ab10-a2aa42fcc4cb.webp",
+      "thumbnail": "images/mistberget/9681ca87-0485-4060-ab10-a2aa42fcc4cb_thumb.webp",
+      "title": "Sheep!",
+      "description": "A sheep we encountered while on our hike.",
+      "folder": "Mistberget",
+      "tags": [
+        "sheep",
+        "mistberget",
+        "norway",
+        "forest",
+        "eidsvoll"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/320s",
+        "iso": 800,
+        "focal_length": "83mm",
+        "date_taken": "2026-07-23T18:52:16.00+01:00",
+        "width": 3019,
+        "height": 2833,
+        "gps": null
+      },
+      "width": 3019,
+      "height": 2833,
+      "added_at": "2026-10-31T14:47:56.739882+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sau!",
+          "description": "En sau vi møtte mens vi var på tur.",
+          "tags": [
+            "sau",
+            "mistberget",
+            "norge",
+            "skog",
+            "eidsvoll"
+          ]
+        },
+        "de": {
+          "title": "Schaf!",
+          "description": "Ein Schaf, dem wir auf unserer Wanderung begegnet sind.",
+          "tags": [
+            "schaf",
+            "nebelberget",
+            "norwegen",
+            "wald",
+            "eidsvoll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e69f10a3-7d9a-4d56-92c5-e635986ea7dc",
+      "filename": "images/mistberget/e69f10a3-7d9a-4d56-92c5-e635986ea7dc.webp",
+      "thumbnail": "images/mistberget/e69f10a3-7d9a-4d56-92c5-e635986ea7dc_thumb.webp",
+      "title": "Sheep!",
+      "description": "Two sheep we encountered while on our hike.",
+      "folder": "Mistberget",
+      "tags": [
+        "sheep",
+        "hike",
+        "mistberget",
+        "norway",
+        "forest",
+        "eidsvoll"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/320s",
+        "iso": 800,
+        "focal_length": "83mm",
+        "date_taken": "2026-07-23T18:52:30.81+01:00",
+        "width": 3911,
+        "height": 2607,
+        "gps": null
+      },
+      "width": 3911,
+      "height": 2607,
+      "added_at": "2026-10-31T14:48:14.753570+00:00",
+      "i18n": {
+        "no": {
+          "title": "Sau!",
+          "description": "To sauer vi møtte mens vi var på tur.",
+          "tags": [
+            "sau",
+            "tur",
+            "mistberget",
+            "norge",
+            "skog",
+            "eidsvoll"
+          ]
+        },
+        "de": {
+          "title": "Schaf!",
+          "description": "Zwei Schafe sind uns auf unserer Wanderung begegnet.",
+          "tags": [
+            "schaf",
+            "wanderung",
+            "nebelberget",
+            "norwegen",
+            "wald",
+            "eidsvoll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "4b59be3b-db7b-464b-83ba-a2e76d550667",
+      "filename": "images/mistberget/4b59be3b-db7b-464b-83ba-a2e76d550667.webp",
+      "thumbnail": "images/mistberget/4b59be3b-db7b-464b-83ba-a2e76d550667_thumb.webp",
+      "title": "RC Car",
+      "description": "A toy car (RC) that drove on the path past us",
+      "folder": "Mistberget",
+      "tags": [
+        "rc car",
+        "toy",
+        "mistberget",
+        "norway",
+        "mountain",
+        "forest",
+        "eidsvoll"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/5.6",
+        "shutter_speed": "1/1250s",
+        "iso": 320,
+        "focal_length": "58mm",
+        "date_taken": "2026-07-23T13:40:28.00+01:00",
+        "width": 4910,
+        "height": 3302,
+        "gps": null
+      },
+      "width": 4910,
+      "height": 3302,
+      "added_at": "2026-10-31T14:49:23.790949+00:00",
+      "i18n": {
+        "no": {
+          "title": "RC bil",
+          "description": "En lekebil (RC) som kjørte på stien forbi oss",
+          "tags": [
+            "rc bil",
+            "leketøy",
+            "mistberget",
+            "norge",
+            "fjell",
+            "skog",
+            "eidsvoll"
+          ]
+        },
+        "de": {
+          "title": "RC-Auto",
+          "description": "Ein Spielzeugauto (RC), das auf dem Weg an uns vorbeifuhr",
+          "tags": [
+            "rc-auto",
+            "spielzeug",
+            "nebelberget",
+            "norwegen",
+            "berg",
+            "wald",
+            "eidsvoll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "6a7a33da-2194-41f7-a281-9ef469f957c4",
+      "filename": "images/mistberget/6a7a33da-2194-41f7-a281-9ef469f957c4.webp",
+      "thumbnail": "images/mistberget/6a7a33da-2194-41f7-a281-9ef469f957c4_thumb.webp",
+      "title": "Rock in water",
+      "description": "Very rock.\r\nVery wet.",
+      "folder": "Mistberget",
+      "tags": [
+        "rock",
+        "water",
+        "wet",
+        "mistberget",
+        "norway",
+        "forest"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/4.5",
+        "shutter_speed": "1/1250s",
+        "iso": 640,
+        "focal_length": "37mm",
+        "date_taken": "2026-07-23T13:58:07.07+01:00",
+        "width": 1749,
+        "height": 1529,
+        "gps": null
+      },
+      "width": 1749,
+      "height": 1529,
+      "added_at": "2026-10-31T14:50:11.514888+00:00",
+      "i18n": {
+        "no": {
+          "title": "Stein i vann",
+          "description": "Veldig rocka.\r\nVeldig våt.",
+          "tags": [
+            "stein",
+            "vann",
+            "våt",
+            "mistberget",
+            "norge",
+            "skog"
+          ]
+        },
+        "de": {
+          "title": "Stein im Wasser",
+          "description": "Sehr rockig.\r\nSehr nass.",
+          "tags": [
+            "felsen",
+            "wasser",
+            "nass",
+            "nebelberget",
+            "norwegen",
+            "wald"
+          ]
+        }
+      }
+    },
+    {
+      "id": "519d52f5-2573-4e79-8eff-aad04aa56efb",
+      "filename": "images/mistberget/519d52f5-2573-4e79-8eff-aad04aa56efb.webp",
+      "thumbnail": "images/mistberget/519d52f5-2573-4e79-8eff-aad04aa56efb_thumb.webp",
+      "title": "Airplane above Eidsvoll",
+      "description": "An airplane flying above the camera on a blue sky, over the town of Eidsvoll",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "summer",
+        "eidsvoll",
+        "town",
+        "flying",
+        "above",
+        "blue",
+        "sky",
+        "airplane"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/8",
+        "shutter_speed": "1/500s",
+        "iso": 100,
+        "focal_length": "74mm",
+        "date_taken": "2026-07-23T14:10:24.12+01:00",
+        "width": 6897,
+        "height": 3030,
+        "gps": null
+      },
+      "width": 6897,
+      "height": 3030,
+      "added_at": "2026-10-31T14:50:43.916410+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fly over Eidsvoll",
+          "description": "Et fly som flyr over kameraet på en blå himmel, over byen Eidsvoll",
+          "tags": [
+            "akershus",
+            "sommer",
+            "eidsvoll",
+            "by",
+            "flyr",
+            "over",
+            "blå",
+            "himmel",
+            "fly"
+          ]
+        },
+        "de": {
+          "title": "Flugzeug über Eidsvoll",
+          "description": "Ein Flugzeug fliegt über der Kamera an einem blauen Himmel über der Stadt Eidsvoll",
+          "tags": [
+            "akershus",
+            "sommer",
+            "eidsvoll",
+            "stadt",
+            "fliegen",
+            "über",
+            "blau",
+            "himmel",
+            "flugzeug"
+          ]
+        }
+      }
+    },
+    {
+      "id": "431f3c80-f82a-4446-b7cd-628a54209e77",
+      "filename": "images/mistberget/431f3c80-f82a-4446-b7cd-628a54209e77.webp",
+      "thumbnail": "images/mistberget/431f3c80-f82a-4446-b7cd-628a54209e77_thumb.webp",
+      "title": "Airplane above Eidsvoll",
+      "description": "An airplane flying above the camera on a blue sky, over the town of Eidsvoll",
+      "folder": "Mistberget",
+      "tags": [
+        "akershus",
+        "eidsvoll",
+        "town",
+        "above",
+        "flying",
+        "blue",
+        "sky",
+        "airplane"
+      ],
+      "location": {
+        "name": "Mistberget",
+        "lat": 60.3750146,
+        "lng": 11.1573333
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/500s",
+        "iso": 125,
+        "focal_length": "131mm",
+        "date_taken": "2026-07-23T14:10:29.47+01:00",
+        "width": 6887,
+        "height": 3520,
+        "gps": null
+      },
+      "width": 6887,
+      "height": 3520,
+      "added_at": "2026-10-31T14:51:06.571451+00:00",
+      "i18n": {
+        "no": {
+          "title": "Fly over Eidsvoll",
+          "description": "Et fly som flyr over kameraet på en blå himmel, over byen Eidsvoll",
+          "tags": [
+            "akershus",
+            "eidsvoll",
+            "by",
+            "over",
+            "flyr",
+            "blå",
+            "himmel",
+            "fly"
+          ]
+        },
+        "de": {
+          "title": "Flugzeug über Eidsvoll",
+          "description": "Ein Flugzeug fliegt über der Kamera an einem blauen Himmel über der Stadt Eidsvoll",
+          "tags": [
+            "akershus",
+            "eidsvoll",
+            "stadt",
+            "über",
+            "fliegen",
+            "blau",
+            "himmel",
+            "flugzeug"
+          ]
+        }
+      }
     }
   ]
 }
