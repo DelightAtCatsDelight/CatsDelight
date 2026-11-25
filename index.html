@@ -197,7 +197,7 @@
 
       applyLang(detectLang());
 
-      fetch("image_info.json")
+      fetch("image_info.json", { cache: "no-cache" })  // see gallery.html
         .then((res) => (res.ok ? res.json() : Promise.reject(new Error("HTTP " + res.status))))
         .then((data) => {
           const images = (data.images || []).slice().sort((a, b) => (a.added_at || "").localeCompare(b.added_at || ""));

@@ -1135,7 +1135,9 @@
       lang = detectLang();
       applyStaticStrings();
 
-      fetch("image_info.json")
+      // GitHub Pages lets browsers cache everything for 10 min; "no-cache"
+      // revalidates (a cheap 304 when unchanged) so new photos show at once.
+      fetch("image_info.json", { cache: "no-cache" })
         .then((res) => {
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           return res.json();

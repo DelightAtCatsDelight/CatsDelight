@@ -4929,6 +4929,1548 @@
           ]
         }
       }
+    },
+    {
+      "id": "adef51af-085c-42f1-8a7f-bd979fa603e9",
+      "filename": "images/moon/adef51af-085c-42f1-8a7f-bd979fa603e9.webp",
+      "thumbnail": "images/moon/adef51af-085c-42f1-8a7f-bd979fa603e9_thumb.webp",
+      "title": "Supermoon (November 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "nord-odal",
+        "autumn",
+        "supermoon (november 2026)",
+        "november",
+        "practicing",
+        "night-time",
+        "photography",
+        "moon",
+        "dark",
+        "night",
+        "innlandet",
+        "norway"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/8",
+        "shutter_speed": "1/2s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:53:18.65+01:00",
+        "width": 5307,
+        "height": 4056,
+        "gps": null
+      },
+      "width": 5307,
+      "height": 4056,
+      "added_at": "2026-11-25T13:11:05.191655+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "nord-odal",
+            "høst",
+            "supermoon (november 2026)",
+            "november",
+            "øver",
+            "nattetid",
+            "fotografering",
+            "måne",
+            "mørk",
+            "natt",
+            "innlandet",
+            "norge"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "nord-odal",
+            "herbst",
+            "supermond (november 2026)",
+            "november",
+            "üben",
+            "nachtzeit",
+            "fotografie",
+            "mond",
+            "dunkel",
+            "nacht",
+            "innlandet",
+            "norwegen"
+          ]
+        }
+      }
+    },
+    {
+      "id": "77c66d48-8cc8-4ff8-b21c-b228153b2c56",
+      "filename": "images/moon/77c66d48-8cc8-4ff8-b21c-b228153b2c56.webp",
+      "thumbnail": "images/moon/77c66d48-8cc8-4ff8-b21c-b228153b2c56_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "supermoon (november, 2026)",
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "dark"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "276mm",
+        "date_taken": "2026-11-24T22:12:30.46+01:00",
+        "width": 4255,
+        "height": 1761,
+        "gps": null
+      },
+      "width": 4255,
+      "height": 1761,
+      "added_at": "2026-11-25T13:11:45.489486+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "supermoon (november 2026)",
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "mørk"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "supermond (november 2026)",
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "dunkel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f1e7ef10-b0ad-4ddd-a9eb-e726069cba29",
+      "filename": "images/moon/f1e7ef10-b0ad-4ddd-a9eb-e726069cba29.webp",
+      "thumbnail": "images/moon/f1e7ef10-b0ad-4ddd-a9eb-e726069cba29_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "practicing",
+        "supermoon (november, 2026)",
+        "dark",
+        "norway",
+        "fullmoon",
+        "full",
+        "supermoon"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "276mm",
+        "date_taken": "2026-11-24T22:12:30.99+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-11-25T13:12:24.775998+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "øver",
+            "supermoon (november 2026)",
+            "mørk",
+            "norge",
+            "fullmåne",
+            "full",
+            "supermåne"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "üben",
+            "supermond (november 2026)",
+            "dunkel",
+            "norwegen",
+            "vollmond",
+            "voll",
+            "supermond"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d9e556d5-e50c-4bbd-be0b-3448c9266c05",
+      "filename": "images/moon/d9e556d5-e50c-4bbd-be0b-3448c9266c05.webp",
+      "thumbnail": "images/moon/d9e556d5-e50c-4bbd-be0b-3448c9266c05_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "supermoon (november, 2026)",
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "276mm",
+        "date_taken": "2026-11-24T22:12:33.29+01:00",
+        "width": 5631,
+        "height": 2489,
+        "gps": null
+      },
+      "width": 5631,
+      "height": 2489,
+      "added_at": "2026-11-25T13:12:54.267006+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "supermoon (november 2026)",
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermåne"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "supermond (november 2026)",
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond"
+          ]
+        }
+      }
+    },
+    {
+      "id": "209a2b91-efe5-427d-b546-ac2d31f51124",
+      "filename": "images/moon/209a2b91-efe5-427d-b546-ac2d31f51124.webp",
+      "thumbnail": "images/moon/209a2b91-efe5-427d-b546-ac2d31f51124_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "november",
+        "night",
+        "supermoon (november, 2026)",
+        "photography",
+        "practicing",
+        "supermoon"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:51.37+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-11-25T13:13:20.900090+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "november",
+            "natt",
+            "supermoon (november 2026)",
+            "fotografering",
+            "øver",
+            "supermåne"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "november",
+            "nacht",
+            "supermond (november 2026)",
+            "fotografie",
+            "üben",
+            "supermond"
+          ]
+        }
+      }
+    },
+    {
+      "id": "efa020cf-25b3-4d5f-bc97-d8b5fdafe5f4",
+      "filename": "images/moon/efa020cf-25b3-4d5f-bc97-d8b5fdafe5f4.webp",
+      "thumbnail": "images/moon/efa020cf-25b3-4d5f-bc97-d8b5fdafe5f4_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:53.27+01:00",
+        "width": 1081,
+        "height": 1027,
+        "gps": null
+      },
+      "width": 1081,
+      "height": 1027,
+      "added_at": "2026-11-25T13:18:47.189134+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "3c94cd65-2dd9-48f2-a426-f26eb15ca55f",
+      "filename": "images/moon/3c94cd65-2dd9-48f2-a426-f26eb15ca55f.webp",
+      "thumbnail": "images/moon/3c94cd65-2dd9-48f2-a426-f26eb15ca55f_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:53.86+01:00",
+        "width": 4421,
+        "height": 3190,
+        "gps": null
+      },
+      "width": 4421,
+      "height": 3190,
+      "added_at": "2026-11-25T13:19:14.608708+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "8b9fed93-a8d4-4df7-9224-efbc2c62acbe",
+      "filename": "images/moon/8b9fed93-a8d4-4df7-9224-efbc2c62acbe.webp",
+      "thumbnail": "images/moon/8b9fed93-a8d4-4df7-9224-efbc2c62acbe_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:55.42+01:00",
+        "width": 6147,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6147,
+      "height": 3904,
+      "added_at": "2026-11-25T13:19:46.893983+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "045b8c3a-7027-4032-a5ef-fef9841b9f60",
+      "filename": "images/moon/045b8c3a-7027-4032-a5ef-fef9841b9f60.webp",
+      "thumbnail": "images/moon/045b8c3a-7027-4032-a5ef-fef9841b9f60_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:56.06+01:00",
+        "width": 2358,
+        "height": 2363,
+        "gps": null
+      },
+      "width": 2358,
+      "height": 2363,
+      "added_at": "2026-11-25T13:20:14.607090+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2da0a43b-72ce-4bb8-9612-56d4f956d1f5",
+      "filename": "images/moon/2da0a43b-72ce-4bb8-9612-56d4f956d1f5.webp",
+      "thumbnail": "images/moon/2da0a43b-72ce-4bb8-9612-56d4f956d1f5_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:12:56.65+01:00",
+        "width": 6087,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6087,
+      "height": 3904,
+      "added_at": "2026-11-25T13:20:53.126411+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9ad71559-2583-4c00-a16d-0098b1e1ac76",
+      "filename": "images/moon/9ad71559-2583-4c00-a16d-0098b1e1ac76.webp",
+      "thumbnail": "images/moon/9ad71559-2583-4c00-a16d-0098b1e1ac76_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "dark",
+        "norway",
+        "full",
+        "fullmoon"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:13:09.64+01:00",
+        "width": 2642,
+        "height": 1444,
+        "gps": null
+      },
+      "width": 2642,
+      "height": 1444,
+      "added_at": "2026-11-25T13:21:20.015684+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "mørk",
+            "norge",
+            "full",
+            "fullmåne"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "dunkel",
+            "norwegen",
+            "voll",
+            "vollmond"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1c4652ef-e3c6-4cfb-b7c1-aab914f92eca",
+      "filename": "images/moon/1c4652ef-e3c6-4cfb-b7c1-aab914f92eca.webp",
+      "thumbnail": "images/moon/1c4652ef-e3c6-4cfb-b7c1-aab914f92eca_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "dark",
+        "foggy"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/2s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:05.92+01:00",
+        "width": 3839,
+        "height": 2184,
+        "gps": null
+      },
+      "width": 3839,
+      "height": 2184,
+      "added_at": "2026-11-25T13:21:56.361394+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "mørk",
+            "tåkete"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "dunkel",
+            "nebelig"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d7f77b15-71db-479a-b403-d4bc79c04b6f",
+      "filename": "images/moon/d7f77b15-71db-479a-b403-d4bc79c04b6f.webp",
+      "thumbnail": "images/moon/d7f77b15-71db-479a-b403-d4bc79c04b6f_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/15s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:13:17.78+01:00",
+        "width": 2430,
+        "height": 1205,
+        "gps": null
+      },
+      "width": 2430,
+      "height": 1205,
+      "added_at": "2026-11-25T13:22:15.280005+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben"
+          ]
+        }
+      }
+    },
+    {
+      "id": "45b9b48a-2e55-4ca9-b639-2293f86eb9d4",
+      "filename": "images/moon/45b9b48a-2e55-4ca9-b639-2293f86eb9d4.webp",
+      "thumbnail": "images/moon/45b9b48a-2e55-4ca9-b639-2293f86eb9d4_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "fullmoon",
+        "dark",
+        "full",
+        "supermoon (november 2026)"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/15s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T22:13:23.32+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-11-25T13:22:46.175747+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "fullmåne",
+            "mørk",
+            "full",
+            "supermoon (november 2026)"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "vollmond",
+            "dunkel",
+            "voll",
+            "supermond (november 2026)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "88d869d9-f689-40e1-b6b2-5f4d80d69f18",
+      "filename": "images/moon/88d869d9-f689-40e1-b6b2-5f4d80d69f18.webp",
+      "thumbnail": "images/moon/88d869d9-f689-40e1-b6b2-5f4d80d69f18_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "dark",
+        "norway",
+        "fullmoon",
+        "full",
+        "supermoon (november 2026)"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/2s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:20.37+01:00",
+        "width": 5637,
+        "height": 1748,
+        "gps": null
+      },
+      "width": 5637,
+      "height": 1748,
+      "added_at": "2026-11-25T13:23:10.252251+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "mørk",
+            "norge",
+            "fullmåne",
+            "full",
+            "supermoon (november 2026)"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "dunkel",
+            "norwegen",
+            "vollmond",
+            "voll",
+            "supermoon (november 2026)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c346b104-30f7-42d7-a35c-8089b81c0a58",
+      "filename": "images/moon/c346b104-30f7-42d7-a35c-8089b81c0a58.webp",
+      "thumbnail": "images/moon/c346b104-30f7-42d7-a35c-8089b81c0a58_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "pictures",
+        "november",
+        "supermoon (november, 2026)",
+        "practicing",
+        "photography",
+        "supermoon",
+        "supermoon (november 2026)"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/2s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:25.27+01:00",
+        "width": 2430,
+        "height": 1437,
+        "gps": null
+      },
+      "width": 2430,
+      "height": 1437,
+      "added_at": "2026-11-25T13:23:41.060136+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "bilder",
+            "november",
+            "supermoon (november 2026)",
+            "øver",
+            "fotografering",
+            "supermåne",
+            "supermoon (november 2026)"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "bilder",
+            "november",
+            "supermond (november 2026)",
+            "üben",
+            "fotografie",
+            "supermond",
+            "supermond (november 2026)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1094c7e5-a60e-46a6-ae2a-de4f790c986a",
+      "filename": "images/moon/1094c7e5-a60e-46a6-ae2a-de4f790c986a.webp",
+      "thumbnail": "images/moon/1094c7e5-a60e-46a6-ae2a-de4f790c986a_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "examples",
+        "shoots",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "pictures",
+        "supermoon (november 2026)",
+        "fullmoon",
+        "full"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/2s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:29.35+01:00",
+        "width": 2291,
+        "height": 1774,
+        "gps": null
+      },
+      "width": 2291,
+      "height": 1774,
+      "added_at": "2026-11-25T13:24:03.015130+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "eksempler",
+            "skyter",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "bilder",
+            "supermoon (november 2026)",
+            "fullmåne",
+            "full"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "beispiele",
+            "schießt",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "bilder",
+            "supermond (november 2026)",
+            "vollmond",
+            "voll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "14108af0-c048-4d36-88cb-0a6c98d18012",
+      "filename": "images/moon/14108af0-c048-4d36-88cb-0a6c98d18012.webp",
+      "thumbnail": "images/moon/14108af0-c048-4d36-88cb-0a6c98d18012_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "pictures",
+        "shoots",
+        "full",
+        "fullmoon",
+        "dark"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/10s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:38.28+01:00",
+        "width": 4976,
+        "height": 2515,
+        "gps": null
+      },
+      "width": 4976,
+      "height": 2515,
+      "added_at": "2026-11-25T13:24:27.966367+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "bilder",
+            "skyter",
+            "full",
+            "fullmåne",
+            "mørk"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "bilder",
+            "schießt",
+            "voll",
+            "vollmond",
+            "dunkel"
+          ]
+        }
+      }
+    },
+    {
+      "id": "243af842-d9ff-406f-9ffb-c301911068ed",
+      "filename": "images/moon/243af842-d9ff-406f-9ffb-c301911068ed.webp",
+      "thumbnail": "images/moon/243af842-d9ff-406f-9ffb-c301911068ed_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "supermoon (november, 2026)",
+        "practicing",
+        "shoots",
+        "dark",
+        "fullmoon",
+        "full",
+        "supermoon (november 2026)"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/10s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:39.49+01:00",
+        "width": 2106,
+        "height": 1086,
+        "gps": null
+      },
+      "width": 2106,
+      "height": 1086,
+      "added_at": "2026-11-25T13:24:54.172293+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "supermoon (november 2026)",
+            "øver",
+            "skyter",
+            "mørk",
+            "fullmåne",
+            "full",
+            "supermoon (november 2026)"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "supermond (november 2026)",
+            "üben",
+            "schießt",
+            "dunkel",
+            "vollmond",
+            "voll",
+            "supermond (november 2026)"
+          ]
+        }
+      }
+    },
+    {
+      "id": "808ecc96-c182-4b3f-9c9c-bc42db617327",
+      "filename": "images/moon/808ecc96-c182-4b3f-9c9c-bc42db617327.webp",
+      "thumbnail": "images/moon/808ecc96-c182-4b3f-9c9c-bc42db617327_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "shoots",
+        "supermoon (november 2026)",
+        "fullmoon",
+        "full"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/6s",
+        "iso": 100,
+        "focal_length": "300mm",
+        "date_taken": "2026-11-24T21:55:41.36+01:00",
+        "width": 6960,
+        "height": 3904,
+        "gps": null
+      },
+      "width": 6960,
+      "height": 3904,
+      "added_at": "2026-11-25T13:25:16.116848+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "skyter",
+            "supermoon (november 2026)",
+            "fullmåne",
+            "full"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "schießt",
+            "supermond (november 2026)",
+            "vollmond",
+            "voll"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fb328b65-17dc-4229-8325-610b167f65c3",
+      "filename": "images/moon/fb328b65-17dc-4229-8325-610b167f65c3.webp",
+      "thumbnail": "images/moon/fb328b65-17dc-4229-8325-610b167f65c3_thumb.webp",
+      "title": "Supermoon (November, 2026)",
+      "description": "I have been practicing my night-time photography, and I am happy to say I am getting better at shooting pictures of the moon. These are some examples of my moon shoots.",
+      "folder": "Moon",
+      "tags": [
+        "moon",
+        "night",
+        "november",
+        "photography",
+        "supermoon (november, 2026)",
+        "supermoon",
+        "practicing",
+        "examples",
+        "dark",
+        "full",
+        "fullmoon",
+        "supermoon (november 2026)"
+      ],
+      "location": {
+        "name": "Nord-Odal",
+        "lat": 60.4398571,
+        "lng": 11.5848758
+      },
+      "photographer": "Delight",
+      "camera": {
+        "make": "Canon",
+        "model": "Canon EOS R7",
+        "lens_model": "16-300mm F3.5-6.7 DC OS | Contemporary 025",
+        "aperture": "f/10",
+        "shutter_speed": "1/40s",
+        "iso": 100,
+        "focal_length": "276mm",
+        "date_taken": "2026-11-24T22:12:29.84+01:00",
+        "width": 3475,
+        "height": 1523,
+        "gps": null
+      },
+      "width": 3475,
+      "height": 1523,
+      "added_at": "2026-11-25T13:25:39.512329+00:00",
+      "i18n": {
+        "no": {
+          "title": "Supermoon (november 2026)",
+          "description": "Jeg har øvd på nattfotografering, og jeg er glad for å si at jeg blir bedre til å ta bilder av månen. Dette er noen eksempler på mine måneskudd.",
+          "tags": [
+            "måne",
+            "natt",
+            "november",
+            "fotografering",
+            "supermoon (november 2026)",
+            "supermåne",
+            "øver",
+            "eksempler",
+            "mørk",
+            "full",
+            "fullmåne",
+            "supermoon (november 2026)"
+          ]
+        },
+        "de": {
+          "title": "Supermond (November 2026)",
+          "description": "Ich habe das Fotografieren bei Nacht geübt und freue mich, sagen zu können, dass ich beim Fotografieren des Mondes immer besser werde. Dies sind einige Beispiele meiner Mondshootings.",
+          "tags": [
+            "mond",
+            "nacht",
+            "november",
+            "fotografie",
+            "supermond (november 2026)",
+            "supermond",
+            "üben",
+            "beispiele",
+            "dunkel",
+            "voll",
+            "vollmond",
+            "supermond (november 2026)"
+          ]
+        }
+      }
     }
   ]
 }
